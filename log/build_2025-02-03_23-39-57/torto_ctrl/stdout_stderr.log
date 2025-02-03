@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/torto_ctrl/torto_ctrl.egg-info/PKG-INFO
+writing dependency_links to ../../build/torto_ctrl/torto_ctrl.egg-info/dependency_links.txt
+writing requirements to ../../build/torto_ctrl/torto_ctrl.egg-info/requires.txt
+writing top-level names to ../../build/torto_ctrl/torto_ctrl.egg-info/top_level.txt
+reading manifest file '../../build/torto_ctrl/torto_ctrl.egg-info/SOURCES.txt'
+writing manifest file '../../build/torto_ctrl/torto_ctrl.egg-info/SOURCES.txt'
+running build
+running build_py
+copying torto_ctrl/rotation_translation.py -> /home/sirapob/torto_ws/build/torto_ctrl/build/lib/torto_ctrl
+running install
+running install_lib
+copying /home/sirapob/torto_ws/build/torto_ctrl/build/lib/torto_ctrl/rotation_translation.py -> /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl
+byte-compiling /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl/rotation_translation.py to rotation_translation.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/torto_ctrl/torto_ctrl.egg-info to /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/sirapob/torto_ws/build/torto_ctrl/install.log'

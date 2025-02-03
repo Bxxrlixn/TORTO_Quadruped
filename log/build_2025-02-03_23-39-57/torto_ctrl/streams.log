@@ -1,0 +1,22 @@
+[1.184s] Invoking command in '/home/sirapob/torto_ws/src/torto_ctrl': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/torto_ctrl build --build-base /home/sirapob/torto_ws/build/torto_ctrl/build install --record /home/sirapob/torto_ws/build/torto_ctrl/install.log --single-version-externally-managed install_data
+[1.535s] running egg_info
+[1.560s] writing ../../build/torto_ctrl/torto_ctrl.egg-info/PKG-INFO
+[1.560s] writing dependency_links to ../../build/torto_ctrl/torto_ctrl.egg-info/dependency_links.txt
+[1.566s] writing requirements to ../../build/torto_ctrl/torto_ctrl.egg-info/requires.txt
+[1.567s] writing top-level names to ../../build/torto_ctrl/torto_ctrl.egg-info/top_level.txt
+[1.620s] reading manifest file '../../build/torto_ctrl/torto_ctrl.egg-info/SOURCES.txt'
+[1.621s] writing manifest file '../../build/torto_ctrl/torto_ctrl.egg-info/SOURCES.txt'
+[1.621s] running build
+[1.622s] running build_py
+[1.622s] copying torto_ctrl/rotation_translation.py -> /home/sirapob/torto_ws/build/torto_ctrl/build/lib/torto_ctrl
+[1.622s] running install
+[1.632s] running install_lib
+[1.657s] copying /home/sirapob/torto_ws/build/torto_ctrl/build/lib/torto_ctrl/rotation_translation.py -> /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl
+[1.658s] byte-compiling /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl/rotation_translation.py to rotation_translation.cpython-312.pyc
+[1.659s] running install_data
+[1.659s] running install_egg_info
+[1.686s] removing '/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl-0.0.0-py3.12.egg-info' (and everything under it)
+[1.686s] Copying ../../build/torto_ctrl/torto_ctrl.egg-info to /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl-0.0.0-py3.12.egg-info
+[1.687s] running install_scripts
+[1.860s] writing list of installed files to '/home/sirapob/torto_ws/build/torto_ctrl/install.log'
+[1.940s] Invoked command in '/home/sirapob/torto_ws/src/torto_ctrl' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/torto_ctrl build --build-base /home/sirapob/torto_ws/build/torto_ctrl/build install --record /home/sirapob/torto_ws/build/torto_ctrl/install.log --single-version-externally-managed install_data

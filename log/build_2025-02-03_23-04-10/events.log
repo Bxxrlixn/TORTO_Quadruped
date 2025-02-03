@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.000298] (-) JobUnselected: {'identifier': 'torto_hardware'}
+[0.000511] (torto_ctrl) JobQueued: {'identifier': 'torto_ctrl', 'dependencies': OrderedDict()}
+[0.000809] (torto_ctrl) JobStarted: {'identifier': 'torto_ctrl'}
+[0.099681] (-) TimerEvent: {}
+[0.200093] (-) TimerEvent: {}
+[0.300429] (-) TimerEvent: {}
+[0.400796] (-) TimerEvent: {}
+[0.501122] (-) TimerEvent: {}
+[0.601430] (-) TimerEvent: {}
+[0.701727] (-) TimerEvent: {}
+[0.802049] (-) TimerEvent: {}
+[0.902373] (-) TimerEvent: {}
+[1.002677] (-) TimerEvent: {}
+[1.103019] (-) TimerEvent: {}
+[1.176245] (torto_ctrl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/torto_ctrl', 'build', '--build-base', '/home/sirapob/torto_ws/build/torto_ctrl/build', 'install', '--record', '/home/sirapob/torto_ws/build/torto_ctrl/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sirapob/torto_ws/src/torto_ctrl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sirapob', 'SSH_CLIENT': '192.168.100.15 60132 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh', 'HOME': '/home/sirapob', 'OLDPWD': '/home/sirapob', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-fdc9b511-d306-4559-938e-ba5067ce7dbd.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/sirapob/torto_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sirapob', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-45947cc93f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sirapob/torto_ws/install/torto_hardware:/home/sirapob/torto_ws/install/torto_ctrl:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sirapob/torto_ws/build/torto_ctrl', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.100.15 60132 192.168.100.6 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sirapob/torto_ws/build/torto_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.203098] (-) TimerEvent: {}
+[1.303407] (-) TimerEvent: {}
+[1.403732] (-) TimerEvent: {}
+[1.504041] (-) TimerEvent: {}
+[1.529126] (torto_ctrl) StdoutLine: {'line': b'running egg_info\n'}
+[1.554687] (torto_ctrl) StdoutLine: {'line': b'writing ../../build/torto_ctrl/torto_ctrl.egg-info/PKG-INFO\n'}
+[1.601297] (torto_ctrl) StdoutLine: {'line': b'writing dependency_links to ../../build/torto_ctrl/torto_ctrl.egg-info/dependency_links.txt\n'}
+[1.602201] (torto_ctrl) StdoutLine: {'line': b'writing requirements to ../../build/torto_ctrl/torto_ctrl.egg-info/requires.txt\n'}
+[1.603303] (torto_ctrl) StdoutLine: {'line': b'writing top-level names to ../../build/torto_ctrl/torto_ctrl.egg-info/top_level.txt\n'}
+[1.604099] (-) TimerEvent: {}
+[1.655646] (torto_ctrl) StdoutLine: {'line': b"reading manifest file '../../build/torto_ctrl/torto_ctrl.egg-info/SOURCES.txt'\n"}
+[1.656682] (torto_ctrl) StdoutLine: {'line': b"writing manifest file '../../build/torto_ctrl/torto_ctrl.egg-info/SOURCES.txt'\n"}
+[1.656932] (torto_ctrl) StdoutLine: {'line': b'running build\n'}
+[1.657079] (torto_ctrl) StdoutLine: {'line': b'running build_py\n'}
+[1.657405] (torto_ctrl) StdoutLine: {'line': b'copying torto_ctrl/transformation_kinematic.py -> /home/sirapob/torto_ws/build/torto_ctrl/build/lib/torto_ctrl\n'}
+[1.657831] (torto_ctrl) StdoutLine: {'line': b'running install\n'}
+[1.666976] (torto_ctrl) StdoutLine: {'line': b'running install_lib\n'}
+[1.692234] (torto_ctrl) StdoutLine: {'line': b'copying /home/sirapob/torto_ws/build/torto_ctrl/build/lib/torto_ctrl/transformation_kinematic.py -> /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl\n'}
+[1.693210] (torto_ctrl) StdoutLine: {'line': b'byte-compiling /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl/inverse__kinematic.py to inverse__kinematic.cpython-312.pyc\n'}
+[1.693875] (torto_ctrl) StderrLine: {'line': b'  File "/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl/inverse__kinematic.py", line 22\n'}
+[1.694081] (torto_ctrl) StderrLine: {'line': b'    if leg = FR:\n'}
+[1.694181] (torto_ctrl) StderrLine: {'line': b'       ^^^^^^^^\n'}
+[1.694264] (torto_ctrl) StderrLine: {'line': b"SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?\n"}
+[1.694361] (torto_ctrl) StderrLine: {'line': b'\n'}
+[1.694442] (torto_ctrl) StdoutLine: {'line': b'byte-compiling /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl/transformation_kinematic.py to transformation_kinematic.cpython-312.pyc\n'}
+[1.695735] (torto_ctrl) StdoutLine: {'line': b'running install_data\n'}
+[1.695927] (torto_ctrl) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.704177] (-) TimerEvent: {}
+[1.722940] (torto_ctrl) StdoutLine: {'line': b"removing '/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.723391] (torto_ctrl) StdoutLine: {'line': b'Copying ../../build/torto_ctrl/torto_ctrl.egg-info to /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl-0.0.0-py3.12.egg-info\n'}
+[1.724529] (torto_ctrl) StdoutLine: {'line': b'running install_scripts\n'}
+[1.804285] (-) TimerEvent: {}
+[1.898800] (torto_ctrl) StdoutLine: {'line': b"writing list of installed files to '/home/sirapob/torto_ws/build/torto_ctrl/install.log'\n"}
+[1.904385] (-) TimerEvent: {}
+[1.977799] (torto_ctrl) CommandEnded: {'returncode': 0}
+[1.997606] (torto_ctrl) JobEnded: {'identifier': 'torto_ctrl', 'rc': 0}
+[1.998758] (-) EventReactorShutdown: {}

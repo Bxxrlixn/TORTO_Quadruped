@@ -1,0 +1,38 @@
+[1.175s] Invoking command in '/home/sirapob/torto_ws/src/torto_ctrl': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/torto_ctrl build --build-base /home/sirapob/torto_ws/build/torto_ctrl/build install --record /home/sirapob/torto_ws/build/torto_ctrl/install.log --single-version-externally-managed install_data
+[1.528s] running egg_info
+[1.553s] writing ../../build/torto_ctrl/torto_ctrl.egg-info/PKG-INFO
+[1.553s] writing dependency_links to ../../build/torto_ctrl/torto_ctrl.egg-info/dependency_links.txt
+[1.560s] writing requirements to ../../build/torto_ctrl/torto_ctrl.egg-info/requires.txt
+[1.560s] writing top-level names to ../../build/torto_ctrl/torto_ctrl.egg-info/top_level.txt
+[1.617s] reading manifest file '../../build/torto_ctrl/torto_ctrl.egg-info/SOURCES.txt'
+[1.618s] writing manifest file '../../build/torto_ctrl/torto_ctrl.egg-info/SOURCES.txt'
+[1.618s] running build
+[1.618s] running build_py
+[1.619s] copying torto_ctrl/rotation_translation.py -> /home/sirapob/torto_ws/build/torto_ctrl/build/lib/torto_ctrl
+[1.619s] copying torto_ctrl/inverse__kinematic.py -> /home/sirapob/torto_ws/build/torto_ctrl/build/lib/torto_ctrl
+[1.619s] copying torto_ctrl/transformation_kinematic.py -> /home/sirapob/torto_ws/build/torto_ctrl/build/lib/torto_ctrl
+[1.619s] running install
+[1.629s] running install_lib
+[1.654s] copying /home/sirapob/torto_ws/build/torto_ctrl/build/lib/torto_ctrl/rotation_translation.py -> /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl
+[1.655s] copying /home/sirapob/torto_ws/build/torto_ctrl/build/lib/torto_ctrl/inverse__kinematic.py -> /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl
+[1.655s] copying /home/sirapob/torto_ws/build/torto_ctrl/build/lib/torto_ctrl/transformation_kinematic.py -> /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl
+[1.656s] byte-compiling /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl/rotation_translation.py to rotation_translation.cpython-312.pyc
+[1.657s] byte-compiling /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl/inverse__kinematic.py to inverse__kinematic.cpython-312.pyc
+[1.658s]   File "/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl/inverse__kinematic.py", line 22
+[1.658s]     if leg = FR:
+[1.658s]        ^^^^^^^^
+[1.658s] SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[1.658s] 
+[1.658s] byte-compiling /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl/transformation_kinematic.py to transformation_kinematic.cpython-312.pyc
+[1.658s]   File "/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl/transformation_kinematic.py", line 4
+[1.658s]     from torto_c
+[1.658s]                 ^
+[1.658s] SyntaxError: invalid syntax
+[1.659s] 
+[1.659s] running install_data
+[1.659s] running install_egg_info
+[1.685s] removing '/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl-0.0.0-py3.12.egg-info' (and everything under it)
+[1.685s] Copying ../../build/torto_ctrl/torto_ctrl.egg-info to /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl-0.0.0-py3.12.egg-info
+[1.686s] running install_scripts
+[1.861s] writing list of installed files to '/home/sirapob/torto_ws/build/torto_ctrl/install.log'
+[1.940s] Invoked command in '/home/sirapob/torto_ws/src/torto_ctrl' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/torto_ctrl build --build-base /home/sirapob/torto_ws/build/torto_ctrl/build install --record /home/sirapob/torto_ws/build/torto_ctrl/install.log --single-version-externally-managed install_data

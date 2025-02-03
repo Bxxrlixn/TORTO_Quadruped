@@ -1,0 +1,6 @@
+  File "/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl/inverse__kinematic.py", line 22
+    if leg = FR:
+       ^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+
+Sorry: IndentationError: unindent does not match any outer indentation level (inverse_kinematic.py, line 27)

@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+import sys
+import numpy as np
+from torto_ctrl.kinematic_model.transformation_model import tortoTransformation_model
+
+
+y = tortoTransformation_model() 
+
+def main():
+        x = y.angles_from_pose([0, 10, 0], [0, 0, -0.04], [[0.136635,  -0.1121875, -0.14], [0.136635,  0.1121875, -0.14], [-0.136635,  -0.1121875, -0.14], [-0.136635,  0.1121875, -0.14]])
+        sys.stdout.write(str(x))  # Convert output to string before writing
+    
+if __name__ == '__main__': 
+    main() 

@@ -1,0 +1,341 @@
+[0.000000] (-) TimerEvent: {}
+[0.000298] (-) JobUnselected: {'identifier': 'torto_ctrl'}
+[0.000496] (-) JobUnselected: {'identifier': 'torto_hardware'}
+[0.000779] (torto_interfaces) JobQueued: {'identifier': 'torto_interfaces', 'dependencies': OrderedDict()}
+[0.000947] (torto_interfaces) JobStarted: {'identifier': 'torto_interfaces'}
+[0.010700] (torto_interfaces) JobProgress: {'identifier': 'torto_interfaces', 'progress': 'cmake'}
+[0.011418] (torto_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/sirapob/torto_ws/src/torto_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/torto_interfaces'], 'cwd': '/home/sirapob/torto_ws/build/torto_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sirapob', 'SSH_CLIENT': '192.168.100.15 60132 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh', 'HOME': '/home/sirapob', 'OLDPWD': '/home/sirapob', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-fdc9b511-d306-4559-938e-ba5067ce7dbd.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/sirapob/torto_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sirapob', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-45947cc93f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sirapob/torto_ws/install/torto_hardware:/home/sirapob/torto_ws/install/torto_ctrl:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sirapob/torto_ws/build/torto_interfaces', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.100.15 60132 192.168.100.6 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sirapob/torto_ws/build/torto_ctrl:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/sirapob/torto_ws/install/torto_hardware:/home/sirapob/torto_ws/install/torto_ctrl:/opt/ros/jazzy'}), 'shell': False}
+[0.099708] (-) TimerEvent: {}
+[0.200116] (-) TimerEvent: {}
+[0.300564] (-) TimerEvent: {}
+[0.400955] (-) TimerEvent: {}
+[0.487377] (torto_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.501076] (-) TimerEvent: {}
+[0.601443] (-) TimerEvent: {}
+[0.701831] (-) TimerEvent: {}
+[0.802255] (-) TimerEvent: {}
+[0.861391] (torto_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.902373] (-) TimerEvent: {}
+[0.910720] (torto_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.002508] (-) TimerEvent: {}
+[1.102870] (-) TimerEvent: {}
+[1.116150] (torto_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.131083] (torto_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.137467] (torto_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.138551] (torto_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.162264] (torto_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.202958] (-) TimerEvent: {}
+[1.303372] (-) TimerEvent: {}
+[1.347528] (torto_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.363715] (torto_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.364136] (torto_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.364804] (torto_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.377364] (torto_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.403469] (-) TimerEvent: {}
+[1.503811] (-) TimerEvent: {}
+[1.604229] (-) TimerEvent: {}
+[1.609684] (torto_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.704335] (-) TimerEvent: {}
+[1.804690] (-) TimerEvent: {}
+[1.844544] (torto_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.858591] (torto_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.904818] (-) TimerEvent: {}
+[1.966491] (torto_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.004926] (-) TimerEvent: {}
+[2.057503] (torto_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.105072] (-) TimerEvent: {}
+[2.205475] (-) TimerEvent: {}
+[2.305873] (-) TimerEvent: {}
+[2.406246] (-) TimerEvent: {}
+[2.506641] (-) TimerEvent: {}
+[2.607085] (-) TimerEvent: {}
+[2.707474] (-) TimerEvent: {}
+[2.807902] (-) TimerEvent: {}
+[2.908364] (-) TimerEvent: {}
+[3.008761] (-) TimerEvent: {}
+[3.018120] (torto_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.108878] (-) TimerEvent: {}
+[3.209355] (-) TimerEvent: {}
+[3.309754] (-) TimerEvent: {}
+[3.441520] (-) TimerEvent: {}
+[3.541846] (-) TimerEvent: {}
+[3.642201] (-) TimerEvent: {}
+[3.689680] (torto_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.742319] (-) TimerEvent: {}
+[3.842766] (-) TimerEvent: {}
+[3.943194] (-) TimerEvent: {}
+[4.043638] (-) TimerEvent: {}
+[4.144104] (-) TimerEvent: {}
+[4.244485] (-) TimerEvent: {}
+[4.344826] (-) TimerEvent: {}
+[4.445188] (-) TimerEvent: {}
+[4.545577] (-) TimerEvent: {}
+[4.585988] (torto_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.597558] (torto_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.645691] (-) TimerEvent: {}
+[4.746112] (-) TimerEvent: {}
+[4.809723] (torto_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.846223] (-) TimerEvent: {}
+[4.946624] (-) TimerEvent: {}
+[5.047114] (-) TimerEvent: {}
+[5.147488] (-) TimerEvent: {}
+[5.247825] (-) TimerEvent: {}
+[5.348232] (-) TimerEvent: {}
+[5.448688] (-) TimerEvent: {}
+[5.541869] (torto_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.548793] (-) TimerEvent: {}
+[5.623842] (torto_interfaces) StdoutLine: {'line': b'-- Configuring done (5.6s)\n'}
+[5.648917] (-) TimerEvent: {}
+[5.669484] (torto_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[5.685121] (torto_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/sirapob/torto_ws/build/torto_interfaces\n'}
+[5.697922] (torto_interfaces) CommandEnded: {'returncode': 0}
+[5.698638] (torto_interfaces) JobProgress: {'identifier': 'torto_interfaces', 'progress': 'build'}
+[5.700214] (torto_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sirapob/torto_ws/build/torto_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/sirapob/torto_ws/build/torto_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sirapob', 'SSH_CLIENT': '192.168.100.15 60132 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh', 'HOME': '/home/sirapob', 'OLDPWD': '/home/sirapob', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-fdc9b511-d306-4559-938e-ba5067ce7dbd.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/sirapob/torto_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sirapob', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-45947cc93f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sirapob/torto_ws/install/torto_hardware:/home/sirapob/torto_ws/install/torto_ctrl:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sirapob/torto_ws/build/torto_interfaces', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.100.15 60132 192.168.100.6 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sirapob/torto_ws/build/torto_ctrl:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/sirapob/torto_ws/install/torto_hardware:/home/sirapob/torto_ws/install/torto_ctrl:/opt/ros/jazzy'}), 'shell': False}
+[5.749064] (-) TimerEvent: {}
+[5.788653] (torto_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.804987] (torto_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_torto_interfaces\n'}
+[5.849166] (-) TimerEvent: {}
+[5.949547] (-) TimerEvent: {}
+[6.049902] (-) TimerEvent: {}
+[6.120592] (torto_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.122039] (torto_interfaces) StdoutLine: {'line': b'creating torto_interfaces.egg-info\n'}
+[6.149047] (torto_interfaces) StdoutLine: {'line': b'writing torto_interfaces.egg-info/PKG-INFO\n'}
+[6.149531] (torto_interfaces) StdoutLine: {'line': b'writing dependency_links to torto_interfaces.egg-info/dependency_links.txt\n'}
+[6.149789] (torto_interfaces) StdoutLine: {'line': b'writing top-level names to torto_interfaces.egg-info/top_level.txt\n'}
+[6.149952] (-) TimerEvent: {}
+[6.150340] (torto_interfaces) StdoutLine: {'line': b"writing manifest file 'torto_interfaces.egg-info/SOURCES.txt'\n"}
+[6.152746] (torto_interfaces) StdoutLine: {'line': b'[  2%] Built target torto_interfaces__rosidl_generator_type_description\n'}
+[6.170911] (torto_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.193116] (torto_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.238347] (torto_interfaces) StdoutLine: {'line': b"reading manifest file 'torto_interfaces.egg-info/SOURCES.txt'\n"}
+[6.239354] (torto_interfaces) StdoutLine: {'line': b"writing manifest file 'torto_interfaces.egg-info/SOURCES.txt'\n"}
+[6.250097] (-) TimerEvent: {}
+[6.336218] (torto_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_torto_interfaces_egg\n'}
+[6.350201] (-) TimerEvent: {}
+[6.450549] (-) TimerEvent: {}
+[6.550891] (-) TimerEvent: {}
+[6.652201] (-) TimerEvent: {}
+[6.653506] (torto_interfaces) StdoutLine: {'line': b'[  8%] Built target torto_interfaces__cpp\n'}
+[6.701726] (torto_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__description.c.o\x1b[0m\n'}
+[6.702139] (torto_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__functions.c.o\x1b[0m\n'}
+[6.702408] (torto_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.c.o\x1b[0m\n'}
+[6.752303] (-) TimerEvent: {}
+[6.852729] (-) TimerEvent: {}
+[6.869281] (torto_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libtorto_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[6.949112] (torto_interfaces) StdoutLine: {'line': b'[ 20%] Built target torto_interfaces__rosidl_generator_c\n'}
+[6.953370] (-) TimerEvent: {}
+[6.971262] (torto_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.972522] (torto_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.972837] (torto_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.973002] (torto_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.056120] (-) TimerEvent: {}
+[7.156524] (-) TimerEvent: {}
+[7.256917] (-) TimerEvent: {}
+[7.357369] (-) TimerEvent: {}
+[7.458075] (-) TimerEvent: {}
+[7.495529] (torto_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/torto_interfaces/msg/torto_joint_angles__type_support.cpp.o\x1b[0m\n'}
+[7.552279] (torto_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/torto_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.c.o\x1b[0m\n'}
+[7.558207] (-) TimerEvent: {}
+[7.570917] (torto_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__type_support_c.cpp.o\x1b[0m\n'}
+[7.572382] (torto_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/torto_interfaces/msg/detail/dds_fastrtps/torto_joint_angles__type_support.cpp.o\x1b[0m\n'}
+[7.639798] (torto_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking C shared library libtorto_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.652239] (torto_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libtorto_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.659137] (-) TimerEvent: {}
+[7.708501] (torto_interfaces) StdoutLine: {'line': b'[ 50%] Built target torto_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.732097] (torto_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.739710] (torto_interfaces) StdoutLine: {'line': b'[ 52%] Built target torto_interfaces__rosidl_typesupport_c\n'}
+[7.760170] (-) TimerEvent: {}
+[7.763350] (torto_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.861130] (-) TimerEvent: {}
+[7.961807] (-) TimerEvent: {}
+[8.063871] (-) TimerEvent: {}
+[8.166157] (-) TimerEvent: {}
+[8.266720] (-) TimerEvent: {}
+[8.293307] (torto_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/torto_interfaces/msg/detail/torto_joint_angles__type_support.cpp.o\x1b[0m\n'}
+[8.308177] (torto_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/torto_interfaces/msg/torto_joint_angles__type_support.cpp.o\x1b[0m\n'}
+[8.367121] (-) TimerEvent: {}
+[8.471149] (-) TimerEvent: {}
+[8.571671] (-) TimerEvent: {}
+[8.668614] (torto_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtorto_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.673147] (-) TimerEvent: {}
+[8.684232] (torto_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libtorto_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.773303] (-) TimerEvent: {}
+[8.814634] (torto_interfaces) StdoutLine: {'line': b'[ 67%] Built target torto_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.821699] (torto_interfaces) StdoutLine: {'line': b'[ 67%] Built target torto_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.873464] (-) TimerEvent: {}
+[8.965228] (torto_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtorto_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.973631] (-) TimerEvent: {}
+[8.993237] (torto_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libtorto_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.048142] (torto_interfaces) StdoutLine: {'line': b'[ 73%] Built target torto_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.073734] (-) TimerEvent: {}
+[9.126895] (torto_interfaces) StdoutLine: {'line': b'[ 73%] Built target torto_interfaces__rosidl_typesupport_cpp\n'}
+[9.171157] (torto_interfaces) StdoutLine: {'line': b'[ 73%] Built target torto_interfaces\n'}
+[9.173821] (-) TimerEvent: {}
+[9.207842] (torto_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.273930] (-) TimerEvent: {}
+[9.374286] (-) TimerEvent: {}
+[9.474620] (-) TimerEvent: {}
+[9.574959] (-) TimerEvent: {}
+[9.675323] (-) TimerEvent: {}
+[9.700044] (torto_interfaces) StdoutLine: {'line': b'[ 76%] Built target torto_interfaces__py\n'}
+[9.735673] (torto_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/torto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/torto_interfaces/msg/_torto_joint_angles_s.c.o\x1b[0m\n'}
+[9.775445] (-) TimerEvent: {}
+[9.875842] (-) TimerEvent: {}
+[9.976256] (-) TimerEvent: {}
+[10.044297] (torto_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libtorto_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[10.076398] (-) TimerEvent: {}
+[10.119927] (torto_interfaces) StdoutLine: {'line': b'[ 82%] Built target torto_interfaces__rosidl_generator_py\n'}
+[10.159144] (torto_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/torto_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.160071] (torto_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/torto_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.160412] (torto_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/torto_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.176612] (-) TimerEvent: {}
+[10.277595] (-) TimerEvent: {}
+[10.338678] (torto_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/torto_interfaces/torto_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.339304] (torto_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/torto_interfaces/torto_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.346189] (torto_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/torto_interfaces/torto_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.377774] (-) TimerEvent: {}
+[10.398523] (torto_interfaces) StdoutLine: {'line': b'[100%] Built target torto_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[10.406002] (torto_interfaces) StdoutLine: {'line': b'[100%] Built target torto_interfaces_s__rosidl_typesupport_c\n'}
+[10.409717] (torto_interfaces) StdoutLine: {'line': b'[100%] Built target torto_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[10.431205] (torto_interfaces) CommandEnded: {'returncode': 0}
+[10.432147] (torto_interfaces) JobProgress: {'identifier': 'torto_interfaces', 'progress': 'install'}
+[10.448340] (torto_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sirapob/torto_ws/build/torto_interfaces'], 'cwd': '/home/sirapob/torto_ws/build/torto_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sirapob', 'SSH_CLIENT': '192.168.100.15 60132 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh', 'HOME': '/home/sirapob', 'OLDPWD': '/home/sirapob', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-fdc9b511-d306-4559-938e-ba5067ce7dbd.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/sirapob/torto_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sirapob', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/sirapob/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-45947cc93f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sirapob/torto_ws/install/torto_hardware:/home/sirapob/torto_ws/install/torto_ctrl:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sirapob/torto_ws/build/torto_interfaces', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.100.15 60132 192.168.100.6 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sirapob/torto_ws/build/torto_ctrl:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/sirapob/torto_ws/install/torto_hardware:/home/sirapob/torto_ws/install/torto_ctrl:/opt/ros/jazzy'}), 'shell': False}
+[10.464381] (torto_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.464701] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/ament_index/resource_index/rosidl_interfaces/torto_interfaces\n'}
+[10.464980] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/msg/TortoJointAngles.json\n'}
+[10.465330] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces\n'}
+[10.465657] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg\n'}
+[10.465807] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/torto_joint_angles.h\n'}
+[10.465934] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail\n'}
+[10.466075] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__type_support.h\n'}
+[10.466223] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__functions.h\n'}
+[10.466342] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__description.c\n'}
+[10.466430] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__struct.h\n'}
+[10.466542] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__functions.c\n'}
+[10.466866] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__type_support.c\n'}
+[10.467101] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.467225] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/library_path.sh\n'}
+[10.467312] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/library_path.dsv\n'}
+[10.467450] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_generator_c.so\n'}
+[10.468041] (torto_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_generator_c.so" to ""\n'}
+[10.468181] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces\n'}
+[10.468295] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg\n'}
+[10.468396] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.468488] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail\n'}
+[10.468594] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_c.h\n'}
+[10.468698] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.469202] (torto_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.469357] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces\n'}
+[10.469449] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg\n'}
+[10.469571] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.469685] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail\n'}
+[10.469771] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_introspection_c.h\n'}
+[10.469853] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__type_support.c\n'}
+[10.469974] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.470515] (torto_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.470655] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_c.so\n'}
+[10.471166] (torto_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[10.471308] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces\n'}
+[10.471400] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg\n'}
+[10.471525] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.471628] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail\n'}
+[10.471716] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__type_support.hpp\n'}
+[10.471835] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__builder.hpp\n'}
+[10.471924] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__struct.hpp\n'}
+[10.472038] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__traits.hpp\n'}
+[10.472151] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/torto_joint_angles.hpp\n'}
+[10.472256] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces\n'}
+[10.472372] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg\n'}
+[10.472460] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.472578] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail\n'}
+[10.472686] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/dds_fastrtps\n'}
+[10.472770] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.472879] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.473419] (torto_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.473588] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces\n'}
+[10.473687] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg\n'}
+[10.473776] (torto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail\n'}
+[10.473899] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.473992] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__type_support.cpp\n'}
+[10.474119] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.474558] (torto_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.474730] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.475223] (torto_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[10.475366] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/pythonpath.sh\n'}
+[10.475468] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/pythonpath.dsv\n'}
+[10.475623] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces-0.0.0-py3.12.egg-info\n'}
+[10.475783] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[10.475912] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[10.476040] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[10.476164] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[10.476332] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces\n'}
+[10.476450] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[10.476704] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/__init__.py\n'}
+[10.476837] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.476949] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/msg\n'}
+[10.477067] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/msg/__init__.py\n'}
+[10.477183] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/msg/_torto_joint_angles.py\n'}
+[10.477338] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/msg/_torto_joint_angles_s.c\n'}
+[10.477470] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[10.477593] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.477820] (-) TimerEvent: {}
+[10.477947] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_c.so\n'}
+[10.478181] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.544153] (torto_interfaces) StdoutLine: {'line': b"Listing '/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces'...\n"}
+[10.544500] (torto_interfaces) StdoutLine: {'line': b"Compiling '/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/__init__.py'...\n"}
+[10.544611] (torto_interfaces) StdoutLine: {'line': b"Listing '/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/msg'...\n"}
+[10.544715] (torto_interfaces) StdoutLine: {'line': b"Compiling '/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/msg/__init__.py'...\n"}
+[10.544830] (torto_interfaces) StdoutLine: {'line': b"Compiling '/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/msg/_torto_joint_angles.py'...\n"}
+[10.557720] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.558274] (torto_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.558600] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[10.559146] (torto_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.559459] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_c.so\n'}
+[10.559978] (torto_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[10.560133] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_generator_py.so\n'}
+[10.560691] (torto_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_generator_py.so" to ""\n'}
+[10.560836] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/msg/TortoJointAngles.idl\n'}
+[10.560940] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/msg/TortoJointAngles.msg\n'}
+[10.561179] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/ament_index/resource_index/package_run_dependencies/torto_interfaces\n'}
+[10.561394] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/ament_index/resource_index/parent_prefix_path/torto_interfaces\n'}
+[10.561564] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/ament_prefix_path.sh\n'}
+[10.561728] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/ament_prefix_path.dsv\n'}
+[10.561891] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/path.sh\n'}
+[10.562064] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/path.dsv\n'}
+[10.562228] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/local_setup.bash\n'}
+[10.562392] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/local_setup.sh\n'}
+[10.562555] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/local_setup.zsh\n'}
+[10.562709] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/local_setup.dsv\n'}
+[10.562860] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/package.dsv\n'}
+[10.563115] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/ament_index/resource_index/packages/torto_interfaces\n'}
+[10.563317] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_cExport.cmake\n'}
+[10.563502] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.563686] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.563857] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.564045] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.564225] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.564406] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[10.564571] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.564757] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_cppExport.cmake\n'}
+[10.564958] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.565157] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.565387] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.565563] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.565765] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[10.565966] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.566207] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_pyExport.cmake\n'}
+[10.566387] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.566566] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[10.566747] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.566932] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.567128] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.567325] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.567513] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.567706] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.567887] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfacesConfig.cmake\n'}
+[10.568039] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfacesConfig-version.cmake\n'}
+[10.568218] (torto_interfaces) StdoutLine: {'line': b'-- Installing: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/package.xml\n'}
+[10.571821] (torto_interfaces) CommandEnded: {'returncode': 0}
+[10.577904] (-) TimerEvent: {}
+[10.609052] (torto_interfaces) JobEnded: {'identifier': 'torto_interfaces', 'rc': 0}
+[10.610028] (-) EventReactorShutdown: {}

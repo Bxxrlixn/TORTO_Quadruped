@@ -1,0 +1,17 @@
+[1.177s] Invoking command in '/home/sirapob/torto_ws/build/torto_ctrl': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_ctrl/build --no-deps symlink_data --force
+[1.607s] running develop
+[1.863s] running egg_info
+[1.887s] writing torto_ctrl.egg-info/PKG-INFO
+[1.887s] writing dependency_links to torto_ctrl.egg-info/dependency_links.txt
+[1.893s] writing requirements to torto_ctrl.egg-info/requires.txt
+[1.894s] writing top-level names to torto_ctrl.egg-info/top_level.txt
+[1.947s] reading manifest file 'torto_ctrl.egg-info/SOURCES.txt'
+[1.948s] writing manifest file 'torto_ctrl.egg-info/SOURCES.txt'
+[1.974s] running build_ext
+[1.980s] Creating /home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto-ctrl.egg-link (link to .)
+[1.981s] 
+[1.981s] Installed /home/sirapob/torto_ws/build/torto_ctrl
+[1.982s] running symlink_data
+[1.982s] symbolically linking /home/sirapob/torto_ws/build/torto_ctrl/resource/torto_ctrl -> /home/sirapob/torto_ws/install/torto_ctrl/share/ament_index/resource_index/packages
+[1.982s] symbolically linking /home/sirapob/torto_ws/build/torto_ctrl/package.xml -> /home/sirapob/torto_ws/install/torto_ctrl/share/torto_ctrl
+[2.071s] Invoked command in '/home/sirapob/torto_ws/build/torto_ctrl' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_ctrl/build --no-deps symlink_data --force

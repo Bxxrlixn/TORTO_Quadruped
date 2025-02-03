@@ -1,0 +1,22 @@
+[1.152s] Invoking command in '/home/sirapob/torto_ws/build/torto_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_hardware/build --no-deps symlink_data
+[1.577s] running develop
+[1.835s] running egg_info
+[1.835s] creating torto_hardware.egg-info
+[1.859s] writing torto_hardware.egg-info/PKG-INFO
+[1.859s] writing dependency_links to torto_hardware.egg-info/dependency_links.txt
+[1.859s] writing requirements to torto_hardware.egg-info/requires.txt
+[1.859s] writing top-level names to torto_hardware.egg-info/top_level.txt
+[1.860s] writing manifest file 'torto_hardware.egg-info/SOURCES.txt'
+[1.909s] reading manifest file 'torto_hardware.egg-info/SOURCES.txt'
+[1.910s] writing manifest file 'torto_hardware.egg-info/SOURCES.txt'
+[1.936s] running build_ext
+[1.936s] Creating /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto-hardware.egg-link (link to .)
+[1.937s] 
+[1.937s] Installed /home/sirapob/torto_ws/build/torto_hardware
+[1.937s] running symlink_data
+[1.937s] creating /home/sirapob/torto_ws/install/torto_hardware/share/ament_index
+[1.937s] creating /home/sirapob/torto_ws/install/torto_hardware/share/ament_index/resource_index
+[1.938s] creating /home/sirapob/torto_ws/install/torto_hardware/share/ament_index/resource_index/packages
+[1.938s] symbolically linking /home/sirapob/torto_ws/build/torto_hardware/resource/torto_hardware -> /home/sirapob/torto_ws/install/torto_hardware/share/ament_index/resource_index/packages
+[1.938s] symbolically linking /home/sirapob/torto_ws/build/torto_hardware/package.xml -> /home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware
+[2.028s] Invoked command in '/home/sirapob/torto_ws/build/torto_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_hardware/build --no-deps symlink_data

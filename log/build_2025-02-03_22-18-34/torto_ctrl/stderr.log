@@ -1,0 +1,10 @@
+  File "/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl/inverse__kinematic.py", line 22
+    if leg = FR:
+       ^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+
+  File "/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages/torto_ctrl/transformation_kinematic.py", line 4
+    from torto_c
+                ^
+SyntaxError: invalid syntax
+
