@@ -49,7 +49,6 @@ class InverseKinematic:
         x = fixed_axis[0]
         y = fixed_axis[1]
         z = fixed_axis[2]
-        print(x,y,z)
         D = np.sqrt((y ** 2) + (z ** 2) - 1788.021)
         DetoidAngle = np.arctan2(y, z) + np.arctan2(D, 42.285)
         H = np.sqrt((x ** 2) + (D ** 2))

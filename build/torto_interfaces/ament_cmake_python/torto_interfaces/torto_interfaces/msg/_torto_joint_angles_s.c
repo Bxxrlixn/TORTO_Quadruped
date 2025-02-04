@@ -50,112 +50,112 @@ bool torto_interfaces__msg__torto_joint_angles__convert_from_py(PyObject * _pyms
     assert(strncmp("torto_interfaces.msg._torto_joint_angles.TortoJointAngles", full_classname_dest, 57) == 0);
   }
   torto_interfaces__msg__TortoJointAngles * ros_message = _ros_message;
-  {  // theta_fr_detoid
-    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_fr_detoid");
+  {  // theta_deg_fr_detoid
+    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_deg_fr_detoid");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->theta_fr_detoid = PyFloat_AS_DOUBLE(field);
+    ros_message->theta_deg_fr_detoid = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // theta_fr_femur
-    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_fr_femur");
+  {  // theta_deg_fr_femur
+    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_deg_fr_femur");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->theta_fr_femur = PyFloat_AS_DOUBLE(field);
+    ros_message->theta_deg_fr_femur = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // theta_fr_tibia
-    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_fr_tibia");
+  {  // theta_deg_fr_tibia
+    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_deg_fr_tibia");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->theta_fr_tibia = PyFloat_AS_DOUBLE(field);
+    ros_message->theta_deg_fr_tibia = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // theta_fl_detoid
-    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_fl_detoid");
+  {  // theta_deg_fl_detoid
+    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_deg_fl_detoid");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->theta_fl_detoid = PyFloat_AS_DOUBLE(field);
+    ros_message->theta_deg_fl_detoid = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // theta_fl_femur
-    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_fl_femur");
+  {  // theta_deg_fl_femur
+    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_deg_fl_femur");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->theta_fl_femur = PyFloat_AS_DOUBLE(field);
+    ros_message->theta_deg_fl_femur = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // theta_fl_tibia
-    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_fl_tibia");
+  {  // theta_deg_fl_tibia
+    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_deg_fl_tibia");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->theta_fl_tibia = PyFloat_AS_DOUBLE(field);
+    ros_message->theta_deg_fl_tibia = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // theta_br_detoid
-    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_br_detoid");
+  {  // theta_deg_br_detoid
+    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_deg_br_detoid");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->theta_br_detoid = PyFloat_AS_DOUBLE(field);
+    ros_message->theta_deg_br_detoid = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // theta_br_femur
-    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_br_femur");
+  {  // theta_deg_br_femur
+    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_deg_br_femur");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->theta_br_femur = PyFloat_AS_DOUBLE(field);
+    ros_message->theta_deg_br_femur = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // theta_br_tibia
-    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_br_tibia");
+  {  // theta_deg_br_tibia
+    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_deg_br_tibia");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->theta_br_tibia = PyFloat_AS_DOUBLE(field);
+    ros_message->theta_deg_br_tibia = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // theta_bl_detoid
-    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_bl_detoid");
+  {  // theta_deg_bl_detoid
+    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_deg_bl_detoid");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->theta_bl_detoid = PyFloat_AS_DOUBLE(field);
+    ros_message->theta_deg_bl_detoid = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // theta_bl_femur
-    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_bl_femur");
+  {  // theta_deg_bl_femur
+    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_deg_bl_femur");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->theta_bl_femur = PyFloat_AS_DOUBLE(field);
+    ros_message->theta_deg_bl_femur = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // theta_bl_tibia
-    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_bl_tibia");
+  {  // theta_deg_bl_tibia
+    PyObject * field = PyObject_GetAttrString(_pymsg, "theta_deg_bl_tibia");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->theta_bl_tibia = PyFloat_AS_DOUBLE(field);
+    ros_message->theta_deg_bl_tibia = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -180,132 +180,132 @@ PyObject * torto_interfaces__msg__torto_joint_angles__convert_to_py(void * raw_r
     }
   }
   torto_interfaces__msg__TortoJointAngles * ros_message = (torto_interfaces__msg__TortoJointAngles *)raw_ros_message;
-  {  // theta_fr_detoid
+  {  // theta_deg_fr_detoid
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->theta_fr_detoid);
+    field = PyFloat_FromDouble(ros_message->theta_deg_fr_detoid);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "theta_fr_detoid", field);
+      int rc = PyObject_SetAttrString(_pymessage, "theta_deg_fr_detoid", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // theta_fr_femur
+  {  // theta_deg_fr_femur
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->theta_fr_femur);
+    field = PyFloat_FromDouble(ros_message->theta_deg_fr_femur);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "theta_fr_femur", field);
+      int rc = PyObject_SetAttrString(_pymessage, "theta_deg_fr_femur", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // theta_fr_tibia
+  {  // theta_deg_fr_tibia
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->theta_fr_tibia);
+    field = PyFloat_FromDouble(ros_message->theta_deg_fr_tibia);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "theta_fr_tibia", field);
+      int rc = PyObject_SetAttrString(_pymessage, "theta_deg_fr_tibia", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // theta_fl_detoid
+  {  // theta_deg_fl_detoid
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->theta_fl_detoid);
+    field = PyFloat_FromDouble(ros_message->theta_deg_fl_detoid);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "theta_fl_detoid", field);
+      int rc = PyObject_SetAttrString(_pymessage, "theta_deg_fl_detoid", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // theta_fl_femur
+  {  // theta_deg_fl_femur
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->theta_fl_femur);
+    field = PyFloat_FromDouble(ros_message->theta_deg_fl_femur);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "theta_fl_femur", field);
+      int rc = PyObject_SetAttrString(_pymessage, "theta_deg_fl_femur", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // theta_fl_tibia
+  {  // theta_deg_fl_tibia
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->theta_fl_tibia);
+    field = PyFloat_FromDouble(ros_message->theta_deg_fl_tibia);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "theta_fl_tibia", field);
+      int rc = PyObject_SetAttrString(_pymessage, "theta_deg_fl_tibia", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // theta_br_detoid
+  {  // theta_deg_br_detoid
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->theta_br_detoid);
+    field = PyFloat_FromDouble(ros_message->theta_deg_br_detoid);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "theta_br_detoid", field);
+      int rc = PyObject_SetAttrString(_pymessage, "theta_deg_br_detoid", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // theta_br_femur
+  {  // theta_deg_br_femur
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->theta_br_femur);
+    field = PyFloat_FromDouble(ros_message->theta_deg_br_femur);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "theta_br_femur", field);
+      int rc = PyObject_SetAttrString(_pymessage, "theta_deg_br_femur", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // theta_br_tibia
+  {  // theta_deg_br_tibia
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->theta_br_tibia);
+    field = PyFloat_FromDouble(ros_message->theta_deg_br_tibia);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "theta_br_tibia", field);
+      int rc = PyObject_SetAttrString(_pymessage, "theta_deg_br_tibia", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // theta_bl_detoid
+  {  // theta_deg_bl_detoid
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->theta_bl_detoid);
+    field = PyFloat_FromDouble(ros_message->theta_deg_bl_detoid);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "theta_bl_detoid", field);
+      int rc = PyObject_SetAttrString(_pymessage, "theta_deg_bl_detoid", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // theta_bl_femur
+  {  // theta_deg_bl_femur
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->theta_bl_femur);
+    field = PyFloat_FromDouble(ros_message->theta_deg_bl_femur);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "theta_bl_femur", field);
+      int rc = PyObject_SetAttrString(_pymessage, "theta_deg_bl_femur", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // theta_bl_tibia
+  {  // theta_deg_bl_tibia
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->theta_bl_tibia);
+    field = PyFloat_FromDouble(ros_message->theta_deg_bl_tibia);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "theta_bl_tibia", field);
+      int rc = PyObject_SetAttrString(_pymessage, "theta_deg_bl_tibia", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

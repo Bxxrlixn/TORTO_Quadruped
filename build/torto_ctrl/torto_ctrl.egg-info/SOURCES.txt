@@ -4,6 +4,7 @@ setup.py
 ../../build/torto_ctrl/torto_ctrl.egg-info/PKG-INFO
 ../../build/torto_ctrl/torto_ctrl.egg-info/SOURCES.txt
 ../../build/torto_ctrl/torto_ctrl.egg-info/dependency_links.txt
+../../build/torto_ctrl/torto_ctrl.egg-info/entry_points.txt
 ../../build/torto_ctrl/torto_ctrl.egg-info/requires.txt
 ../../build/torto_ctrl/torto_ctrl.egg-info/top_level.txt
 ../../build/torto_ctrl/torto_ctrl.egg-info/zip-safe
@@ -17,8 +18,10 @@ torto_ctrl.egg-info/entry_points.txt
 torto_ctrl.egg-info/requires.txt
 torto_ctrl.egg-info/top_level.txt
 torto_ctrl.egg-info/zip-safe
+torto_ctrl/adaptive_gait/__init__.py
+torto_ctrl/adaptive_gait/dynamic_gait.py
 torto_ctrl/kinematic_model/__init__.py
+torto_ctrl/kinematic_model/adaptive_limb.py
 torto_ctrl/kinematic_model/inverse_kinematic.py
-torto_ctrl/kinematic_model/test.py
 torto_ctrl/kinematic_model/transform_RT.py
-torto_ctrl/kinematic_model/transformation_model.py
+torto_ctrl/kinematic_model/transformationBody_model.py

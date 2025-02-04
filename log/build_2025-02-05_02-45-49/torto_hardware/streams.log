@@ -1,0 +1,32 @@
+[1.584s] Invoking command in '/home/sirapob/torto_ws/build/torto_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sirapob/torto_ws/build/torto_hardware/build
+[1.992s] running develop
+[2.253s] Removing /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto-hardware.egg-link (link to .)
+[2.347s] Invoked command in '/home/sirapob/torto_ws/build/torto_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sirapob/torto_ws/build/torto_hardware/build
+[2.349s] Invoking command in '/home/sirapob/torto_ws/src/torto_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/torto_hardware build --build-base /home/sirapob/torto_ws/build/torto_hardware/build install --record /home/sirapob/torto_ws/build/torto_hardware/install.log --single-version-externally-managed install_data --force
+[2.703s] running egg_info
+[2.728s] writing ../../build/torto_hardware/torto_hardware.egg-info/PKG-INFO
+[2.728s] writing dependency_links to ../../build/torto_hardware/torto_hardware.egg-info/dependency_links.txt
+[2.734s] writing entry points to ../../build/torto_hardware/torto_hardware.egg-info/entry_points.txt
+[2.735s] writing requirements to ../../build/torto_hardware/torto_hardware.egg-info/requires.txt
+[2.736s] writing top-level names to ../../build/torto_hardware/torto_hardware.egg-info/top_level.txt
+[2.790s] reading manifest file '../../build/torto_hardware/torto_hardware.egg-info/SOURCES.txt'
+[2.791s] writing manifest file '../../build/torto_hardware/torto_hardware.egg-info/SOURCES.txt'
+[2.791s] running build
+[2.791s] running build_py
+[2.792s] running install
+[2.801s] running install_lib
+[2.826s] copying /home/sirapob/torto_ws/build/torto_hardware/build/lib/torto_hardware/__init__.py -> /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware
+[2.827s] copying /home/sirapob/torto_ws/build/torto_hardware/build/lib/torto_hardware/arduino_serial_node.py -> /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware
+[2.833s] copying /home/sirapob/torto_ws/build/torto_hardware/build/lib/torto_hardware/servo_calibration.py -> /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware
+[2.834s] byte-compiling /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware/__init__.py to __init__.cpython-312.pyc
+[2.834s] byte-compiling /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware/arduino_serial_node.py to arduino_serial_node.cpython-312.pyc
+[2.837s] byte-compiling /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware/servo_calibration.py to servo_calibration.cpython-312.pyc
+[2.837s] running install_data
+[2.838s] copying resource/torto_hardware -> /home/sirapob/torto_ws/install/torto_hardware/share/ament_index/resource_index/packages
+[2.838s] copying package.xml -> /home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware
+[2.838s] running install_egg_info
+[2.867s] Copying ../../build/torto_hardware/torto_hardware.egg-info to /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware-0.0.0-py3.12.egg-info
+[2.875s] running install_scripts
+[3.053s] Installing arduino_serial_node script to /home/sirapob/torto_ws/install/torto_hardware/lib/torto_hardware
+[3.054s] writing list of installed files to '/home/sirapob/torto_ws/build/torto_hardware/install.log'
+[3.133s] Invoked command in '/home/sirapob/torto_ws/src/torto_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/torto_hardware build --build-base /home/sirapob/torto_ws/build/torto_hardware/build install --record /home/sirapob/torto_ws/build/torto_hardware/install.log --single-version-externally-managed install_data --force

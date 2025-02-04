@@ -328,17 +328,17 @@ torto_interfaces__rosidl_typesupport_cpp/fast:
 .PHONY : torto_interfaces__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_torto_interfaces
+# Target rules for targets named ament_cmake_python_symlink_torto_interfaces
 
 # Build rule for target.
-ament_cmake_python_copy_torto_interfaces: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_torto_interfaces
-.PHONY : ament_cmake_python_copy_torto_interfaces
+ament_cmake_python_symlink_torto_interfaces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_torto_interfaces
+.PHONY : ament_cmake_python_symlink_torto_interfaces
 
 # fast build rule for target.
-ament_cmake_python_copy_torto_interfaces/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_torto_interfaces.dir/build.make CMakeFiles/ament_cmake_python_copy_torto_interfaces.dir/build
-.PHONY : ament_cmake_python_copy_torto_interfaces/fast
+ament_cmake_python_symlink_torto_interfaces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_torto_interfaces.dir/build.make CMakeFiles/ament_cmake_python_symlink_torto_interfaces.dir/build
+.PHONY : ament_cmake_python_symlink_torto_interfaces/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_torto_interfaces_egg
@@ -744,7 +744,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_torto_interfaces_egg"
-	@echo "... ament_cmake_python_copy_torto_interfaces"
+	@echo "... ament_cmake_python_symlink_torto_interfaces"
 	@echo "... torto_interfaces"
 	@echo "... torto_interfaces__cpp"
 	@echo "... torto_interfaces__py"

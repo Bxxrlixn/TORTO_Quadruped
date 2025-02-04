@@ -64,34 +64,34 @@ class TortoJointAngles(metaclass=Metaclass_TortoJointAngles):
     """Message class 'TortoJointAngles'."""
 
     __slots__ = [
-        '_theta_fr_detoid',
-        '_theta_fr_femur',
-        '_theta_fr_tibia',
-        '_theta_fl_detoid',
-        '_theta_fl_femur',
-        '_theta_fl_tibia',
-        '_theta_br_detoid',
-        '_theta_br_femur',
-        '_theta_br_tibia',
-        '_theta_bl_detoid',
-        '_theta_bl_femur',
-        '_theta_bl_tibia',
+        '_theta_deg_fr_detoid',
+        '_theta_deg_fr_femur',
+        '_theta_deg_fr_tibia',
+        '_theta_deg_fl_detoid',
+        '_theta_deg_fl_femur',
+        '_theta_deg_fl_tibia',
+        '_theta_deg_br_detoid',
+        '_theta_deg_br_femur',
+        '_theta_deg_br_tibia',
+        '_theta_deg_bl_detoid',
+        '_theta_deg_bl_femur',
+        '_theta_deg_bl_tibia',
         '_check_fields',
     ]
 
     _fields_and_field_types = {
-        'theta_fr_detoid': 'double',
-        'theta_fr_femur': 'double',
-        'theta_fr_tibia': 'double',
-        'theta_fl_detoid': 'double',
-        'theta_fl_femur': 'double',
-        'theta_fl_tibia': 'double',
-        'theta_br_detoid': 'double',
-        'theta_br_femur': 'double',
-        'theta_br_tibia': 'double',
-        'theta_bl_detoid': 'double',
-        'theta_bl_femur': 'double',
-        'theta_bl_tibia': 'double',
+        'theta_deg_fr_detoid': 'double',
+        'theta_deg_fr_femur': 'double',
+        'theta_deg_fr_tibia': 'double',
+        'theta_deg_fl_detoid': 'double',
+        'theta_deg_fl_femur': 'double',
+        'theta_deg_fl_tibia': 'double',
+        'theta_deg_br_detoid': 'double',
+        'theta_deg_br_femur': 'double',
+        'theta_deg_br_tibia': 'double',
+        'theta_deg_bl_detoid': 'double',
+        'theta_deg_bl_femur': 'double',
+        'theta_deg_bl_tibia': 'double',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
@@ -120,18 +120,18 @@ class TortoJointAngles(metaclass=Metaclass_TortoJointAngles):
             assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.theta_fr_detoid = kwargs.get('theta_fr_detoid', float())
-        self.theta_fr_femur = kwargs.get('theta_fr_femur', float())
-        self.theta_fr_tibia = kwargs.get('theta_fr_tibia', float())
-        self.theta_fl_detoid = kwargs.get('theta_fl_detoid', float())
-        self.theta_fl_femur = kwargs.get('theta_fl_femur', float())
-        self.theta_fl_tibia = kwargs.get('theta_fl_tibia', float())
-        self.theta_br_detoid = kwargs.get('theta_br_detoid', float())
-        self.theta_br_femur = kwargs.get('theta_br_femur', float())
-        self.theta_br_tibia = kwargs.get('theta_br_tibia', float())
-        self.theta_bl_detoid = kwargs.get('theta_bl_detoid', float())
-        self.theta_bl_femur = kwargs.get('theta_bl_femur', float())
-        self.theta_bl_tibia = kwargs.get('theta_bl_tibia', float())
+        self.theta_deg_fr_detoid = kwargs.get('theta_deg_fr_detoid', float())
+        self.theta_deg_fr_femur = kwargs.get('theta_deg_fr_femur', float())
+        self.theta_deg_fr_tibia = kwargs.get('theta_deg_fr_tibia', float())
+        self.theta_deg_fl_detoid = kwargs.get('theta_deg_fl_detoid', float())
+        self.theta_deg_fl_femur = kwargs.get('theta_deg_fl_femur', float())
+        self.theta_deg_fl_tibia = kwargs.get('theta_deg_fl_tibia', float())
+        self.theta_deg_br_detoid = kwargs.get('theta_deg_br_detoid', float())
+        self.theta_deg_br_femur = kwargs.get('theta_deg_br_femur', float())
+        self.theta_deg_br_tibia = kwargs.get('theta_deg_br_tibia', float())
+        self.theta_deg_bl_detoid = kwargs.get('theta_deg_bl_detoid', float())
+        self.theta_deg_bl_femur = kwargs.get('theta_deg_bl_femur', float())
+        self.theta_deg_bl_tibia = kwargs.get('theta_deg_bl_tibia', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -163,29 +163,29 @@ class TortoJointAngles(metaclass=Metaclass_TortoJointAngles):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.theta_fr_detoid != other.theta_fr_detoid:
+        if self.theta_deg_fr_detoid != other.theta_deg_fr_detoid:
             return False
-        if self.theta_fr_femur != other.theta_fr_femur:
+        if self.theta_deg_fr_femur != other.theta_deg_fr_femur:
             return False
-        if self.theta_fr_tibia != other.theta_fr_tibia:
+        if self.theta_deg_fr_tibia != other.theta_deg_fr_tibia:
             return False
-        if self.theta_fl_detoid != other.theta_fl_detoid:
+        if self.theta_deg_fl_detoid != other.theta_deg_fl_detoid:
             return False
-        if self.theta_fl_femur != other.theta_fl_femur:
+        if self.theta_deg_fl_femur != other.theta_deg_fl_femur:
             return False
-        if self.theta_fl_tibia != other.theta_fl_tibia:
+        if self.theta_deg_fl_tibia != other.theta_deg_fl_tibia:
             return False
-        if self.theta_br_detoid != other.theta_br_detoid:
+        if self.theta_deg_br_detoid != other.theta_deg_br_detoid:
             return False
-        if self.theta_br_femur != other.theta_br_femur:
+        if self.theta_deg_br_femur != other.theta_deg_br_femur:
             return False
-        if self.theta_br_tibia != other.theta_br_tibia:
+        if self.theta_deg_br_tibia != other.theta_deg_br_tibia:
             return False
-        if self.theta_bl_detoid != other.theta_bl_detoid:
+        if self.theta_deg_bl_detoid != other.theta_deg_bl_detoid:
             return False
-        if self.theta_bl_femur != other.theta_bl_femur:
+        if self.theta_deg_bl_femur != other.theta_deg_bl_femur:
             return False
-        if self.theta_bl_tibia != other.theta_bl_tibia:
+        if self.theta_deg_bl_tibia != other.theta_deg_bl_tibia:
             return False
         return True
 
@@ -195,181 +195,181 @@ class TortoJointAngles(metaclass=Metaclass_TortoJointAngles):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def theta_fr_detoid(self):
-        """Message field 'theta_fr_detoid'."""
-        return self._theta_fr_detoid
+    def theta_deg_fr_detoid(self):
+        """Message field 'theta_deg_fr_detoid'."""
+        return self._theta_deg_fr_detoid
 
-    @theta_fr_detoid.setter
-    def theta_fr_detoid(self, value):
+    @theta_deg_fr_detoid.setter
+    def theta_deg_fr_detoid(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
-                "The 'theta_fr_detoid' field must be of type 'float'"
+                "The 'theta_deg_fr_detoid' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'theta_fr_detoid' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._theta_fr_detoid = value
+                "The 'theta_deg_fr_detoid' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta_deg_fr_detoid = value
 
     @builtins.property
-    def theta_fr_femur(self):
-        """Message field 'theta_fr_femur'."""
-        return self._theta_fr_femur
+    def theta_deg_fr_femur(self):
+        """Message field 'theta_deg_fr_femur'."""
+        return self._theta_deg_fr_femur
 
-    @theta_fr_femur.setter
-    def theta_fr_femur(self, value):
+    @theta_deg_fr_femur.setter
+    def theta_deg_fr_femur(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
-                "The 'theta_fr_femur' field must be of type 'float'"
+                "The 'theta_deg_fr_femur' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'theta_fr_femur' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._theta_fr_femur = value
+                "The 'theta_deg_fr_femur' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta_deg_fr_femur = value
 
     @builtins.property
-    def theta_fr_tibia(self):
-        """Message field 'theta_fr_tibia'."""
-        return self._theta_fr_tibia
+    def theta_deg_fr_tibia(self):
+        """Message field 'theta_deg_fr_tibia'."""
+        return self._theta_deg_fr_tibia
 
-    @theta_fr_tibia.setter
-    def theta_fr_tibia(self, value):
+    @theta_deg_fr_tibia.setter
+    def theta_deg_fr_tibia(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
-                "The 'theta_fr_tibia' field must be of type 'float'"
+                "The 'theta_deg_fr_tibia' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'theta_fr_tibia' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._theta_fr_tibia = value
+                "The 'theta_deg_fr_tibia' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta_deg_fr_tibia = value
 
     @builtins.property
-    def theta_fl_detoid(self):
-        """Message field 'theta_fl_detoid'."""
-        return self._theta_fl_detoid
+    def theta_deg_fl_detoid(self):
+        """Message field 'theta_deg_fl_detoid'."""
+        return self._theta_deg_fl_detoid
 
-    @theta_fl_detoid.setter
-    def theta_fl_detoid(self, value):
+    @theta_deg_fl_detoid.setter
+    def theta_deg_fl_detoid(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
-                "The 'theta_fl_detoid' field must be of type 'float'"
+                "The 'theta_deg_fl_detoid' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'theta_fl_detoid' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._theta_fl_detoid = value
+                "The 'theta_deg_fl_detoid' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta_deg_fl_detoid = value
 
     @builtins.property
-    def theta_fl_femur(self):
-        """Message field 'theta_fl_femur'."""
-        return self._theta_fl_femur
+    def theta_deg_fl_femur(self):
+        """Message field 'theta_deg_fl_femur'."""
+        return self._theta_deg_fl_femur
 
-    @theta_fl_femur.setter
-    def theta_fl_femur(self, value):
+    @theta_deg_fl_femur.setter
+    def theta_deg_fl_femur(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
-                "The 'theta_fl_femur' field must be of type 'float'"
+                "The 'theta_deg_fl_femur' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'theta_fl_femur' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._theta_fl_femur = value
+                "The 'theta_deg_fl_femur' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta_deg_fl_femur = value
 
     @builtins.property
-    def theta_fl_tibia(self):
-        """Message field 'theta_fl_tibia'."""
-        return self._theta_fl_tibia
+    def theta_deg_fl_tibia(self):
+        """Message field 'theta_deg_fl_tibia'."""
+        return self._theta_deg_fl_tibia
 
-    @theta_fl_tibia.setter
-    def theta_fl_tibia(self, value):
+    @theta_deg_fl_tibia.setter
+    def theta_deg_fl_tibia(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
-                "The 'theta_fl_tibia' field must be of type 'float'"
+                "The 'theta_deg_fl_tibia' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'theta_fl_tibia' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._theta_fl_tibia = value
+                "The 'theta_deg_fl_tibia' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta_deg_fl_tibia = value
 
     @builtins.property
-    def theta_br_detoid(self):
-        """Message field 'theta_br_detoid'."""
-        return self._theta_br_detoid
+    def theta_deg_br_detoid(self):
+        """Message field 'theta_deg_br_detoid'."""
+        return self._theta_deg_br_detoid
 
-    @theta_br_detoid.setter
-    def theta_br_detoid(self, value):
+    @theta_deg_br_detoid.setter
+    def theta_deg_br_detoid(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
-                "The 'theta_br_detoid' field must be of type 'float'"
+                "The 'theta_deg_br_detoid' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'theta_br_detoid' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._theta_br_detoid = value
+                "The 'theta_deg_br_detoid' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta_deg_br_detoid = value
 
     @builtins.property
-    def theta_br_femur(self):
-        """Message field 'theta_br_femur'."""
-        return self._theta_br_femur
+    def theta_deg_br_femur(self):
+        """Message field 'theta_deg_br_femur'."""
+        return self._theta_deg_br_femur
 
-    @theta_br_femur.setter
-    def theta_br_femur(self, value):
+    @theta_deg_br_femur.setter
+    def theta_deg_br_femur(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
-                "The 'theta_br_femur' field must be of type 'float'"
+                "The 'theta_deg_br_femur' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'theta_br_femur' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._theta_br_femur = value
+                "The 'theta_deg_br_femur' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta_deg_br_femur = value
 
     @builtins.property
-    def theta_br_tibia(self):
-        """Message field 'theta_br_tibia'."""
-        return self._theta_br_tibia
+    def theta_deg_br_tibia(self):
+        """Message field 'theta_deg_br_tibia'."""
+        return self._theta_deg_br_tibia
 
-    @theta_br_tibia.setter
-    def theta_br_tibia(self, value):
+    @theta_deg_br_tibia.setter
+    def theta_deg_br_tibia(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
-                "The 'theta_br_tibia' field must be of type 'float'"
+                "The 'theta_deg_br_tibia' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'theta_br_tibia' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._theta_br_tibia = value
+                "The 'theta_deg_br_tibia' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta_deg_br_tibia = value
 
     @builtins.property
-    def theta_bl_detoid(self):
-        """Message field 'theta_bl_detoid'."""
-        return self._theta_bl_detoid
+    def theta_deg_bl_detoid(self):
+        """Message field 'theta_deg_bl_detoid'."""
+        return self._theta_deg_bl_detoid
 
-    @theta_bl_detoid.setter
-    def theta_bl_detoid(self, value):
+    @theta_deg_bl_detoid.setter
+    def theta_deg_bl_detoid(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
-                "The 'theta_bl_detoid' field must be of type 'float'"
+                "The 'theta_deg_bl_detoid' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'theta_bl_detoid' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._theta_bl_detoid = value
+                "The 'theta_deg_bl_detoid' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta_deg_bl_detoid = value
 
     @builtins.property
-    def theta_bl_femur(self):
-        """Message field 'theta_bl_femur'."""
-        return self._theta_bl_femur
+    def theta_deg_bl_femur(self):
+        """Message field 'theta_deg_bl_femur'."""
+        return self._theta_deg_bl_femur
 
-    @theta_bl_femur.setter
-    def theta_bl_femur(self, value):
+    @theta_deg_bl_femur.setter
+    def theta_deg_bl_femur(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
-                "The 'theta_bl_femur' field must be of type 'float'"
+                "The 'theta_deg_bl_femur' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'theta_bl_femur' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._theta_bl_femur = value
+                "The 'theta_deg_bl_femur' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta_deg_bl_femur = value
 
     @builtins.property
-    def theta_bl_tibia(self):
-        """Message field 'theta_bl_tibia'."""
-        return self._theta_bl_tibia
+    def theta_deg_bl_tibia(self):
+        """Message field 'theta_deg_bl_tibia'."""
+        return self._theta_deg_bl_tibia
 
-    @theta_bl_tibia.setter
-    def theta_bl_tibia(self, value):
+    @theta_deg_bl_tibia.setter
+    def theta_deg_bl_tibia(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
-                "The 'theta_bl_tibia' field must be of type 'float'"
+                "The 'theta_deg_bl_tibia' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'theta_bl_tibia' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._theta_bl_tibia = value
+                "The 'theta_deg_bl_tibia' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._theta_deg_bl_tibia = value
