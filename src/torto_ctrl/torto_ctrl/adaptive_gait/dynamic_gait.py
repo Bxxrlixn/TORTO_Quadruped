@@ -2,6 +2,7 @@
 
 import time
 import numpy as np
+from scipy.interpolate import interp1d
 
 #function neccesary to build a parametrized bezier curve 
 def nCk(n,k): #calculates binomial factor (n k)
