@@ -26,11 +26,14 @@ class SerialNode(Node):
         self.subscriber_ = self.create_subscription(TortoJointAngles, "torto_joint_angles", self.callback_TORTO_Joint_Angles, 10)
 
         # Timers
-        self.create_timer(0.1, self.arduino_sensors_callback)
-        self.create_timer(0.1, self.send_angles_to_arduino)
+        self.create_timer(0.01, self.arduino_sensors_callback)
+        self.create_timer(0.01, self.send_angles_to_arduino)
 
         # Default angles (90° neutral position)
-        self.angles = np.full((4, 3), [90., 90., 0.])
+        self.angles = np.asarray([[90. , 90. , 0.],
+                                  [90. , 90. , 0.],
+                                  [90. , 90. , 0.],
+                                  [90. , 90. , 0.]])
 
         # Send initial relay command
         self.send_command('relay', 'ON')
@@ -87,6 +90,7 @@ class SerialNode(Node):
             [msg.theta_deg_br_detoid, msg.theta_deg_br_femur, msg.theta_deg_br_tibia],
             [msg.theta_deg_bl_detoid, msg.theta_deg_bl_femur, msg.theta_deg_bl_tibia]
         ])
+
 
     def send_angles_to_arduino(self):
         """Send joint angles to Arduino periodically."""
