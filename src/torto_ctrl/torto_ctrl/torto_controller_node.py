@@ -22,16 +22,16 @@ class TortoControllerNode(Node):
         self.angles_BR = np.array([90. , 90. , 0.])
         self.angles_BL = np.array([90. , 90. , 0.])
         # Gait params
-        self.Vx = 0.4
-        self.Vy = 0.4
-        self.Vz = 0.4
-        self.Wrot = 0
+        self.Vx = 0
+        self.Vy = 0
+        self.Vz = 0
+        self.Wrot = -0.4
         self.angle_FR = 0
         self.angle_FL = 0
         self.angle_BR = 0
         self.angle_BL = 0
         self.step_offset = 0.75
-        self.T = 0.8 #period of time (in seconds) of every step
+        self.T = 1.6 #period of time (in seconds) of every step
         self.offset = np.array([0. , 0.5 , 0.5 , 0.]) 
         self.body_Foot_Initial = np.asarray([[0.136635,  -0.1121875, -0.14], 
                                              [0.136635,  0.1121875, -0.14], 
@@ -47,7 +47,7 @@ class TortoControllerNode(Node):
         self.body_position = np.asarray([0, 0, 0])
 
 
-        self.create_timer(0.01, self.control_loop)
+        self.create_timer(0.02, self.control_loop)
 
 
     def publish_torto_jointAngles(self):
