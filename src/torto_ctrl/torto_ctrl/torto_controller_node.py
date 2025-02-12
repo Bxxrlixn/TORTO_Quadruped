@@ -22,10 +22,10 @@ class TortoControllerNode(Node):
         self.angles_BR = np.array([90. , 90. , 0.])
         self.angles_BL = np.array([90. , 90. , 0.])
         # Gait params
-        self.Vx = 0
-        self.Vy = 0
-        self.Vz = 0
-        self.Wrot = -0.4
+        self.Vx = 0.4
+        self.Vy = 0.4
+        self.Vz = 0.4
+        self.Wrot = 0
         self.angle_FR = 0
         self.angle_FL = 0
         self.angle_BR = 0
