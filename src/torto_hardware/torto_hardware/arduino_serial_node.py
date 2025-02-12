@@ -31,8 +31,8 @@ class SerialNode(Node):
         self.publisher_ = self.create_publisher(String, 'sensor_data', 10)
 
         # Timer to periodically read data from the Arduino
-        self.timer = self.create_timer(0.1, self.arduino_sensors_callback)
-        self.send_timer = self.create_timer(0.1, self.send_angles_to_arduino)
+        self.timer = self.create_timer(0.02, self.arduino_sensors_callback)
+        self.send_timer = self.create_timer(0.02, self.send_angles_to_arduino)
 
         # Send relay and angle commands after startup
         self.angles = np.asarray([[90.,  90., 0.], 

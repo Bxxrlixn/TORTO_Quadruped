@@ -4,7 +4,7 @@ import numpy as np
 from torto_ctrl.kinematic_model.transform_RT import tortoTransform
 from torto_ctrl.kinematic_model.inverse_kinematic import InverseKinematic
 
-class tortoBodyTransformationModel():
+class tortoTransformationModel():
     def __init__(self):
 
         self.ik = InverseKinematic()
