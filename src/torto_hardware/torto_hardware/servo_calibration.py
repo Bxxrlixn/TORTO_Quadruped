@@ -12,7 +12,7 @@ class anglesConfig:
         self.offset = offset
 
     def map_angles(self, x, in_min, in_max, out_min, out_max):
-        return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
+        return (x - in_min) * (out_max - out_min) // (in_max - in_min) + out_min
 
 
     def calibrate_angles(self, angles):
@@ -24,6 +24,5 @@ class anglesConfig:
             adjusted_leg_angles = [abs(leg_angles[i] + self.offset[leg * 3 + i]) for i in range(3)]
             #Maximum servo angle:0, Minimum servo angle: 180, 3205 corresponds to pulse step at 2.5ms(100% duty cycle), 641 corresponds to pulse step at 0.5ms(0% duty cycle)
             mapped_leg_angles = [self.map_angles(adjusted_leg_angles[i], 0, 180, 641, 3205) for i in range(3)] 
-            rounded_leg_angles = [int(round(mapped_leg_angles[i])) for i in range(3)]
-            adjusted_angles.append(rounded_leg_angles)
+            adjusted_angles.append(mapped_leg_angles)
         return adjusted_angles
