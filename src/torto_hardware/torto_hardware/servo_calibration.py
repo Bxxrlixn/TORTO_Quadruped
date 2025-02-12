@@ -6,7 +6,7 @@ import math as m
 class anglesConfig:
     def __init__(self):
         # Assuming there are 12 values for 4 legs (3 servos per leg)
-        self.offset = [-182.5, 5, -185, 10, -190, -5, -3, -175, -10, -175, 0, -180]
+        self.offset = [-182.5, 5, -185, 2, -190, -5, -3, -175, -10, -175, 0, -180]
 
     def set_offset(self, offset):
         self.offset = offset

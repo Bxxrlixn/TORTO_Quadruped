@@ -22,31 +22,33 @@ class TortoControllerNode(Node):
         self.angles_BR = np.array([90. , 90. , 0.])
         self.angles_BL = np.array([90. , 90. , 0.])
         # Gait params
-        self.Vx = 0.4
-        self.Vy = 0.4
-        self.Vz = 0.4
-        self.Wrot = 0
+        self.Vx = 0
+        self.Vy = 0
+        self.Vz = 0
+        self.Wrot = -0.4
         self.angle_FR = 0
         self.angle_FL = 0
         self.angle_BR = 0
         self.angle_BL = 0
         self.step_offset = 0.75
-        self.T = 0.8 #period of time (in seconds) of every step
+        self.T = 1.6 #period of time (in seconds) of every step
         self.offset = np.array([0. , 0.5 , 0.5 , 0.]) 
         self.body_Foot_Initial = np.asarray([[0.136635,  -0.1121875, -0.14], 
                                              [0.136635,  0.1121875, -0.14], 
                                              [-0.136635,  -0.1121875, -0.14], 
                                              [-0.136635,  0.1121875, -0.14]])
         # Limb transformation params
-        self.Foot_Position_Initial = np.asarray([[0, 0, 0], 
-                                                 [0, 0, 0], 
-                                                 [0, 0, 0], 
-                                                 [0, 0, 0]])
+        self.Foot_Position = np.asarray([[0, 0, 0], 
+                                         [0, 0, 0], 
+                                         [0, 0, 0], 
+                                         [0, 0, 0]])
         # Body transformation params
         self.body_orientation = np.asarray([0, 0, 0])
         self.body_position = np.asarray([0, 0, 0])
 
-        self.control_loop() 
+
+        self.create_timer(0.02, self.control_loop)
+
 
 
     def publish_torto_jointAngles(self):
@@ -65,22 +67,18 @@ class TortoControllerNode(Node):
         msg.theta_deg_bl_tibia = self.angles_BL[2]
         self.torto_joint_angles_publisher.publish(msg)
 
-    def control_loop(self):
-        try:
-            while rclpy.ok():
-                body_Foot  = self.adpt_gait.step_Loop(self.Vx, self.Vy, self.Vz, self.angle_FR, self.angle_FL, self.angle_BR, self.angle_BL, self.Wrot, self.T, self.step_offset, self.offset, self.body_Foot_Initial)
-                body_Foot = self.adpt_Limb.foot_tranformed_pose(self.Foot_Position_Initial, body_Foot)
-                tf_Model_angles = self.tf_Model.angles_from_pose(self.body_orientation, self.body_position, body_Foot)
-                self.angles_FR = tf_Model_angles[0]
-                self.angles_FL = tf_Model_angles[1]
-                self.angles_BR = tf_Model_angles[2]
-                self.angles_BL = tf_Model_angles[3]
-                self.body_Foot = tf_Model_angles[4]
-                self.publish_torto_jointAngles()
-                self.get_logger().info(f"{tf_Model_angles}")
-        except KeyboardInterrupt:
-            pass
 
+    def control_loop(self):
+        body_Foot  = self.adpt_gait.step_Loop(self.Vx, self.Vy, self.Vz, self.angle_FR, self.angle_FL, self.angle_BR, self.angle_BL, self.Wrot, self.T, self.step_offset, self.offset, self.body_Foot_Initial)
+        body_Foot = self.adpt_Limb.foot_tranformed_pose(self.Foot_Position, body_Foot)
+        tf_Model_angles = self.tf_Model.angles_from_pose(self.body_orientation, self.body_position, body_Foot)
+        self.angles_FR = tf_Model_angles[0]
+        self.angles_FL = tf_Model_angles[1]
+        self.angles_BR = tf_Model_angles[2]
+        self.angles_BL = tf_Model_angles[3]
+        self.body_Foot = tf_Model_angles[4]
+        self.publish_torto_jointAngles()
+        self.get_logger().info(f"{tf_Model_angles}")
 
 def main(args=None):
     rclpy.init(args=args)
