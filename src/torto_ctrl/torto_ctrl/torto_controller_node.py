@@ -17,15 +17,15 @@ class TortoControllerNode(Node):
         self.torto_joint_angles_publisher = self.create_publisher(TortoJointAngles, "torto_joint_angles", 10)
         self.get_logger().info('TORTO Joint Angles Activated')
 
-        self.angles_FR = np.array([90. , 90. , 0.])
-        self.angles_FL = np.array([90. , 90. , 0.])
-        self.angles_BR = np.array([90. , 90. , 0.])
-        self.angles_BL = np.array([90. , 90. , 0.])
+        self.servo_angles_FR = np.array([90. , 90. , 0.])
+        self.servo_angles_FL = np.array([90. , 90. , 0.])
+        self.servo_angles_BR = np.array([90. , 90. , 0.])
+        self.servo_angles_BL = np.array([90. , 90. , 0.])
         # Gait params
-        self.Vx = 0
-        self.Vy = 0
-        self.Vz = 0
-        self.Wrot = -0.4
+        self.Vx = 0.4
+        self.Vy = 0.4
+        self.Vz = 0.4
+        self.Wrot = 0
         self.angle_FR = 0
         self.angle_FL = 0
         self.angle_BR = 0
@@ -52,18 +52,18 @@ class TortoControllerNode(Node):
 
     def publish_torto_jointAngles(self):
         msg = TortoJointAngles()
-        msg.theta_deg_fr_detoid = self.angles_FR[0]
-        msg.theta_deg_fr_femur = self.angles_FR[1]
-        msg.theta_deg_fr_tibia = self.angles_FR[2]
-        msg.theta_deg_fl_detoid = self.angles_FL[0]
-        msg.theta_deg_fl_femur = self.angles_FL[1]
-        msg.theta_deg_fl_tibia = self.angles_FL[2]
-        msg.theta_deg_br_detoid = self.angles_BR[0]
-        msg.theta_deg_br_femur = self.angles_BR[1]
-        msg.theta_deg_br_tibia = self.angles_BR[2]
-        msg.theta_deg_bl_detoid = self.angles_BL[0]
-        msg.theta_deg_bl_femur = self.angles_BL[1]
-        msg.theta_deg_bl_tibia = self.angles_BL[2]
+        msg.theta_deg_fr_detoid = self.servo_angles_FR[0]
+        msg.theta_deg_fr_femur = self.servo_angles_FR[1]
+        msg.theta_deg_fr_tibia = self.servo_angles_FR[2]
+        msg.theta_deg_fl_detoid = self.servo_angles_FL[0]
+        msg.theta_deg_fl_femur = self.servo_angles_FL[1]
+        msg.theta_deg_fl_tibia = self.servo_angles_FL[2]
+        msg.theta_deg_br_detoid = self.servo_angles_BR[0]
+        msg.theta_deg_br_femur = self.servo_angles_BR[1]
+        msg.theta_deg_br_tibia = self.servo_angles_BR[2]
+        msg.theta_deg_bl_detoid = self.servo_angles_BL[0]
+        msg.theta_deg_bl_femur = self.servo_angles_BL[1]
+        msg.theta_deg_bl_tibia = self.servo_angles_BL[2]
         self.torto_joint_angles_publisher.publish(msg)
 
 
@@ -71,10 +71,10 @@ class TortoControllerNode(Node):
         body_Foot  = self.adpt_gait.step_Loop(self.Vx, self.Vy, self.Vz, self.angle_FR, self.angle_FL, self.angle_BR, self.angle_BL, self.Wrot, self.T, self.step_offset, self.offset, self.body_Foot_Initial)
         body_Foot = self.adpt_Limb.foot_tranformed_pose(self.Foot_Position, body_Foot)
         tf_Model_angles = self.tf_Model.angles_from_pose(self.body_orientation, self.body_position, body_Foot)
-        self.angles_FR = tf_Model_angles[0]
-        self.angles_FL = tf_Model_angles[1]
-        self.angles_BR = tf_Model_angles[2]
-        self.angles_BL = tf_Model_angles[3]
+        self.servo_angles_FR = tf_Model_angles[0]
+        self.servo_angles_FL = tf_Model_angles[1]
+        self.servo_angles_BR = tf_Model_angles[2]
+        self.servo_angles_BL = tf_Model_angles[3]
         self.body_Foot = tf_Model_angles[4]
         self.publish_torto_jointAngles()
         self.get_logger().info(f"{tf_Model_angles}")

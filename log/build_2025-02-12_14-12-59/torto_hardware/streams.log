@@ -1,0 +1,17 @@
+[1.186s] Invoking command in '/home/sirapob/torto_ws/build/torto_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_hardware/build --no-deps symlink_data
+[1.627s] running develop
+[1.888s] running egg_info
+[1.914s] writing torto_hardware.egg-info/PKG-INFO
+[1.915s] writing dependency_links to torto_hardware.egg-info/dependency_links.txt
+[1.921s] writing entry points to torto_hardware.egg-info/entry_points.txt
+[1.922s] writing requirements to torto_hardware.egg-info/requires.txt
+[1.922s] writing top-level names to torto_hardware.egg-info/top_level.txt
+[1.976s] reading manifest file 'torto_hardware.egg-info/SOURCES.txt'
+[1.977s] writing manifest file 'torto_hardware.egg-info/SOURCES.txt'
+[2.003s] running build_ext
+[2.003s] Creating /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto-hardware.egg-link (link to .)
+[2.004s] Installing arduino_serial_node script to /home/sirapob/torto_ws/install/torto_hardware/lib/torto_hardware
+[2.005s] 
+[2.005s] Installed /home/sirapob/torto_ws/build/torto_hardware
+[2.005s] running symlink_data
+[2.094s] Invoked command in '/home/sirapob/torto_ws/build/torto_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_hardware/build --no-deps symlink_data
