@@ -40,7 +40,7 @@ class SerialNode(Node):
                                     [90.,  90., 0.], 
                                     [90.,  90., 0.]])
                                             
-        self.subscriber_ = self.create_subscription(TortoJointAngles, "torto_joint_angles", self.callback_TORTO_Joint_Angles, 20)
+        self.subscriber_ = self.create_subscription(TortoJointAngles, "torto_joint_angles", self.callback_TORTO_Joint_Angles, 10)
         self.send_command('relay', 'ON')  # Assuming 'relay' state is 'ON'
 
     def arduino_sensors_callback(self):
