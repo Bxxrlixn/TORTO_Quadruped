@@ -231,4 +231,7 @@ CMakeFiles/torto_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_gen
  /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.h \
  /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__struct.h \
- /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__functions.h
+ /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__functions.h \
+ /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.h \
+ /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__struct.h \
+ /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.h

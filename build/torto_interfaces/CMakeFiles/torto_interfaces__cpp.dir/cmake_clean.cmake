@@ -1,10 +1,15 @@
 file(REMOVE_RECURSE
   "CMakeFiles/torto_interfaces__cpp"
+  "rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__builder.hpp"
+  "rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__struct.hpp"
+  "rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__traits.hpp"
+  "rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__type_support.hpp"
   "rosidl_generator_cpp/torto_interfaces/msg/detail/torto_joint_angles__builder.hpp"
   "rosidl_generator_cpp/torto_interfaces/msg/detail/torto_joint_angles__struct.hpp"
   "rosidl_generator_cpp/torto_interfaces/msg/detail/torto_joint_angles__traits.hpp"
   "rosidl_generator_cpp/torto_interfaces/msg/detail/torto_joint_angles__type_support.hpp"
   "rosidl_generator_cpp/torto_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp"
+  "rosidl_generator_cpp/torto_interfaces/msg/torto_ctrl_params.hpp"
   "rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp"
 )
 

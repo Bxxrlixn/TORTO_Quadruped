@@ -71,6 +71,11 @@ CMakeFiles/torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/deta
 CMakeFiles/torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_joint_angles__struct.hpp
 CMakeFiles/torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_joint_angles__traits.hpp
 CMakeFiles/torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_joint_angles__type_support.hpp
+CMakeFiles/torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/torto_ctrl_params.hpp
+CMakeFiles/torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__builder.hpp
+CMakeFiles/torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__struct.hpp
+CMakeFiles/torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__traits.hpp
+CMakeFiles/torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__type_support.hpp
 CMakeFiles/torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -93,6 +98,7 @@ rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp: /opt/ros/jazzy
 rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp: rosidl_adapter/torto_interfaces/msg/TortoJointAngles.idl
+rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp: rosidl_adapter/torto_interfaces/msg/TortoCtrlParams.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sirapob/torto_ws/build/torto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -108,15 +114,35 @@ rosidl_generator_cpp/torto_interfaces/msg/detail/torto_joint_angles__traits.hpp:
 rosidl_generator_cpp/torto_interfaces/msg/detail/torto_joint_angles__type_support.hpp: rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/torto_interfaces/msg/detail/torto_joint_angles__type_support.hpp
 
+rosidl_generator_cpp/torto_interfaces/msg/torto_ctrl_params.hpp: rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/torto_interfaces/msg/torto_ctrl_params.hpp
+
+rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__builder.hpp: rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__builder.hpp
+
+rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__struct.hpp: rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__struct.hpp
+
+rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__traits.hpp: rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__traits.hpp
+
+rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__type_support.hpp: rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__type_support.hpp
+
 rosidl_generator_cpp/torto_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/torto_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 torto_interfaces__cpp: CMakeFiles/torto_interfaces__cpp
+torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__builder.hpp
+torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__struct.hpp
+torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__traits.hpp
+torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_ctrl_params__type_support.hpp
 torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_joint_angles__builder.hpp
 torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_joint_angles__struct.hpp
 torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_joint_angles__traits.hpp
 torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/detail/torto_joint_angles__type_support.hpp
 torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/torto_ctrl_params.hpp
 torto_interfaces__cpp: rosidl_generator_cpp/torto_interfaces/msg/torto_joint_angles.hpp
 torto_interfaces__cpp: CMakeFiles/torto_interfaces__cpp.dir/build.make
 .PHONY : torto_interfaces__cpp

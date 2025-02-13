@@ -55,9 +55,9 @@ class tortoTransformationModel():
         angles_BL = self.ik.calculate_angles(BLcoordinate[0], BLcoordinate[1], BLcoordinate[2], "BL")
         
         nBody_footFR =  shifted_body_DetoidFR + FRcoordinate
-        nBody_footFL = shifted_body_DetoidFR + FLcoordinate
-        nBody_footBR = shifted_body_DetoidFR + BRcoordinate
-        nBody_footBL = shifted_body_DetoidFR + BLcoordinate
+        nBody_footFL = shifted_body_DetoidFL + FLcoordinate
+        nBody_footBR = shifted_body_DetoidBR + BRcoordinate
+        nBody_footBL = shifted_body_DetoidBL + BLcoordinate
 
         nbody_foot = np.asarray([[nBody_footFR[0] , nBody_footFR[1] , nBody_footFR[2]],
                                 [nBody_footFL[0] , nBody_footFL[1] , nBody_footFL[2]],

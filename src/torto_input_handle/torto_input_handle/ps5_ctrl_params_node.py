@@ -7,6 +7,7 @@ import time
 import numpy as np
 from evdev import InputDevice, categorize, ecodes  # pip install evdev
 from torto_input_handle.joystick.ps5_Button import ButtonStatus
+from torto_interfaces.msg import TortoCtrlParams
 
 class Ps5CtrlParamsNode(Node):
     def __init__(self):
@@ -14,7 +15,10 @@ class Ps5CtrlParamsNode(Node):
         self.buttons_state = ButtonStatus()
         self.gamepad = InputDevice('/dev/input/event1')  
         self.fd = self.gamepad.fd
-    
+        #start publisher
+        self.torto_params_val_publisher = self.create_publisher(TortoCtrlParams, "torto_control_params", 10)
+        self.get_logger().info('TORTO Control Params Activated')
+
         # Mode_status
         self.mode = {"X": True, "square": False, "triangle": False, "circle": False }
         self.submode = {"l1": False, "l2": False, "r1": False, "r2": False, "pause": False, "share": False}
@@ -24,13 +28,13 @@ class Ps5CtrlParamsNode(Node):
         
         # TORTO parameters
         # Mode square
-        self.Vx = 0 #out put velocity
-        self.Vy = 0
-        self.Vz = 0
+        self.Vx = 0.0 #out put velocity
+        self.Vy = 0.0
+        self.Vz = 0.0
         self.Ux = 0.4 #set walk velocity
         self.Uy = 0.4
         self.Uz = 0.4
-        self.Wrot = 0.0
+        self.Vangular = 0.0
         self.angle_FR = 0 #out put angle
         self.angle_FL = 0
         self.angle_BR = 0
@@ -49,10 +53,50 @@ class Ps5CtrlParamsNode(Node):
         self.Foot_Position_BL = np.asarray([0.0, 0.0, 0.0])
         # Body transformation params
         self.body_orientation = np.asarray([0, 0, 0])
-        self.body_position = np.asarray([0., 0.0, 0.0])
+        self.body_position = np.asarray([0.0, 0.0, 0.0])
         
+
         self.create_timer(0.02, self.read_events) 
+        self.create_timer(0.02, self.publish_torto_CtrlParams)
+
+
     
+    def publish_torto_CtrlParams(self):
+        msg = TortoCtrlParams()
+        msg.vx = float(self.Vx)
+        msg.vy = float(self.Vy)
+        msg.vz = float(self.Vz)
+        msg.vangular = self.Vangular
+        msg.angle_fr = float(self.angle_FR)
+        msg.angle_fl = float(self.angle_FL)
+        msg.angle_br = float(self.angle_BR)
+        msg.angle_bl = float(self.angle_BL)
+        msg.step_offset = float(self.step_offset)
+        msg.step_period = float(self.T)
+        msg.gait_offset_fr = float(self.offset[0])
+        msg.gait_offset_fl = float(self.offset[1])
+        msg.gait_offset_br = float(self.offset[2])
+        msg.gait_offset_bl = float(self.offset[3])
+        msg.body_position_x = float(self.body_position[0])
+        msg.body_position_y = float(self.body_position[1])
+        msg.body_position_z = float(self.body_position[2])
+        msg.body_orientation_roll = float(self.body_orientation[0])
+        msg.body_orientation_pitch = float(self.body_orientation[1])
+        msg.body_orientation_yawn = float(self.body_orientation[2])
+        msg.foot_position_fr_x = float(self.Foot_Position_FR[0])
+        msg.foot_position_fr_y = float(self.Foot_Position_FR[1])
+        msg.foot_position_fr_z = float(self.Foot_Position_FR[2])
+        msg.foot_position_fl_x = float(self.Foot_Position_FL[0])
+        msg.foot_position_fl_y = float(self.Foot_Position_FL[1])
+        msg.foot_position_fl_z = float(self.Foot_Position_FL[2])
+        msg.foot_position_br_x = float(self.Foot_Position_BR[0])
+        msg.foot_position_br_y = float(self.Foot_Position_BR[1])
+        msg.foot_position_br_z = float(self.Foot_Position_BR[2])
+        msg.foot_position_bl_x = float(self.Foot_Position_BL[0])
+        msg.foot_position_bl_y = float(self.Foot_Position_BL[1])
+        msg.foot_position_bl_z = float(self.Foot_Position_BL[2])
+        self.torto_params_val_publisher.publish(msg)
+
     def reset_submodes(self):
         for key in self.submode:
             self.submode[key] = False
@@ -96,17 +140,17 @@ class Ps5CtrlParamsNode(Node):
                 self.Vy = self.Uy
                 self.Vz = self.Uz
             elif button_state['right_joystick']['active']:
-                if button_state['right_joystick']['x'] < 127:
+                if button_state['right_joystick']['x'] > 127:
                     if not self.wrot_status['left']:
                         self.wrot_status['left'] = True
-                        self.Wrot += 0.1
-                        self.Wrot = round(self.Wrot, 2)
+                        self.Vangular += 0.1
+                        self.Vangular = round(self.Vangular, 2)
                     self.wrot_status['right'] = False
                 else: 
                     if not self.wrot_status['right']:
                         self.wrot_status['right'] = True
-                        self.Wrot -= 0.1
-                        self.Wrot = round(self.Wrot, 2)
+                        self.Vangular -= 0.1
+                        self.Vangular = round(self.Vangular, 2)
                     self.wrot_status['left'] = False
             elif button_state['SELECT']:
                 self.angle_FR = self.zeta_FR
@@ -463,14 +507,14 @@ class Ps5CtrlParamsNode(Node):
                         if button_state['right_joystick']['x'] < 127:
                             if not self.idcrease['increase']:
                                 self.idcrease['increase'] = True
-                                self.body_position[0] += 0.01
-                                self.body_position[0] = round(self.body_position[0], 2)
+                                self.body_position[0] += 0.001
+                                self.body_position[0] = round(self.body_position[0], 3)
                             self.idcrease['decrease'] = False
                         else:
                             if not self.idcrease['decrease']:
                                 self.idcrease['decrease'] = True
-                                self.body_position[0] -= 0.01
-                                self.body_position[0] = round(self.body_position[0], 2)
+                                self.body_position[0] -= 0.001
+                                self.body_position[0] = round(self.body_position[0], 3)
                             self.idcrease['increase'] = False
                     else:
                         self.idcrease['increase'] = False
@@ -480,14 +524,14 @@ class Ps5CtrlParamsNode(Node):
                         if button_state['right_joystick']['x'] < 127:
                             if not self.idcrease['increase']:
                                 self.idcrease['increase'] = True
-                                self.body_position[1] += 0.01
-                                self.body_position[1] = round(self.body_position[1], 2)
+                                self.body_position[1] += 0.001
+                                self.body_position[1] = round(self.body_position[1], 3)
                             self.idcrease['decrease'] = False
                         else:
                             if not self.idcrease['decrease']:
                                 self.idcrease['decrease'] = True
-                                self.body_position[1] -= 0.01
-                                self.body_position[1] = round(self.body_position[1], 2)
+                                self.body_position[1] -= 0.001
+                                self.body_position[1] = round(self.body_position[1], 3)
                             self.idcrease['increase'] = False
                     else:
                         self.idcrease['increase'] = False
@@ -497,14 +541,14 @@ class Ps5CtrlParamsNode(Node):
                         if button_state['right_joystick']['x'] < 127:
                             if not self.idcrease['increase']:
                                 self.idcrease['increase'] = True
-                                self.body_position[2] += 0.01
-                                self.body_position[2] = round(self.body_position[2], 2)
+                                self.body_position[2] += 0.001
+                                self.body_position[2] = round(self.body_position[2], 3)
                             self.idcrease['decrease'] = False
                         else:
                             if not self.idcrease['decrease']:
                                 self.idcrease['decrease'] = True
-                                self.body_position[2] -= 0.01
-                                self.body_position[2] = round(self.body_position[2], 2)
+                                self.body_position[2] -= 0.001
+                                self.body_position[2] = round(self.body_position[2], 3)
                             self.idcrease['increase'] = False
                     else:
                         self.idcrease['increase'] = False
@@ -514,22 +558,22 @@ class Ps5CtrlParamsNode(Node):
                         if button_state['right_joystick']['x'] < 127:
                             if not self.idcrease['increase']:
                                 self.idcrease['increase'] = True
-                                self.body_position[0] += 0.01
-                                self.body_position[1] += 0.01
-                                self.body_position[2] += 0.01
-                                self.body_position[0] = round(self.body_position[0], 2)
-                                self.body_position[1] = round(self.body_position[1], 2)
-                                self.body_position[2] = round(self.body_position[2], 2)
+                                self.body_position[0] += 0.001
+                                self.body_position[1] += 0.001
+                                self.body_position[2] += 0.001
+                                self.body_position[0] = round(self.body_position[0], 3)
+                                self.body_position[1] = round(self.body_position[1], 3)
+                                self.body_position[2] = round(self.body_position[2], 3)
                             self.idcrease['decrease'] = False
                         else:
                             if not self.idcrease['decrease']:
                                 self.idcrease['decrease'] = True
-                                self.body_position[0] -= 0.01
-                                self.body_position[1] -= 0.01
-                                self.body_position[2] -= 0.01
-                                self.body_position[0] = round(self.body_position[0], 2)
-                                self.body_position[1] = round(self.body_position[1], 2)
-                                self.body_position[2] = round(self.body_position[2], 2)
+                                self.body_position[0] -= 0.001
+                                self.body_position[1] -= 0.001
+                                self.body_position[2] -= 0.001
+                                self.body_position[0] = round(self.body_position[0], 3)
+                                self.body_position[1] = round(self.body_position[1], 3)
+                                self.body_position[2] = round(self.body_position[2], 3)
                             self.idcrease['increase'] = False
                     else:
                         self.idcrease['increase'] = False
@@ -857,7 +901,7 @@ class Ps5CtrlParamsNode(Node):
         print("Ux:", self.Ux)
         print("Uy:", self.Uy)
         print("Uz:", self.Uz)
-        print("Wrot:", self.Wrot)
+        print("Vangular:", self.Vangular)
         print("angle_FR:", self.angle_FR)
         print("angle_FL:", self.angle_FL)
         print("angle_BR:", self.angle_BR)
@@ -896,6 +940,7 @@ class Ps5CtrlParamsNode(Node):
                 self.toggle_subsubmode(self.controller_state['UP'], self.controller_state['RIGHT'], self.controller_state['DOWN'], self.controller_state['LEFT'])
                 self.adjust_params(self.mode, self.submode, self.subsubmode, self.controller_state)
                 self.print_params()
+
 
 
 def main(args=None):

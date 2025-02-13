@@ -316,6 +316,9 @@ ament_cmake_symlink_install_files("/home/sirapob/torto_ws/src/torto_interfaces" 
 # install(FILES "/home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_type_description/torto_interfaces/msg/TortoJointAngles.json" "DESTINATION" "share/torto_interfaces/msg")
 ament_cmake_symlink_install_files("/home/sirapob/torto_ws/src/torto_interfaces" FILES "/home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_type_description/torto_interfaces/msg/TortoJointAngles.json" "DESTINATION" "share/torto_interfaces/msg")
 
+# install(FILES "/home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_type_description/torto_interfaces/msg/TortoCtrlParams.json" "DESTINATION" "share/torto_interfaces/msg")
+ament_cmake_symlink_install_files("/home/sirapob/torto_ws/src/torto_interfaces" FILES "/home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_type_description/torto_interfaces/msg/TortoCtrlParams.json" "DESTINATION" "share/torto_interfaces/msg")
+
 # install(DIRECTORY "/home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/" "DESTINATION" "include/torto_interfaces/torto_interfaces" "PATTERN" "*.h")
 ament_cmake_symlink_install_directory("/home/sirapob/torto_ws/src/torto_interfaces" DIRECTORY "/home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/" "DESTINATION" "include/torto_interfaces/torto_interfaces" "PATTERN" "*.h")
 
@@ -364,8 +367,14 @@ include("/home/sirapob/torto_ws/build/torto_interfaces/ament_cmake_symlink_insta
 # install(FILES "/home/sirapob/torto_ws/build/torto_interfaces/rosidl_adapter/torto_interfaces/msg/TortoJointAngles.idl" "DESTINATION" "share/torto_interfaces/msg")
 ament_cmake_symlink_install_files("/home/sirapob/torto_ws/src/torto_interfaces" FILES "/home/sirapob/torto_ws/build/torto_interfaces/rosidl_adapter/torto_interfaces/msg/TortoJointAngles.idl" "DESTINATION" "share/torto_interfaces/msg")
 
+# install(FILES "/home/sirapob/torto_ws/build/torto_interfaces/rosidl_adapter/torto_interfaces/msg/TortoCtrlParams.idl" "DESTINATION" "share/torto_interfaces/msg")
+ament_cmake_symlink_install_files("/home/sirapob/torto_ws/src/torto_interfaces" FILES "/home/sirapob/torto_ws/build/torto_interfaces/rosidl_adapter/torto_interfaces/msg/TortoCtrlParams.idl" "DESTINATION" "share/torto_interfaces/msg")
+
 # install(FILES "/home/sirapob/torto_ws/src/torto_interfaces/msg/TortoJointAngles.msg" "DESTINATION" "share/torto_interfaces/msg")
 ament_cmake_symlink_install_files("/home/sirapob/torto_ws/src/torto_interfaces" FILES "/home/sirapob/torto_ws/src/torto_interfaces/msg/TortoJointAngles.msg" "DESTINATION" "share/torto_interfaces/msg")
+
+# install(FILES "/home/sirapob/torto_ws/src/torto_interfaces/msg/TortoCtrlParams.msg" "DESTINATION" "share/torto_interfaces/msg")
+ament_cmake_symlink_install_files("/home/sirapob/torto_ws/src/torto_interfaces" FILES "/home/sirapob/torto_ws/src/torto_interfaces/msg/TortoCtrlParams.msg" "DESTINATION" "share/torto_interfaces/msg")
 
 # install(FILES "/home/sirapob/torto_ws/build/torto_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/torto_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/sirapob/torto_ws/src/torto_interfaces" FILES "/home/sirapob/torto_ws/build/torto_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/torto_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

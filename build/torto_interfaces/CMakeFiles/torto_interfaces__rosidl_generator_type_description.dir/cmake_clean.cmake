@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/torto_interfaces__rosidl_generator_type_description"
+  "rosidl_generator_type_description/torto_interfaces/msg/TortoCtrlParams.json"
   "rosidl_generator_type_description/torto_interfaces/msg/TortoJointAngles.json"
 )
 

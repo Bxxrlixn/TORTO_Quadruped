@@ -1,2 +1,4 @@
+msg/TortoCtrlParams.idl
+msg/TortoCtrlParams.msg
 msg/TortoJointAngles.idl
 msg/TortoJointAngles.msg

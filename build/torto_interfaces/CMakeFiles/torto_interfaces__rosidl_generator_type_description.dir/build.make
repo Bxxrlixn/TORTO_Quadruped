@@ -67,14 +67,20 @@ include CMakeFiles/torto_interfaces__rosidl_generator_type_description.dir/compi
 include CMakeFiles/torto_interfaces__rosidl_generator_type_description.dir/progress.make
 
 CMakeFiles/torto_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/torto_interfaces/msg/TortoJointAngles.json
+CMakeFiles/torto_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/torto_interfaces/msg/TortoCtrlParams.json
 
 rosidl_generator_type_description/torto_interfaces/msg/TortoJointAngles.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/torto_interfaces/msg/TortoJointAngles.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/torto_interfaces/msg/TortoJointAngles.json: rosidl_adapter/torto_interfaces/msg/TortoJointAngles.idl
+rosidl_generator_type_description/torto_interfaces/msg/TortoJointAngles.json: rosidl_adapter/torto_interfaces/msg/TortoCtrlParams.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sirapob/torto_ws/build/torto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_type_description__arguments.json
 
+rosidl_generator_type_description/torto_interfaces/msg/TortoCtrlParams.json: rosidl_generator_type_description/torto_interfaces/msg/TortoJointAngles.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/torto_interfaces/msg/TortoCtrlParams.json
+
 torto_interfaces__rosidl_generator_type_description: CMakeFiles/torto_interfaces__rosidl_generator_type_description
+torto_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/torto_interfaces/msg/TortoCtrlParams.json
 torto_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/torto_interfaces/msg/TortoJointAngles.json
 torto_interfaces__rosidl_generator_type_description: CMakeFiles/torto_interfaces__rosidl_generator_type_description.dir/build.make
 .PHONY : torto_interfaces__rosidl_generator_type_description

@@ -89,6 +89,7 @@ rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h: /opt/ros/jazzy/sha
 rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.c.em
 rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h: rosidl_adapter/torto_interfaces/msg/TortoJointAngles.idl
+rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h: rosidl_adapter/torto_interfaces/msg/TortoCtrlParams.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sirapob/torto_ws/build/torto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c__arguments.json
 
@@ -101,6 +102,18 @@ rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__struct.h: ros
 rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.h: rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.h
 
+rosidl_generator_c/torto_interfaces/msg/torto_ctrl_params.h: rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/torto_interfaces/msg/torto_ctrl_params.h
+
+rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.h: rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.h
+
+rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__struct.h: rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__struct.h
+
+rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.h: rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.h
+
 rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__description.c: rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__description.c
 
@@ -109,6 +122,15 @@ rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__functions.c: 
 
 rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.c: rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.c
+
+rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c: rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c
+
+rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c: rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c
+
+rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c: rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c
 
 CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__description.c.o: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__description.c.o: rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__description.c
@@ -152,11 +174,56 @@ CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_int
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.c -o CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.c.s
 
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.o: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.o: rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.o: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sirapob/torto_ws/build/torto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.o -MF CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.o.d -o CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.o -c /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c
+
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c > CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.i
+
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c -o CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.s
+
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.o: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.o: rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.o: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sirapob/torto_ws/build/torto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.o -MF CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.o.d -o CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.o -c /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c
+
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c > CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.i
+
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c -o CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.s
+
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.o: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.o: rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.o: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sirapob/torto_ws/build/torto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.o -MF CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.o.d -o CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.o -c /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c
+
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c > CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.i
+
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sirapob/torto_ws/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c -o CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.s
+
 # Object files for target torto_interfaces__rosidl_generator_c
 torto_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__description.c.o" \
 "CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__functions.c.o" \
-"CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.c.o"
+"CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.c.o" \
+"CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.o" \
+"CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.o" \
+"CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.o"
 
 # External object files for target torto_interfaces__rosidl_generator_c
 torto_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -164,11 +231,14 @@ torto_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 libtorto_interfaces__rosidl_generator_c.so: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__description.c.o
 libtorto_interfaces__rosidl_generator_c.so: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__functions.c.o
 libtorto_interfaces__rosidl_generator_c.so: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.c.o
+libtorto_interfaces__rosidl_generator_c.so: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c.o
+libtorto_interfaces__rosidl_generator_c.so: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.o
+libtorto_interfaces__rosidl_generator_c.so: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.o
 libtorto_interfaces__rosidl_generator_c.so: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/build.make
 libtorto_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libtorto_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/librcutils.so
 libtorto_interfaces__rosidl_generator_c.so: CMakeFiles/torto_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sirapob/torto_ws/build/torto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libtorto_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sirapob/torto_ws/build/torto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libtorto_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/torto_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,12 +249,19 @@ CMakeFiles/torto_interfaces__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/torto_interfaces__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/torto_interfaces__rosidl_generator_c.dir/clean
 
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__description.c
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.h
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__struct.h
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.h
 CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__description.c
 CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__functions.c
 CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__functions.h
 CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__struct.h
 CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.c
 CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.h
+CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/torto_interfaces/msg/torto_ctrl_params.h
 CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/torto_interfaces/msg/torto_joint_angles.h
 	cd /home/sirapob/torto_ws/build/torto_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sirapob/torto_ws/src/torto_interfaces /home/sirapob/torto_ws/src/torto_interfaces /home/sirapob/torto_ws/build/torto_interfaces /home/sirapob/torto_ws/build/torto_interfaces /home/sirapob/torto_ws/build/torto_interfaces/CMakeFiles/torto_interfaces__rosidl_generator_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/torto_interfaces__rosidl_generator_c.dir/depend
