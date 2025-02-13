@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing torto_input_handle.egg-info/PKG-INFO
+writing dependency_links to torto_input_handle.egg-info/dependency_links.txt
+writing requirements to torto_input_handle.egg-info/requires.txt
+writing top-level names to torto_input_handle.egg-info/top_level.txt
+reading manifest file 'torto_input_handle.egg-info/SOURCES.txt'
+writing manifest file 'torto_input_handle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto-input-handle.egg-link (link to .)
+
+Installed /home/sirapob/torto_ws/build/torto_input_handle
+running symlink_data

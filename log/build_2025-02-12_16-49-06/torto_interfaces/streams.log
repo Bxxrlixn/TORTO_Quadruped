@@ -1,0 +1,25 @@
+[0.044s] Invoking command in '/home/sirapob/torto_ws/build/torto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sirapob/torto_ws/src/torto_interfaces -DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/torto_interfaces
+[0.099s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.152s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.318s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.405s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.419s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.591s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.051s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.426s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.160s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.217s] -- Configuring done (2.2s)
+[2.365s] -- Generating done (0.1s)
+[2.418s] -- Build files have been written to: /home/sirapob/torto_ws/build/torto_interfaces
+[2.427s] Invoked command in '/home/sirapob/torto_ws/build/torto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sirapob/torto_ws/src/torto_interfaces -DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/torto_interfaces
+[2.430s] Invoking command in '/home/sirapob/torto_ws/build/torto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapob/torto_ws/build/torto_interfaces -- -j4 -l4
+[2.547s] failed to create symbolic link '/home/sirapob/torto_ws/build/torto_interfaces/ament_cmake_python/torto_interfaces/torto_interfaces' because existing path cannot be removed: Is a directory
+[2.547s] [  2%] Built target torto_interfaces__rosidl_generator_type_description
+[2.549s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_torto_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_torto_interfaces] Error 1
+[2.550s] gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_torto_interfaces.dir/all] Error 2
+[2.550s] gmake[1]: *** Waiting for unfinished jobs....
+[2.550s] gmake: *** [Makefile:146: all] Error 2
+[2.554s] Invoked command in '/home/sirapob/torto_ws/build/torto_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapob/torto_ws/build/torto_interfaces -- -j4 -l4

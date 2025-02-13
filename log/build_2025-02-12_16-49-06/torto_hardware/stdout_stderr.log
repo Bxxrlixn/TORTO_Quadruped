@@ -1,0 +1,30 @@
+running develop
+Removing /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto-hardware.egg-link (link to .)
+running egg_info
+writing ../../build/torto_hardware/torto_hardware.egg-info/PKG-INFO
+writing dependency_links to ../../build/torto_hardware/torto_hardware.egg-info/dependency_links.txt
+writing entry points to ../../build/torto_hardware/torto_hardware.egg-info/entry_points.txt
+writing requirements to ../../build/torto_hardware/torto_hardware.egg-info/requires.txt
+writing top-level names to ../../build/torto_hardware/torto_hardware.egg-info/top_level.txt
+reading manifest file '../../build/torto_hardware/torto_hardware.egg-info/SOURCES.txt'
+writing manifest file '../../build/torto_hardware/torto_hardware.egg-info/SOURCES.txt'
+running build
+running build_py
+copying torto_hardware/arduino_serial_node.py -> /home/sirapob/torto_ws/build/torto_hardware/build/lib/torto_hardware
+copying torto_hardware/servo_calibration.py -> /home/sirapob/torto_ws/build/torto_hardware/build/lib/torto_hardware
+running install
+running install_lib
+copying /home/sirapob/torto_ws/build/torto_hardware/build/lib/torto_hardware/__init__.py -> /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware
+copying /home/sirapob/torto_ws/build/torto_hardware/build/lib/torto_hardware/arduino_serial_node.py -> /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware
+copying /home/sirapob/torto_ws/build/torto_hardware/build/lib/torto_hardware/servo_calibration.py -> /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware
+byte-compiling /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware/arduino_serial_node.py to arduino_serial_node.cpython-312.pyc
+byte-compiling /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware/servo_calibration.py to servo_calibration.cpython-312.pyc
+running install_data
+copying resource/torto_hardware -> /home/sirapob/torto_ws/install/torto_hardware/share/ament_index/resource_index/packages
+copying package.xml -> /home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware
+running install_egg_info
+Copying ../../build/torto_hardware/torto_hardware.egg-info to /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware-0.0.0-py3.12.egg-info
+running install_scripts
+Installing arduino_serial_node script to /home/sirapob/torto_ws/install/torto_hardware/lib/torto_hardware
+writing list of installed files to '/home/sirapob/torto_ws/build/torto_hardware/install.log'

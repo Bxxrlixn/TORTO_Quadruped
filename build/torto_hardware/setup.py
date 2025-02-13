@@ -1,1 +1,0 @@
-/home/sirapob/torto_ws/src/torto_hardware/setup.py
