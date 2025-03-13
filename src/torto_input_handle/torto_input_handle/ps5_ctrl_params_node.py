@@ -13,7 +13,7 @@ class Ps5CtrlParamsNode(Node):
     def __init__(self):
         super().__init__("torto_Controller")
         self.buttons_state = ButtonStatus()
-        self.gamepad = InputDevice('/dev/input/event1')  
+        self.gamepad = InputDevice('/dev/input/event5')  
         self.fd = self.gamepad.fd
         #start publisher
         self.torto_params_val_publisher = self.create_publisher(TortoCtrlParams, "torto_control_params", 10)
@@ -44,7 +44,7 @@ class Ps5CtrlParamsNode(Node):
         self.zeta_BR = 0
         self.zeta_BL = 0
         self.step_offset = 0.75
-        self.T = 1.6 #period of time (in seconds) of every step
+        self.T = 0.8 #period of time (in seconds) of every step
         self.offset = np.array([0.0 , 0.5 , 0.5 , 0.0]) 
         # Limb transformation params
         self.Foot_Position_FR = np.asarray([0.0, 0.0, 0.0]) 

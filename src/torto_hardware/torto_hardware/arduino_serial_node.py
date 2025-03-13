@@ -27,18 +27,19 @@ class SerialNode(Node):
             self.serial_port = None  # Ensure self.serial_port does not remain undefined
             return  # Stop execution if serial connection fails
 
-        # Initialize publisher for sensor data
         self.publisher_ = self.create_publisher(String, 'sensor_data', 10)
+        self.torto_motor_angles_publisher = self.create_publisher(TortoJointAngles, "torto_motor_angles", 10)
 
-        # Timer to periodically read data from the Arduino
+        # Timer
         self.timer = self.create_timer(0.02, self.arduino_sensors_callback)
         self.send_timer = self.create_timer(0.02, self.send_angles_to_arduino)
+        self.sendMotor_timer = self.create_timer(0.02, self.publish_torto_motorAngles)
 
-        # Send relay and angle commands after startup
         self.angles = np.asarray([[90.,  90., 0.], 
                                     [90.,  90., 0.], 
                                     [90.,  90., 0.], 
                                     [90.,  90., 0.]])
+        self.adjusted_angles = self.angle_config.calibrate_angles(self.angles) 
                                             
         self.subscriber_ = self.create_subscription(TortoJointAngles, "torto_joint_angles", self.callback_TORTO_Joint_Angles, 10)
         self.send_command('relay', 'ON')  # Assuming 'relay' state is 'ON'
@@ -70,10 +71,10 @@ class SerialNode(Node):
         try:
             if command_type == "angles":
                 # Apply the angle offset using angle_config
-                adjusted_angles = self.angle_config.calibrate_angles(data) 
+                self.adjusted_angles = self.angle_config.calibrate_angles(data) 
                 
                 # Format the adjusted angles as required by the Arduino
-                angle_str = ' '.join([','.join(map(str, angles)) for angles in adjusted_angles])
+                angle_str = ' '.join([','.join(map(str, angles)) for angles in self.adjusted_angles])
                 command = f"ANGLES:{angle_str}\n"
                 self.serial_port.write(command.encode('utf-8'))
                 self.get_logger().info(f"Sent adjusted angles command to Arduino: {command.strip()}")
@@ -103,6 +104,21 @@ class SerialNode(Node):
         if hasattr(self, 'angles'):
             self.send_command('angles', self.angles)
 
+    def publish_torto_motorAngles(self):
+        msg = TortoJointAngles()
+        msg.theta_deg_fr_detoid = float(self.adjusted_angles[0][0])
+        msg.theta_deg_fr_femur = float(self.adjusted_angles[0][1])
+        msg.theta_deg_fr_tibia = float(self.adjusted_angles[0][2])
+        msg.theta_deg_fl_detoid = float(self.adjusted_angles[1][0])
+        msg.theta_deg_fl_femur = float(self.adjusted_angles[1][1])
+        msg.theta_deg_fl_tibia = float(self.adjusted_angles[1][2])
+        msg.theta_deg_br_detoid = float(self.adjusted_angles[2][0])
+        msg.theta_deg_br_femur = float(self.adjusted_angles[2][1])
+        msg.theta_deg_br_tibia = float(self.adjusted_angles[2][2])
+        msg.theta_deg_bl_detoid = float(self.adjusted_angles[3][0])
+        msg.theta_deg_bl_femur = float(self.adjusted_angles[3][1])
+        msg.theta_deg_bl_tibia = float(self.adjusted_angles[3][2])
+        self.torto_motor_angles_publisher.publish(msg)
 
 
     def destroy_node(self):
