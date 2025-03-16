@@ -13,7 +13,7 @@ class Ps5CtrlParamsNode(Node):
     def __init__(self):
         super().__init__("torto_Controller")
         self.buttons_state = ButtonStatus()
-        self.gamepad = InputDevice('/dev/input/event5')  
+        self.gamepad = InputDevice('/dev/input/event1')  
         self.fd = self.gamepad.fd
         #start publisher
         self.torto_params_val_publisher = self.create_publisher(TortoCtrlParams, "torto_control_params", 10)
