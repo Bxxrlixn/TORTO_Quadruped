@@ -1,0 +1,17 @@
+[2.604s] Invoking command in '/home/sirapob/torto_ws/build/torto_odometry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_odometry/build --no-deps symlink_data
+[3.987s] running develop
+[4.516s] running egg_info
+[4.555s] writing torto_odometry.egg-info/PKG-INFO
+[4.557s] writing dependency_links to torto_odometry.egg-info/dependency_links.txt
+[4.570s] writing entry points to torto_odometry.egg-info/entry_points.txt
+[4.570s] writing requirements to torto_odometry.egg-info/requires.txt
+[4.570s] writing top-level names to torto_odometry.egg-info/top_level.txt
+[4.640s] reading manifest file 'torto_odometry.egg-info/SOURCES.txt'
+[4.641s] writing manifest file 'torto_odometry.egg-info/SOURCES.txt'
+[4.681s] running build_ext
+[4.682s] Creating /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto-odometry.egg-link (link to .)
+[4.683s] Installing odom_depen_on_imu_node script to /home/sirapob/torto_ws/install/torto_odometry/lib/torto_odometry
+[4.684s] 
+[4.684s] Installed /home/sirapob/torto_ws/build/torto_odometry
+[4.684s] running symlink_data
+[4.817s] Invoked command in '/home/sirapob/torto_ws/build/torto_odometry' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_odometry/build --no-deps symlink_data

@@ -1,0 +1,80 @@
+[0.019s] Invoking command in '/home/sirapob/torto_ws/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sirapob/torto_ws/src/lio_sam_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/lio_sam
+[0.044s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.376s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.386s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.390s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.437s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.477s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.479s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.566s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.569s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.748s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.748s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.837s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.869s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.905s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[0.973s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.973s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.973s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.973s]   cmake_policy command to set the policy and suppress this warning.
+[0.973s] 
+[0.973s]   CMake variable FLANN_ROOT is set to:
+[0.973s] 
+[0.973s]     /usr
+[0.973s] 
+[0.974s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.974s]   .cmake module might still use it.
+[0.974s] Call Stack (most recent call first):
+[0.974s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.974s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.974s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.974s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.974s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.974s]   CMakeLists.txt:20 (find_package)
+[0.974s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.974s] [0m
+[0.974s] -- Found flann version 1.9.2
+[1.644s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.655s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.659s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.296s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.307s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.884s] -- Found Qhull version 8.0.2
+[3.490s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.090s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[4.095s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[4.100s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.102s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.237s] -- Found tf2_sensor_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)
+[4.242s] -- Found tf2_eigen: 0.36.8 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[4.253s] [33mCMake Warning (dev) at CMakeLists.txt:29 (find_package):
+[4.253s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[4.253s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[4.253s]   command to set the policy and suppress this warning.
+[4.253s] 
+[4.253s]   CMake variable PCL_ROOT is set to:
+[4.253s] 
+[4.253s]     /usr
+[4.253s] 
+[4.253s]   For compatibility, CMake is ignoring the variable.
+[4.253s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.254s] [0m
+[4.289s] -- GTSAM include directory:  /opt/ros/jazzy/lib/cmake/GTSAM/../../../include
+[4.465s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[4.466s] -- Found OpenMP: TRUE (found version "4.5")  
+[5.582s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[6.451s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.608s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[7.833s] -- Found PythonExtra: /usr/bin/python3  
+[8.572s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[8.813s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[8.813s]   ament_target_dependencies() the passed package name 'Eigen' was not found
+[8.813s]   before
+[8.813s] Call Stack (most recent call first):
+[8.813s]   CMakeLists.txt:54 (ament_target_dependencies)
+[8.813s] 
+[8.814s] [0m
+[8.814s] -- Configuring incomplete, errors occurred!
+[8.880s] Invoked command in '/home/sirapob/torto_ws/build/lio_sam' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sirapob/torto_ws/src/lio_sam_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/lio_sam

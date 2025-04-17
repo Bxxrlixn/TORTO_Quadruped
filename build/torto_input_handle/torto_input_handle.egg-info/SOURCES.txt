@@ -1,6 +1,13 @@
 package.xml
 setup.cfg
 setup.py
+../../build/torto_input_handle/torto_input_handle.egg-info/PKG-INFO
+../../build/torto_input_handle/torto_input_handle.egg-info/SOURCES.txt
+../../build/torto_input_handle/torto_input_handle.egg-info/dependency_links.txt
+../../build/torto_input_handle/torto_input_handle.egg-info/entry_points.txt
+../../build/torto_input_handle/torto_input_handle.egg-info/requires.txt
+../../build/torto_input_handle/torto_input_handle.egg-info/top_level.txt
+../../build/torto_input_handle/torto_input_handle.egg-info/zip-safe
 resource/torto_input_handle
 torto_input_handle/__init__.py
 torto_input_handle/ps5_ctrl_params_node.py

@@ -1,0 +1,19 @@
+[1.221s] Invoking command in '/home/sirapob/torto_ws/build/torto_odometry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_odometry/build --no-deps symlink_data
+[1.681s] running develop
+[1.949s] running egg_info
+[1.973s] writing torto_odometry.egg-info/PKG-INFO
+[1.974s] writing dependency_links to torto_odometry.egg-info/dependency_links.txt
+[1.980s] writing entry points to torto_odometry.egg-info/entry_points.txt
+[1.981s] writing requirements to torto_odometry.egg-info/requires.txt
+[1.982s] writing top-level names to torto_odometry.egg-info/top_level.txt
+[2.038s] reading manifest file 'torto_odometry.egg-info/SOURCES.txt'
+[2.039s] writing manifest file 'torto_odometry.egg-info/SOURCES.txt'
+[2.066s] running build_ext
+[2.066s] Creating /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto-odometry.egg-link (link to .)
+[2.067s] Installing odom_depen_on_imu_node script to /home/sirapob/torto_ws/install/torto_odometry/lib/torto_odometry
+[2.067s] 
+[2.068s] Installed /home/sirapob/torto_ws/build/torto_odometry
+[2.068s] running symlink_data
+[2.068s] creating /home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/launch
+[2.068s] symbolically linking /home/sirapob/torto_ws/build/torto_odometry/launch/torto_main_tf.launch.py -> /home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/launch
+[2.159s] Invoked command in '/home/sirapob/torto_ws/build/torto_odometry' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_odometry/build --no-deps symlink_data

@@ -1,0 +1,24 @@
+[2.873s] Invoking command in '/home/sirapob/torto_ws/src/build/torto_input_handle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/src/build/torto_input_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/src/install/torto_input_handle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/src/build/torto_input_handle/build --no-deps symlink_data
+[3.534s] running develop
+[3.929s] running egg_info
+[3.929s] creating torto_input_handle.egg-info
+[3.992s] writing torto_input_handle.egg-info/PKG-INFO
+[3.994s] writing dependency_links to torto_input_handle.egg-info/dependency_links.txt
+[4.006s] writing entry points to torto_input_handle.egg-info/entry_points.txt
+[4.006s] writing requirements to torto_input_handle.egg-info/requires.txt
+[4.006s] writing top-level names to torto_input_handle.egg-info/top_level.txt
+[4.006s] writing manifest file 'torto_input_handle.egg-info/SOURCES.txt'
+[4.140s] reading manifest file 'torto_input_handle.egg-info/SOURCES.txt'
+[4.140s] writing manifest file 'torto_input_handle.egg-info/SOURCES.txt'
+[4.205s] running build_ext
+[4.205s] Creating /home/sirapob/torto_ws/src/install/torto_input_handle/lib/python3.12/site-packages/torto-input-handle.egg-link (link to .)
+[4.207s] Installing ps5_ctrl_params_node script to /home/sirapob/torto_ws/src/install/torto_input_handle/lib/torto_input_handle
+[4.208s] 
+[4.211s] Installed /home/sirapob/torto_ws/src/build/torto_input_handle
+[4.211s] running symlink_data
+[4.211s] creating /home/sirapob/torto_ws/src/install/torto_input_handle/share/ament_index
+[4.211s] creating /home/sirapob/torto_ws/src/install/torto_input_handle/share/ament_index/resource_index
+[4.217s] creating /home/sirapob/torto_ws/src/install/torto_input_handle/share/ament_index/resource_index/packages
+[4.217s] symbolically linking /home/sirapob/torto_ws/src/build/torto_input_handle/resource/torto_input_handle -> /home/sirapob/torto_ws/src/install/torto_input_handle/share/ament_index/resource_index/packages
+[4.217s] symbolically linking /home/sirapob/torto_ws/src/build/torto_input_handle/package.xml -> /home/sirapob/torto_ws/src/install/torto_input_handle/share/torto_input_handle
+[4.361s] Invoked command in '/home/sirapob/torto_ws/src/build/torto_input_handle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/src/build/torto_input_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/src/install/torto_input_handle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/src/build/torto_input_handle/build --no-deps symlink_data

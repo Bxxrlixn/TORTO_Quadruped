@@ -1,5 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000411] (-) JobUnselected: {'identifier': 'torto_ctrl'}
-[0.000607] (-) JobUnselected: {'identifier': 'torto_hardware'}
-[0.000666] (-) JobUnselected: {'identifier': 'torto_interfaces'}
-[0.000879] (-) EventReactorShutdown: {}

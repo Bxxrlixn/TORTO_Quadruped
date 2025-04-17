@@ -135,7 +135,7 @@ libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libros
 libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: libtorto_interfaces__rosidl_generator_c.so
 libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librmw.so
 libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so
-libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libfastcdr.so.2.2.4
+libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libfastcdr.so.2.2.5
 libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librcutils.so
 libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt

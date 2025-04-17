@@ -1,0 +1,36 @@
+[3.470s] Invoking command in '/home/sirapob/torto_ws/build/torto_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sirapob/torto_ws/build/torto_hardware/build
+[4.346s] running develop
+[4.941s] Removing /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto-hardware.egg-link (link to .)
+[5.156s] Invoked command in '/home/sirapob/torto_ws/build/torto_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sirapob/torto_ws/build/torto_hardware/build
+[5.156s] Invoking command in '/home/sirapob/torto_ws/src/torto_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/torto_hardware build --build-base /home/sirapob/torto_ws/build/torto_hardware/build install --record /home/sirapob/torto_ws/build/torto_hardware/install.log --single-version-externally-managed install_data --force
+[5.939s] running egg_info
+[5.977s] writing ../../build/torto_hardware/torto_hardware.egg-info/PKG-INFO
+[6.031s] writing dependency_links to ../../build/torto_hardware/torto_hardware.egg-info/dependency_links.txt
+[6.031s] writing entry points to ../../build/torto_hardware/torto_hardware.egg-info/entry_points.txt
+[6.032s] writing requirements to ../../build/torto_hardware/torto_hardware.egg-info/requires.txt
+[6.035s] writing top-level names to ../../build/torto_hardware/torto_hardware.egg-info/top_level.txt
+[6.130s] reading manifest file '../../build/torto_hardware/torto_hardware.egg-info/SOURCES.txt'
+[6.134s] writing manifest file '../../build/torto_hardware/torto_hardware.egg-info/SOURCES.txt'
+[6.134s] running build
+[6.138s] running build_py
+[6.138s] copying torto_hardware/lidar_scan2cloud_node.py -> /home/sirapob/torto_ws/build/torto_hardware/build/lib/torto_hardware
+[6.141s] copying torto_hardware/arduino_serial_node.py -> /home/sirapob/torto_ws/build/torto_hardware/build/lib/torto_hardware
+[6.142s] running install
+[6.157s] running install_lib
+[6.233s] creating /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware
+[6.235s] copying /home/sirapob/torto_ws/build/torto_hardware/build/lib/torto_hardware/__init__.py -> /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware
+[6.236s] copying /home/sirapob/torto_ws/build/torto_hardware/build/lib/torto_hardware/lidar_scan2cloud_node.py -> /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware
+[6.236s] copying /home/sirapob/torto_ws/build/torto_hardware/build/lib/torto_hardware/arduino_serial_node.py -> /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware
+[6.238s] byte-compiling /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware/__init__.py to __init__.cpython-312.pyc
+[6.238s] byte-compiling /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware/lidar_scan2cloud_node.py to lidar_scan2cloud_node.cpython-312.pyc
+[6.241s] byte-compiling /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware/arduino_serial_node.py to arduino_serial_node.cpython-312.pyc
+[6.257s] running install_data
+[6.258s] copying resource/torto_hardware -> /home/sirapob/torto_ws/install/torto_hardware/share/ament_index/resource_index/packages
+[6.258s] copying package.xml -> /home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware
+[6.258s] running install_egg_info
+[6.329s] Copying ../../build/torto_hardware/torto_hardware.egg-info to /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto_hardware-0.0.0-py3.12.egg-info
+[6.330s] running install_scripts
+[6.814s] Installing arduino_serial_node script to /home/sirapob/torto_ws/install/torto_hardware/lib/torto_hardware
+[6.816s] Installing lidar_scan2cloud_node script to /home/sirapob/torto_ws/install/torto_hardware/lib/torto_hardware
+[6.818s] writing list of installed files to '/home/sirapob/torto_ws/build/torto_hardware/install.log'
+[7.515s] Invoked command in '/home/sirapob/torto_ws/src/torto_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/torto_hardware build --build-base /home/sirapob/torto_ws/build/torto_hardware/build install --record /home/sirapob/torto_ws/build/torto_hardware/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,73 @@
+[0.017s] Invoking command in '/home/sirapob/torto_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sirapob/torto_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/ydlidar_ros2_driver
+[0.090s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.833s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.905s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.068s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.082s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.108s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.053s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.076s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.533s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.942s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.178s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[3.257s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[3.337s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.638s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.653s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.653s] -- Configured cppcheck include dirs: /home/sirapob/torto_ws/src/ydlidar_ros2_driver/src
+[3.654s] -- Configured cppcheck exclude dirs and/or files: 
+[3.667s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.667s] -- Configured cpplint exclude dirs and/or files: 
+[3.670s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.672s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.675s] -- Added test 'lint_cmake' to check CMake code style
+[3.678s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.687s] -- Added test 'uncrustify' to check C / C++ code style
+[3.688s] -- Configured uncrustify additional arguments: 
+[3.691s] -- Added test 'xmllint' to check XML markup files
+[3.699s] -- Configuring done (3.6s)
+[3.824s] -- Generating done (0.1s)
+[3.853s] -- Build files have been written to: /home/sirapob/torto_ws/build/ydlidar_ros2_driver
+[3.880s] Invoked command in '/home/sirapob/torto_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sirapob/torto_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/ydlidar_ros2_driver
+[3.884s] Invoking command in '/home/sirapob/torto_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapob/torto_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[4.161s] [ 50%] Built target ydlidar_ros2_driver_node
+[4.169s] [100%] Built target ydlidar_ros2_driver_client
+[4.219s] Invoked command in '/home/sirapob/torto_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapob/torto_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[4.233s] Invoking command in '/home/sirapob/torto_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sirapob/torto_ws/build/ydlidar_ros2_driver
+[4.255s] -- Install configuration: ""
+[4.257s] -- Execute custom install script
+[4.258s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[4.258s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[4.262s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[4.262s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[4.262s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[4.262s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[4.262s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[4.267s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[4.267s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[4.267s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[4.267s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[4.267s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[4.267s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[4.268s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[4.268s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[4.268s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[4.273s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[4.274s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[4.274s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[4.274s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[4.274s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[4.274s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[4.274s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[4.280s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[4.280s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[4.280s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[4.280s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[4.280s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[4.281s] -- Symlinking: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[4.309s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[4.310s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[4.310s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[4.310s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[4.315s] Invoked command in '/home/sirapob/torto_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sirapob/torto_ws/build/ydlidar_ros2_driver

@@ -1,0 +1,44 @@
+[2.856s] Invoking command in '/home/sirapob/torto_ws/build/torto_input_handle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_input_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sirapob/torto_ws/build/torto_input_handle/build
+[3.847s] running develop
+[4.315s] Removing /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto-input-handle.egg-link (link to .)
+[4.975s] Invoked command in '/home/sirapob/torto_ws/build/torto_input_handle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_input_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sirapob/torto_ws/build/torto_input_handle/build
+[4.978s] Invoking command in '/home/sirapob/torto_ws/src/torto_input_handle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_input_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/torto_input_handle build --build-base /home/sirapob/torto_ws/build/torto_input_handle/build install --record /home/sirapob/torto_ws/build/torto_input_handle/install.log --single-version-externally-managed install_data --force
+[5.565s] running egg_info
+[5.600s] writing ../../build/torto_input_handle/torto_input_handle.egg-info/PKG-INFO
+[5.600s] writing dependency_links to ../../build/torto_input_handle/torto_input_handle.egg-info/dependency_links.txt
+[5.603s] writing entry points to ../../build/torto_input_handle/torto_input_handle.egg-info/entry_points.txt
+[5.603s] writing requirements to ../../build/torto_input_handle/torto_input_handle.egg-info/requires.txt
+[5.612s] writing top-level names to ../../build/torto_input_handle/torto_input_handle.egg-info/top_level.txt
+[5.719s] reading manifest file '../../build/torto_input_handle/torto_input_handle.egg-info/SOURCES.txt'
+[5.721s] writing manifest file '../../build/torto_input_handle/torto_input_handle.egg-info/SOURCES.txt'
+[5.724s] running build
+[5.725s] running build_py
+[5.731s] creating /home/sirapob/torto_ws/build/torto_input_handle/build
+[5.731s] creating /home/sirapob/torto_ws/build/torto_input_handle/build/lib
+[5.731s] creating /home/sirapob/torto_ws/build/torto_input_handle/build/lib/torto_input_handle
+[5.731s] copying torto_input_handle/__init__.py -> /home/sirapob/torto_ws/build/torto_input_handle/build/lib/torto_input_handle
+[5.731s] copying torto_input_handle/ps5_ctrl_params_node.py -> /home/sirapob/torto_ws/build/torto_input_handle/build/lib/torto_input_handle
+[5.737s] creating /home/sirapob/torto_ws/build/torto_input_handle/build/lib/torto_input_handle/joystick
+[5.737s] copying torto_input_handle/joystick/__init__.py -> /home/sirapob/torto_ws/build/torto_input_handle/build/lib/torto_input_handle/joystick
+[5.737s] copying torto_input_handle/joystick/ps5_Button.py -> /home/sirapob/torto_ws/build/torto_input_handle/build/lib/torto_input_handle/joystick
+[5.737s] running install
+[5.745s] running install_lib
+[5.784s] creating /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle
+[5.785s] copying /home/sirapob/torto_ws/build/torto_input_handle/build/lib/torto_input_handle/__init__.py -> /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle
+[5.785s] creating /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle/joystick
+[5.785s] copying /home/sirapob/torto_ws/build/torto_input_handle/build/lib/torto_input_handle/joystick/__init__.py -> /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle/joystick
+[5.785s] copying /home/sirapob/torto_ws/build/torto_input_handle/build/lib/torto_input_handle/joystick/ps5_Button.py -> /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle/joystick
+[5.785s] copying /home/sirapob/torto_ws/build/torto_input_handle/build/lib/torto_input_handle/ps5_ctrl_params_node.py -> /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle
+[5.791s] byte-compiling /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle/__init__.py to __init__.cpython-312.pyc
+[5.792s] byte-compiling /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle/joystick/__init__.py to __init__.cpython-312.pyc
+[5.792s] byte-compiling /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle/joystick/ps5_Button.py to ps5_Button.cpython-312.pyc
+[5.792s] byte-compiling /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle/ps5_ctrl_params_node.py to ps5_ctrl_params_node.cpython-312.pyc
+[5.813s] running install_data
+[5.813s] copying resource/torto_input_handle -> /home/sirapob/torto_ws/install/torto_input_handle/share/ament_index/resource_index/packages
+[5.814s] copying package.xml -> /home/sirapob/torto_ws/install/torto_input_handle/share/torto_input_handle
+[5.814s] running install_egg_info
+[5.860s] Copying ../../build/torto_input_handle/torto_input_handle.egg-info to /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle-0.0.0-py3.12.egg-info
+[5.865s] running install_scripts
+[6.146s] Installing ps5_ctrl_params_node script to /home/sirapob/torto_ws/install/torto_input_handle/lib/torto_input_handle
+[6.148s] writing list of installed files to '/home/sirapob/torto_ws/build/torto_input_handle/install.log'
+[6.342s] Invoked command in '/home/sirapob/torto_ws/src/torto_input_handle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_input_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/torto_input_handle build --build-base /home/sirapob/torto_ws/build/torto_input_handle/build install --record /home/sirapob/torto_ws/build/torto_input_handle/install.log --single-version-externally-managed install_data --force

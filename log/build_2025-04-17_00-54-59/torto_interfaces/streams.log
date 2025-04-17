@@ -1,0 +1,157 @@
+[0.051s] Invoking command in '/home/sirapob/torto_ws/build/torto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sirapob/torto_ws/src/torto_interfaces -DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/torto_interfaces
+[0.825s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.826s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.826s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.827s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.827s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.827s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.827s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.195s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.413s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.675s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.707s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.261s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.306s] -- Configuring done (2.2s)
+[2.436s] -- Generating done (0.1s)
+[2.466s] -- Build files have been written to: /home/sirapob/torto_ws/build/torto_interfaces
+[2.482s] Invoked command in '/home/sirapob/torto_ws/build/torto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sirapob/torto_ws/src/torto_interfaces -DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/torto_interfaces
+[2.486s] Invoking command in '/home/sirapob/torto_ws/build/torto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapob/torto_ws/build/torto_interfaces -- -j4 -l4
+[2.599s] [  2%] Built target torto_interfaces__rosidl_generator_type_description
+[2.630s] [  2%] Built target ament_cmake_python_symlink_torto_interfaces
+[2.690s] [  4%] Built target torto_interfaces__cpp
+[2.764s] [ 22%] Built target torto_interfaces__rosidl_generator_c
+[2.910s] [ 31%] Built target torto_interfaces__rosidl_typesupport_c
+[2.974s] [ 40%] Built target torto_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.977s] [ 50%] Built target torto_interfaces__rosidl_typesupport_introspection_cpp
+[3.032s] [ 59%] Built target torto_interfaces__rosidl_typesupport_cpp
+[3.083s] [ 68%] Built target torto_interfaces__rosidl_typesupport_fastrtps_c
+[3.088s] [ 77%] Built target torto_interfaces__rosidl_typesupport_introspection_c
+[3.161s] [ 77%] Built target torto_interfaces
+[3.215s] [ 79%] Built target torto_interfaces__py
+[3.229s] running egg_info
+[3.271s] writing torto_interfaces.egg-info/PKG-INFO
+[3.272s] writing dependency_links to torto_interfaces.egg-info/dependency_links.txt
+[3.272s] writing top-level names to torto_interfaces.egg-info/top_level.txt
+[3.330s] [ 86%] Built target torto_interfaces__rosidl_generator_py
+[3.454s] [ 90%] Built target torto_interfaces_s__rosidl_typesupport_fastrtps_c
+[3.469s] [ 95%] Built target torto_interfaces_s__rosidl_typesupport_c
+[3.469s] [100%] Built target torto_interfaces_s__rosidl_typesupport_introspection_c
+[3.496s] reading manifest file 'torto_interfaces.egg-info/SOURCES.txt'
+[3.499s] writing manifest file 'torto_interfaces.egg-info/SOURCES.txt'
+[3.706s] [100%] Built target ament_cmake_python_build_torto_interfaces_egg
+[3.761s] Invoked command in '/home/sirapob/torto_ws/build/torto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapob/torto_ws/build/torto_interfaces -- -j4 -l4
+[3.806s] Invoking command in '/home/sirapob/torto_ws/build/torto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sirapob/torto_ws/build/torto_interfaces
+[3.839s] -- Install configuration: ""
+[3.847s] -- Execute custom install script
+[3.847s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/ament_index/resource_index/rosidl_interfaces/torto_interfaces
+[3.847s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/msg/TortoJointAngles.json
+[3.851s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/msg/TortoCtrlParams.json
+[3.851s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__functions.h
+[3.852s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__struct.h
+[3.852s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__type_support.h
+[3.853s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__functions.h
+[3.854s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__struct.h
+[3.856s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__type_support.h
+[3.856s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.864s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/torto_ctrl_params.h
+[3.864s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/torto_joint_angles.h
+[3.864s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/library_path.sh
+[3.864s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/library_path.dsv
+[3.864s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__rosidl_typesupport_fastrtps_c.h
+[3.864s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_c.h
+[3.864s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.865s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__rosidl_typesupport_introspection_c.h
+[3.865s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_introspection_c.h
+[3.865s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.865s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__builder.hpp
+[3.865s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__struct.hpp
+[3.865s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__traits.hpp
+[3.865s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__type_support.hpp
+[3.865s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__builder.hpp
+[3.865s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__struct.hpp
+[3.865s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__traits.hpp
+[3.866s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__type_support.hpp
+[3.866s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.866s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/torto_ctrl_params.hpp
+[3.866s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/torto_joint_angles.hpp
+[3.867s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__rosidl_typesupport_fastrtps_cpp.hpp
+[3.870s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[3.872s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.872s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__rosidl_typesupport_introspection_cpp.hpp
+[3.873s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_introspection_cpp.hpp
+[3.873s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/pythonpath.sh
+[3.873s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/pythonpath.dsv
+[3.873s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[3.873s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.877s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.877s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[3.877s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/__init__.py
+[3.877s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_c.c
+[3.877s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.880s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.880s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/msg/__init__.py
+[3.880s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/msg/_torto_ctrl_params.py
+[3.880s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/msg/_torto_ctrl_params_s.c
+[3.880s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/msg/_torto_joint_angles.py
+[3.880s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/msg/_torto_joint_angles_s.c
+[3.880s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_c.so
+[3.880s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.880s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.881s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.886s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.886s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_c.so
+[3.886s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/msg/TortoJointAngles.idl
+[3.886s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/msg/TortoCtrlParams.idl
+[3.886s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/msg/TortoJointAngles.msg
+[3.886s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/msg/TortoCtrlParams.msg
+[3.886s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/ament_index/resource_index/package_run_dependencies/torto_interfaces
+[3.887s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/ament_index/resource_index/parent_prefix_path/torto_interfaces
+[3.893s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/ament_prefix_path.sh
+[3.893s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/ament_prefix_path.dsv
+[3.893s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/path.sh
+[3.893s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/environment/path.dsv
+[3.893s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/local_setup.bash
+[3.893s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/local_setup.sh
+[3.893s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/local_setup.zsh
+[3.893s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/local_setup.dsv
+[3.894s] -- Symlinking: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/package.dsv
+[3.919s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/ament_index/resource_index/packages/torto_interfaces
+[3.919s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.919s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.919s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.919s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.920s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.920s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.920s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.924s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfacesConfig.cmake
+[3.927s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfacesConfig-version.cmake
+[3.927s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/package.xml
+[3.927s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_generator_c.so
+[3.927s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.927s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_introspection_c.so
+[3.927s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_c.so
+[3.927s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.928s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.928s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_cpp.so
+[4.016s] Listing '/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces'...
+[4.016s] Compiling '/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/__init__.py'...
+[4.016s] Listing '/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages/torto_interfaces/msg'...
+[4.040s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/lib/libtorto_interfaces__rosidl_generator_py.so
+[4.041s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_cExport.cmake
+[4.041s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.041s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.042s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.042s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.042s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.046s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_cExport.cmake
+[4.046s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.049s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_cppExport.cmake
+[4.049s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.049s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.049s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.049s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.049s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_cppExport.cmake
+[4.050s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.050s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_pyExport.cmake
+[4.050s] -- Up-to-date: /home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.056s] Invoked command in '/home/sirapob/torto_ws/build/torto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sirapob/torto_ws/build/torto_interfaces

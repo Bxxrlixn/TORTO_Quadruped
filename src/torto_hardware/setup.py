@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "arduino_serial_node = torto_hardware.arduino_serial_node:main"
+            "arduino_serial_node = torto_hardware.arduino_serial_node:main",
+            "lidar_scan2cloud_node = torto_hardware.lidar_scan2cloud_node:main"
         ],
     },
 )

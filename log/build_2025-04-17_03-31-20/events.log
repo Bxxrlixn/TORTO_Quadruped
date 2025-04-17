@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000299] (-) JobUnselected: {'identifier': 'torto_ctrl'}
+[0.000505] (-) JobUnselected: {'identifier': 'torto_hardware'}
+[0.000809] (-) JobUnselected: {'identifier': 'torto_input_handle'}
+[0.000968] (-) JobUnselected: {'identifier': 'torto_interfaces'}
+[0.000990] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.001218] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.001245] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.014623] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.016697] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '/home/sirapob/torto_ws/src/lio_sam_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/lio_sam'], 'cwd': '/home/sirapob/torto_ws/build/lio_sam', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sirapob', 'SSH_CLIENT': '192.168.100.10 52840 22', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sirapob/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/sirapob/torto_ws/install/torto_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/sirapob/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh', 'HOME': '/home/sirapob', 'OLDPWD': '/home/sirapob/torto_ws', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-b0b71366-a4da-4951-abfd-4ed5911717b6.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sirapob/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/sirapob/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/sirapob/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/sirapob/torto_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sirapob', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/sirapob/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sirapob/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'th_TH.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/sirapob/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5b982ea67da8c534.txt', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'th_TH.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-264dda74a6.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sirapob/torto_ws/install/ydlidar_ros2_driver:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_interfaces:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sirapob/torto_ws/build/lio_sam', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.100.10 52840 192.168.100.16 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages:/home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages:/home/sirapob/torto_ws/build/torto_hardware:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sirapob/torto_ws/install/ydlidar_ros2_driver:/home/sirapob/torto_ws/install/torto_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy'}), 'shell': False}
+[0.043990] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099681] (-) TimerEvent: {}
+[0.200046] (-) TimerEvent: {}
+[0.300386] (-) TimerEvent: {}
+[0.380308] (lio_sam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.390860] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.395237] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400446] (-) TimerEvent: {}
+[0.443842] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.484435] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.486713] (lio_sam) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.500522] (-) TimerEvent: {}
+[0.575921] (lio_sam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.578383] (lio_sam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600649] (-) TimerEvent: {}
+[0.675054] (lio_sam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700766] (-) TimerEvent: {}
+[0.758150] (lio_sam) StdoutLine: {'line': b'-- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[0.758491] (lio_sam) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[0.800855] (-) TimerEvent: {}
+[0.847666] (lio_sam) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.879975] (lio_sam) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[0.900962] (-) TimerEvent: {}
+[0.916188] (lio_sam) StdoutLine: {'line': b'-- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)\n'}
+[0.984536] (lio_sam) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[0.984890] (lio_sam) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[0.985014] (lio_sam) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[0.985110] (lio_sam) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.985204] (lio_sam) StderrLine: {'line': b'\n'}
+[0.985293] (lio_sam) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[0.985380] (lio_sam) StderrLine: {'line': b'\n'}
+[0.985464] (lio_sam) StderrLine: {'line': b'    /usr\n'}
+[0.985550] (lio_sam) StderrLine: {'line': b'\n'}
+[0.985690] (lio_sam) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[0.985805] (lio_sam) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[0.985899] (lio_sam) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.985984] (lio_sam) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[0.986068] (lio_sam) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[0.986153] (lio_sam) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[0.986239] (lio_sam) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.986323] (lio_sam) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.986410] (lio_sam) StderrLine: {'line': b'  CMakeLists.txt:20 (find_package)\n'}
+[0.986492] (lio_sam) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.986575] (lio_sam) StderrLine: {'line': b'\x1b[0m\n'}
+[0.986658] (lio_sam) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[1.001038] (-) TimerEvent: {}
+[1.101361] (-) TimerEvent: {}
+[1.201759] (-) TimerEvent: {}
+[1.302134] (-) TimerEvent: {}
+[1.402501] (-) TimerEvent: {}
+[1.502953] (-) TimerEvent: {}
+[1.603339] (-) TimerEvent: {}
+[1.614537] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.625473] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.629596] (lio_sam) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[1.703452] (-) TimerEvent: {}
+[1.803837] (-) TimerEvent: {}
+[1.904228] (-) TimerEvent: {}
+[2.004627] (-) TimerEvent: {}
+[2.105002] (-) TimerEvent: {}
+[2.205351] (-) TimerEvent: {}
+[2.263050] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.273816] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.305462] (-) TimerEvent: {}
+[2.405834] (-) TimerEvent: {}
+[2.506310] (-) TimerEvent: {}
+[2.606868] (-) TimerEvent: {}
+[2.707218] (-) TimerEvent: {}
+[2.807624] (-) TimerEvent: {}
+[2.867143] (lio_sam) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.907738] (-) TimerEvent: {}
+[3.008119] (-) TimerEvent: {}
+[3.108549] (-) TimerEvent: {}
+[3.208965] (-) TimerEvent: {}
+[3.309302] (-) TimerEvent: {}
+[3.409708] (-) TimerEvent: {}
+[3.474242] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.509790] (-) TimerEvent: {}
+[3.610116] (-) TimerEvent: {}
+[3.710589] (-) TimerEvent: {}
+[3.811056] (-) TimerEvent: {}
+[3.911415] (-) TimerEvent: {}
+[4.011779] (-) TimerEvent: {}
+[4.081050] (lio_sam) StdoutLine: {'line': b'-- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[4.086393] (lio_sam) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[4.091473] (lio_sam) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[4.093609] (lio_sam) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.111845] (-) TimerEvent: {}
+[4.212126] (-) TimerEvent: {}
+[4.230232] (lio_sam) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)\n'}
+[4.235657] (lio_sam) StdoutLine: {'line': b'-- Found tf2_eigen: 0.36.8 (/opt/ros/jazzy/share/tf2_eigen/cmake)\n'}
+[4.246543] (lio_sam) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:29 (find_package):\n'}
+[4.246833] (lio_sam) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[4.246950] (lio_sam) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[4.247043] (lio_sam) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[4.247133] (lio_sam) StderrLine: {'line': b'\n'}
+[4.247217] (lio_sam) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[4.247302] (lio_sam) StderrLine: {'line': b'\n'}
+[4.247385] (lio_sam) StderrLine: {'line': b'    /usr\n'}
+[4.247468] (lio_sam) StderrLine: {'line': b'\n'}
+[4.247547] (lio_sam) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[4.247626] (lio_sam) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.247708] (lio_sam) StderrLine: {'line': b'\x1b[0m\n'}
+[4.284232] (lio_sam) StdoutLine: {'line': b'-- GTSAM include directory:  /opt/ros/jazzy/lib/cmake/GTSAM/../../../include\n'}
+[4.292817] (lio_sam) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:31 (find_package):\n'}
+[4.293032] (lio_sam) StderrLine: {'line': b'  By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[4.293183] (lio_sam) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "Eigen", but\n'}
+[4.293293] (lio_sam) StderrLine: {'line': b'  CMake did not find one.\n'}
+[4.293376] (lio_sam) StderrLine: {'line': b'\n'}
+[4.293454] (lio_sam) StderrLine: {'line': b'  Could not find a package configuration file provided by "Eigen" with any of\n'}
+[4.293533] (lio_sam) StderrLine: {'line': b'  the following names:\n'}
+[4.293610] (lio_sam) StderrLine: {'line': b'\n'}
+[4.293687] (lio_sam) StderrLine: {'line': b'    EigenConfig.cmake\n'}
+[4.293780] (lio_sam) StderrLine: {'line': b'    eigen-config.cmake\n'}
+[4.293869] (lio_sam) StderrLine: {'line': b'\n'}
+[4.293947] (lio_sam) StderrLine: {'line': b'  Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set\n'}
+[4.294024] (lio_sam) StderrLine: {'line': b'  "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"\n'}
+[4.294102] (lio_sam) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[4.294184] (lio_sam) StderrLine: {'line': b'  installed.\n'}
+[4.294276] (lio_sam) StderrLine: {'line': b'\n'}
+[4.294352] (lio_sam) StderrLine: {'line': b'\x1b[0m\n'}
+[4.294429] (lio_sam) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.312262] (-) TimerEvent: {}
+[4.335888] (lio_sam) CommandEnded: {'returncode': 1}
+[4.375979] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 1}
+[4.386828] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+{
+  "package_name": "torto_interfaces",
+  "output_dir": "/home/sirapob/torto_ws/src/build/torto_interfaces/rosidl_generator_type_description/torto_interfaces",
+  "idl_tuples": [
+    "/home/sirapob/torto_ws/src/build/torto_interfaces/rosidl_adapter/torto_interfaces:msg/TortoJointAngles.idl",
+    "/home/sirapob/torto_ws/src/build/torto_interfaces/rosidl_adapter/torto_interfaces:msg/TortoCtrlParams.idl"
+  ]
+}

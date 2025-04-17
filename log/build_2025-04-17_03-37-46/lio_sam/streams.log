@@ -1,0 +1,160 @@
+[0.018s] Invoking command in '/home/sirapob/torto_ws/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sirapob/torto_ws/src/lio_sam_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/lio_sam
+[0.042s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.084s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.209s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.219s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.224s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.309s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.311s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.395s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.397s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.489s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.571s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.572s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.661s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.693s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.728s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[0.794s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.795s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.795s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.795s]   cmake_policy command to set the policy and suppress this warning.
+[0.795s] 
+[0.795s]   CMake variable FLANN_ROOT is set to:
+[0.795s] 
+[0.795s]     /usr
+[0.795s] 
+[0.795s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.795s]   .cmake module might still use it.
+[0.795s] Call Stack (most recent call first):
+[0.796s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.796s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.796s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.796s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.796s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.796s]   CMakeLists.txt:20 (find_package)
+[0.796s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.796s] [0m
+[0.798s] -- Found flann version 1.9.2
+[0.799s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[1.416s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.427s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.431s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.067s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.077s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.659s] -- Found Qhull version 8.0.2
+[3.262s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.883s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[3.883s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[3.883s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.884s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.013s] -- Found tf2_sensor_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)
+[4.018s] -- Found tf2_eigen: 0.36.8 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[4.029s] [33mCMake Warning (dev) at CMakeLists.txt:29 (find_package):
+[4.029s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[4.029s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[4.029s]   command to set the policy and suppress this warning.
+[4.029s] 
+[4.029s]   CMake variable PCL_ROOT is set to:
+[4.029s] 
+[4.030s]     /usr
+[4.030s] 
+[4.030s]   For compatibility, CMake is ignoring the variable.
+[4.030s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.030s] [0m
+[4.066s] -- GTSAM include directory:  /opt/ros/jazzy/lib/cmake/GTSAM/../../../include
+[4.071s] -- Found OpenMP: TRUE (found version "4.5")  
+[4.586s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.922s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.364s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.819s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.081s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.119s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.125s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.128s] -- Configured cppcheck include dirs: /home/sirapob/torto_ws/src/lio_sam_ros2/include/lio_sam
+[6.129s] -- Configured cppcheck exclude dirs and/or files: 
+[6.134s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.135s] -- Configured cpplint exclude dirs and/or files: 
+[6.136s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.136s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.138s] -- Added test 'lint_cmake' to check CMake code style
+[6.140s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.145s] -- Added test 'uncrustify' to check C / C++ code style
+[6.146s] -- Configured uncrustify additional arguments: 
+[6.147s] -- Added test 'xmllint' to check XML markup files
+[6.152s] -- Configuring done (6.1s)
+[6.599s] -- Generating done (0.4s)
+[6.646s] -- Build files have been written to: /home/sirapob/torto_ws/build/lio_sam
+[6.700s] Invoked command in '/home/sirapob/torto_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sirapob/torto_ws/src/lio_sam_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/lio_sam
+[6.703s] Invoking command in '/home/sirapob/torto_ws/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapob/torto_ws/build/lio_sam -- -j4 -l4
+[6.805s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.823s] [  1%] Built target ament_cmake_python_symlink_lio_sam
+[7.141s] running egg_info
+[7.142s] creating lio_sam.egg-info
+[7.168s] writing lio_sam.egg-info/PKG-INFO
+[7.169s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[7.169s] writing top-level names to lio_sam.egg-info/top_level.txt
+[7.169s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[7.252s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[7.253s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[7.268s] [  1%] Built target lio_sam__rosidl_generator_type_description
+[7.289s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.315s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.347s] [  5%] Built target ament_cmake_python_build_lio_sam_egg
+[8.015s] [  5%] Built target lio_sam__cpp
+[8.080s] [  9%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__description.c.o[0m
+[8.080s] [  9%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__type_support.c.o[0m
+[8.082s] [ 11%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__description.c.o[0m
+[8.082s] [ 13%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__functions.c.o[0m
+[8.172s] [ 15%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__functions.c.o[0m
+[8.227s] [ 17%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__type_support.c.o[0m
+[8.502s] [ 19%] [32m[1mLinking C shared library liblio_sam__rosidl_generator_c.so[0m
+[8.588s] [ 19%] Built target lio_sam__rosidl_generator_c
+[8.612s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.613s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.613s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.613s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.284s] [ 28%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/msg/cloud_info__type_support.cpp.o[0m
+[9.284s] [ 30%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/msg/cloud_info__type_support.cpp.o[0m
+[9.352s] [ 32%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/msg/detail/cloud_info__type_support.c.o[0m
+[9.408s] [ 34%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/srv/save_map__type_support.cpp.o[0m
+[9.512s] [ 36%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/msg/detail/cloud_info__type_support_c.cpp.o[0m
+[9.542s] [ 38%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_c.so[0m
+[9.549s] [ 40%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/srv/detail/save_map__type_support.c.o[0m
+[9.644s] [ 40%] Built target lio_sam__rosidl_typesupport_c
+[9.667s] [ 42%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/srv/save_map__type_support.cpp.o[0m
+[9.727s] [ 44%] [32m[1mLinking C shared library liblio_sam__rosidl_typesupport_introspection_c.so[0m
+[9.867s] [ 44%] Built target lio_sam__rosidl_typesupport_introspection_c
+[9.892s] [ 46%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.083s] [ 48%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/srv/detail/save_map__type_support_c.cpp.o[0m
+[10.755s] [ 50%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_cpp.so[0m
+[10.907s] [ 51%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o[0m
+[10.982s] [ 53%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.993s] [ 53%] Built target lio_sam__rosidl_typesupport_cpp
+[11.012s] [ 55%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[11.627s] [ 57%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_c.so[0m
+[11.850s] [ 59%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/msg/detail/cloud_info__type_support.cpp.o[0m
+[11.864s] [ 59%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[11.887s] [ 61%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/srv/detail/save_map__type_support.cpp.o[0m
+[13.049s] [ 63%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.071s] [ 65%] [32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o[0m
+[13.096s] [ 67%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[13.185s] [ 69%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_introspection_cpp.so[0m
+[13.264s] [ 69%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[13.323s] [ 71%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[13.377s] [ 71%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[13.417s] [ 73%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+[73.368s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[73.378s] compilation terminated.
+[73.379s] gmake[2]: *** [CMakeFiles/lio_sam_imuPreintegration.dir/build.make:76: CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o] Error 1
+[73.379s] gmake[1]: *** [CMakeFiles/Makefile2:687: CMakeFiles/lio_sam_imuPreintegration.dir/all] Error 2
+[73.379s] gmake[1]: *** Waiting for unfinished jobs....
+[89.469s] [ 75%] [32m[1mLinking CXX executable lio_sam_featureExtraction[0m
+[92.755s] [ 75%] Built target lio_sam_featureExtraction
+[103.985s] [ 76%] [32m[1mLinking CXX executable lio_sam_imageProjection[0m
+[105.716s] [ 76%] Built target lio_sam_imageProjection
+[145.168s] [ 78%] [32m[1mLinking CXX executable lio_sam_mapOptimization[0m
+[148.088s] [ 78%] Built target lio_sam_mapOptimization
+[148.092s] gmake: *** [Makefile:146: all] Error 2
+[148.141s] Invoked command in '/home/sirapob/torto_ws/build/lio_sam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapob/torto_ws/build/lio_sam -- -j4 -l4

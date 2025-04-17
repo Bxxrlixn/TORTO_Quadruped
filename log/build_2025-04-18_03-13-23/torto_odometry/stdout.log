@@ -1,0 +1,33 @@
+running develop
+Removing /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto-odometry.egg-link (link to .)
+running egg_info
+writing ../../build/torto_odometry/torto_odometry.egg-info/PKG-INFO
+writing dependency_links to ../../build/torto_odometry/torto_odometry.egg-info/dependency_links.txt
+writing entry points to ../../build/torto_odometry/torto_odometry.egg-info/entry_points.txt
+writing requirements to ../../build/torto_odometry/torto_odometry.egg-info/requires.txt
+writing top-level names to ../../build/torto_odometry/torto_odometry.egg-info/top_level.txt
+reading manifest file '../../build/torto_odometry/torto_odometry.egg-info/SOURCES.txt'
+writing manifest file '../../build/torto_odometry/torto_odometry.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sirapob/torto_ws/build/torto_odometry/build
+creating /home/sirapob/torto_ws/build/torto_odometry/build/lib
+creating /home/sirapob/torto_ws/build/torto_odometry/build/lib/torto_odometry
+copying torto_odometry/__init__.py -> /home/sirapob/torto_ws/build/torto_odometry/build/lib/torto_odometry
+copying torto_odometry/odom_depen_on_imu_node.py -> /home/sirapob/torto_ws/build/torto_odometry/build/lib/torto_odometry
+running install
+running install_lib
+creating /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto_odometry
+copying /home/sirapob/torto_ws/build/torto_odometry/build/lib/torto_odometry/__init__.py -> /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto_odometry
+copying /home/sirapob/torto_ws/build/torto_odometry/build/lib/torto_odometry/odom_depen_on_imu_node.py -> /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto_odometry
+byte-compiling /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto_odometry/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto_odometry/odom_depen_on_imu_node.py to odom_depen_on_imu_node.cpython-312.pyc
+running install_data
+copying resource/torto_odometry -> /home/sirapob/torto_ws/install/torto_odometry/share/ament_index/resource_index/packages
+copying package.xml -> /home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry
+copying launch/torto_main_tf.launch.py -> /home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/launch
+running install_egg_info
+Copying ../../build/torto_odometry/torto_odometry.egg-info to /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto_odometry-0.0.0-py3.12.egg-info
+running install_scripts
+Installing odom_depen_on_imu_node script to /home/sirapob/torto_ws/install/torto_odometry/lib/torto_odometry
+writing list of installed files to '/home/sirapob/torto_ws/build/torto_odometry/install.log'

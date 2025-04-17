@@ -1,0 +1,24 @@
+[1.707s] Invoking command in '/home/sirapob/torto_ws/build/torto_odometry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_odometry/build --no-deps symlink_data
+[2.176s] running develop
+[2.451s] running egg_info
+[2.452s] creating torto_odometry.egg-info
+[2.477s] writing torto_odometry.egg-info/PKG-INFO
+[2.477s] writing dependency_links to torto_odometry.egg-info/dependency_links.txt
+[2.478s] writing entry points to torto_odometry.egg-info/entry_points.txt
+[2.478s] writing requirements to torto_odometry.egg-info/requires.txt
+[2.478s] writing top-level names to torto_odometry.egg-info/top_level.txt
+[2.478s] writing manifest file 'torto_odometry.egg-info/SOURCES.txt'
+[2.530s] reading manifest file 'torto_odometry.egg-info/SOURCES.txt'
+[2.531s] writing manifest file 'torto_odometry.egg-info/SOURCES.txt'
+[2.558s] running build_ext
+[2.559s] Creating /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto-odometry.egg-link (link to .)
+[2.559s] Installing odom_depen_on_imu_node script to /home/sirapob/torto_ws/install/torto_odometry/lib/torto_odometry
+[2.560s] 
+[2.560s] Installed /home/sirapob/torto_ws/build/torto_odometry
+[2.560s] running symlink_data
+[2.560s] creating /home/sirapob/torto_ws/install/torto_odometry/share/ament_index
+[2.560s] creating /home/sirapob/torto_ws/install/torto_odometry/share/ament_index/resource_index
+[2.560s] creating /home/sirapob/torto_ws/install/torto_odometry/share/ament_index/resource_index/packages
+[2.560s] symbolically linking /home/sirapob/torto_ws/build/torto_odometry/resource/torto_odometry -> /home/sirapob/torto_ws/install/torto_odometry/share/ament_index/resource_index/packages
+[2.561s] symbolically linking /home/sirapob/torto_ws/build/torto_odometry/package.xml -> /home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry
+[2.651s] Invoked command in '/home/sirapob/torto_ws/build/torto_odometry' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_odometry/build --no-deps symlink_data

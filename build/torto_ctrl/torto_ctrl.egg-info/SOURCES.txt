@@ -24,4 +24,4 @@ torto_ctrl/kinematic_model/__init__.py
 torto_ctrl/kinematic_model/adaptive_limb.py
 torto_ctrl/kinematic_model/inverse_kinematic.py
 torto_ctrl/kinematic_model/transform_RT.py
-torto_ctrl/kinematic_model/transformationBody_model.py
+torto_ctrl/kinematic_model/transformation_model.py

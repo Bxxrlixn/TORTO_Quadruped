@@ -3,13 +3,8 @@
 import numpy as np
 from torto_ctrl.kinematic_model.transform_RT import tortoTransform
 from torto_ctrl.kinematic_model.inverse_kinematic import InverseKinematic
-import sys
 
-    #####################################################################################
-    #####   kinematics Model: Input body orientation, deviation and foot position    ####
-    #####   and get the angles, neccesary to reach that position, for every joint    ####
-
-class tortoTransformation_model():
+class tortoTransformationModel():
     def __init__(self):
 
         self.ik = InverseKinematic()
@@ -36,7 +31,6 @@ class tortoTransformation_model():
         body_FootFL = np.asarray([body_Foot[1][0],body_Foot[1][1],body_Foot[1][2]])
         body_FootBR = np.asarray([body_Foot[2][0],body_Foot[2][1],body_Foot[2][2]])
         body_FootBL = np.asarray([body_Foot[3][0],body_Foot[3][1],body_Foot[3][2]])
-
         # defines vertices which transform with body
         shifted_body_DetoidFR = self.tortoTransform.transform(self.body_DetoidFR , orientation, position) 
         shifted_body_DetoidFL = self.tortoTransform.transform(self.body_DetoidFL , orientation, position)
@@ -60,14 +54,14 @@ class tortoTransformation_model():
         angles_BR = self.ik.calculate_angles(BRcoordinate[0], BRcoordinate[1], BRcoordinate[2], "BR")
         angles_BL = self.ik.calculate_angles(BLcoordinate[0], BLcoordinate[1], BLcoordinate[2], "BL")
         
+        nBody_footFR =  shifted_body_DetoidFR + FRcoordinate
+        nBody_footFL = shifted_body_DetoidFL + FLcoordinate
+        nBody_footBR = shifted_body_DetoidBR + BRcoordinate
+        nBody_footBL = shifted_body_DetoidBL + BLcoordinate
 
-        _bodytofeetFR =  shifted_body_DetoidFR + FRcoordinate
-        _bodytofeetFL = shifted_body_DetoidFR + FLcoordinate
-        _bodytofeetBR = shifted_body_DetoidFR + BRcoordinate
-        _bodytofeetBL = shifted_body_DetoidFR + BLcoordinate
-        _bodytofeet = np.matrix([[_bodytofeetFR[0] , _bodytofeetFR[1] , _bodytofeetFR[2]],
-                                [_bodytofeetFL[0] , _bodytofeetFL[1] , _bodytofeetFL[2]],
-                                [_bodytofeetBR[0] , _bodytofeetBR[1] , _bodytofeetBR[2]],
-                                [_bodytofeetBL[0] , _bodytofeetBL[1] , _bodytofeetBL[2]]])
-            
-        return angles_FR, angles_FL, angles_BR, angles_BL , _bodytofeet
+        nbody_foot = np.asarray([[nBody_footFR[0] , nBody_footFR[1] , nBody_footFR[2]],
+                                [nBody_footFL[0] , nBody_footFL[1] , nBody_footFL[2]],
+                                [nBody_footBR[0] , nBody_footBR[1] , nBody_footBR[2]],
+                                [nBody_footBL[0] , nBody_footBL[1] , nBody_footBL[2]]])
+
+        return angles_FR, angles_FL, angles_BR, angles_BL , nbody_foot

@@ -1,0 +1,32 @@
+running develop
+Removing /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto-input-handle.egg-link (link to .)
+running egg_info
+writing ../../build/torto_input_handle/torto_input_handle.egg-info/PKG-INFO
+writing dependency_links to ../../build/torto_input_handle/torto_input_handle.egg-info/dependency_links.txt
+writing entry points to ../../build/torto_input_handle/torto_input_handle.egg-info/entry_points.txt
+writing requirements to ../../build/torto_input_handle/torto_input_handle.egg-info/requires.txt
+writing top-level names to ../../build/torto_input_handle/torto_input_handle.egg-info/top_level.txt
+reading manifest file '../../build/torto_input_handle/torto_input_handle.egg-info/SOURCES.txt'
+writing manifest file '../../build/torto_input_handle/torto_input_handle.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle
+copying /home/sirapob/torto_ws/build/torto_input_handle/build/lib/torto_input_handle/__init__.py -> /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle
+creating /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle/joystick
+copying /home/sirapob/torto_ws/build/torto_input_handle/build/lib/torto_input_handle/joystick/__init__.py -> /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle/joystick
+copying /home/sirapob/torto_ws/build/torto_input_handle/build/lib/torto_input_handle/joystick/ps5_Button.py -> /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle/joystick
+copying /home/sirapob/torto_ws/build/torto_input_handle/build/lib/torto_input_handle/ps5_ctrl_params_node.py -> /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle
+byte-compiling /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle/joystick/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle/joystick/ps5_Button.py to ps5_Button.cpython-312.pyc
+byte-compiling /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle/ps5_ctrl_params_node.py to ps5_ctrl_params_node.cpython-312.pyc
+running install_data
+copying resource/torto_input_handle -> /home/sirapob/torto_ws/install/torto_input_handle/share/ament_index/resource_index/packages
+copying package.xml -> /home/sirapob/torto_ws/install/torto_input_handle/share/torto_input_handle
+running install_egg_info
+Copying ../../build/torto_input_handle/torto_input_handle.egg-info to /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto_input_handle-0.0.0-py3.12.egg-info
+running install_scripts
+Installing ps5_ctrl_params_node script to /home/sirapob/torto_ws/install/torto_input_handle/lib/torto_input_handle
+writing list of installed files to '/home/sirapob/torto_ws/build/torto_input_handle/install.log'

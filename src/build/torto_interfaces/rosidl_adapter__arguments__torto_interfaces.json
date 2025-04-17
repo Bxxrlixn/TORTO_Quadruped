@@ -1,0 +1,7 @@
+{
+  "package_name": "torto_interfaces",
+  "non_idl_tuples": [
+    "/home/sirapob/torto_ws/src/torto_interfaces:msg/TortoJointAngles.msg",
+    "/home/sirapob/torto_ws/src/torto_interfaces:msg/TortoCtrlParams.msg"
+  ]
+}

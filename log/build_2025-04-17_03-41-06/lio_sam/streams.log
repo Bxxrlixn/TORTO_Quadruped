@@ -1,0 +1,197 @@
+[0.026s] Invoking command in '/home/sirapob/torto_ws/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapob/torto_ws/build/lio_sam -- -j4 -l4
+[0.343s] [  1%] Built target lio_sam__rosidl_generator_type_description
+[0.356s] [  1%] Built target ament_cmake_python_symlink_lio_sam
+[0.394s] [  3%] Built target lio_sam__cpp
+[0.475s] [ 19%] Built target lio_sam__rosidl_generator_c
+[0.569s] [ 26%] Built target lio_sam__rosidl_typesupport_introspection_c
+[0.586s] [ 34%] Built target lio_sam__rosidl_typesupport_cpp
+[0.605s] [ 42%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[0.639s] [ 50%] Built target lio_sam__rosidl_typesupport_c
+[0.691s] [ 57%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[0.694s] [ 65%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[0.765s] [ 67%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[0.769s] running egg_info
+[0.797s] writing lio_sam.egg-info/PKG-INFO
+[0.798s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[0.798s] writing top-level names to lio_sam.egg-info/top_level.txt
+[0.884s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.891s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.963s] [ 67%] Built target ament_cmake_python_build_lio_sam_egg
+[1.318s] [ 76%] Built target lio_sam_imageProjection
+[1.318s] [ 76%] Built target lio_sam_featureExtraction
+[1.318s] [ 78%] Built target lio_sam_mapOptimization
+[1.360s] [ 78%] Built target lio_sam
+[1.405s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.449s] [ 80%] Built target lio_sam__py
+[2.497s] [ 84%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_py.dir/rosidl_generator_py/lio_sam/srv/_save_map_s.c.o[0m
+[2.497s] [ 84%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_py.dir/rosidl_generator_py/lio_sam/msg/_cloud_info_s.c.o[0m
+[3.532s] [ 86%] [32m[1mLinking C shared library liblio_sam__rosidl_generator_py.so[0m
+[3.656s] [ 86%] Built target lio_sam__rosidl_generator_py
+[3.714s] [ 88%] [32mBuilding C object CMakeFiles/lio_sam_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.714s] [ 90%] [32mBuilding C object CMakeFiles/lio_sam_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.714s] [ 92%] [32mBuilding C object CMakeFiles/lio_sam_s__rosidl_typesupport_c.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c.o[0m
+[4.050s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.053s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.so[0m
+[4.057s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_c.so[0m
+[4.138s] [ 98%] Built target lio_sam_s__rosidl_typesupport_fastrtps_c
+[4.140s] [ 98%] Built target lio_sam_s__rosidl_typesupport_c
+[4.144s] [ 98%] Built target lio_sam_s__rosidl_typesupport_introspection_c
+[62.295s] [100%] [32m[1mLinking CXX executable lio_sam_imuPreintegration[0m
+[64.098s] [100%] Built target lio_sam_imuPreintegration
+[64.122s] Invoked command in '/home/sirapob/torto_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapob/torto_ws/build/lio_sam -- -j4 -l4
+[64.149s] Invoking command in '/home/sirapob/torto_ws/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sirapob/torto_ws/build/lio_sam
+[64.171s] -- Install configuration: "Release"
+[64.173s] -- Execute custom install script
+[64.174s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam
+[64.192s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.json
+[64.209s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/srv/SaveMap.json
+[64.233s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h
+[64.252s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h
+[64.271s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h
+[64.290s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h
+[64.308s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h
+[64.326s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h
+[64.345s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h
+[64.363s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h
+[64.380s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h
+[64.397s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/environment/library_path.sh
+[64.414s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/environment/library_path.dsv
+[64.433s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[64.450s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[64.466s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[64.484s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[64.500s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[64.518s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[64.535s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp
+[64.552s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp
+[64.569s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp
+[64.588s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp
+[64.605s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.hpp
+[64.622s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+[64.640s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp
+[64.657s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp
+[64.675s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp
+[64.693s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.hpp
+[64.709s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp
+[64.727s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[64.743s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[64.761s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[64.779s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[64.796s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[64.814s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/environment/pythonpath.sh
+[64.831s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/environment/pythonpath.dsv
+[64.848s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/PKG-INFO
+[64.866s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/SOURCES.txt
+[64.883s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/dependency_links.txt
+[64.900s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/top_level.txt
+[64.917s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/__init__.py
+[64.935s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c
+[64.970s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c
+[64.990s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c
+[65.007s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.so
+[65.025s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.so
+[65.043s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.so
+[65.059s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/__init__.py
+[65.076s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/_cloud_info.py
+[65.094s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/_cloud_info_s.c
+[65.110s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/__init__.py
+[65.127s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/_save_map.py
+[65.145s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/_save_map_s.c
+[65.169s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.so
+[65.170s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.so
+[65.171s] -- Up-to-date symlink: /home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.so
+[65.171s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.idl
+[65.191s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/srv/SaveMap.idl
+[65.208s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.msg
+[65.225s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/srv/SaveMap.srv
+[65.242s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//launch/run.launch.py
+[65.267s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/demo.gif
+[65.286s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/device-boat.png
+[65.304s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png
+[65.321s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/device-hand.png
+[65.338s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/device-jackal.png
+[65.355s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif
+[65.371s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif
+[65.389s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/imu-transform.png
+[65.406s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif
+[65.422s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/kitti-map.png
+[65.440s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md
+[65.456s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py
+[65.473s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif
+[65.490s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif
+[65.507s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif
+[65.524s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg
+[65.541s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/paper.pdf
+[65.558s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/doc/system.png
+[65.575s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/params.yaml
+[65.593s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/robot.urdf.xacro
+[65.611s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam//config/rviz2.rviz
+[65.634s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/lio_sam/lio_sam_imageProjection
+[65.659s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration
+[65.685s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction
+[65.710s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization
+[65.728s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/include/lio_sam/utility.hpp
+[65.745s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam
+[65.764s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam
+[65.780s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh
+[65.798s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv
+[65.814s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/environment/path.sh
+[65.831s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/environment/path.dsv
+[65.849s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/local_setup.bash
+[65.866s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/local_setup.sh
+[65.884s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/local_setup.zsh
+[65.900s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/local_setup.dsv
+[65.917s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/package.dsv
+[65.935s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/ament_index/resource_index/packages/lio_sam
+[65.953s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake
+[65.970s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+[65.987s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+[66.004s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+[66.022s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+[66.039s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[66.056s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[66.073s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake
+[66.090s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake
+[66.107s] -- Symlinking: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/package.xml
+[66.124s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so
+[66.131s] -- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so" to ""
+[66.131s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so
+[66.132s] -- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so" to ""
+[66.132s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so
+[66.133s] -- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so" to ""
+[66.133s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so
+[66.134s] -- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so" to ""
+[66.134s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+[66.137s] -- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so" to ""
+[66.137s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so
+[66.139s] -- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so" to ""
+[66.139s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so
+[66.140s] -- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so" to ""
+[66.217s] Listing '/home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam'...
+[66.217s] Compiling '/home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/__init__.py'...
+[66.218s] Listing '/home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg'...
+[66.218s] Compiling '/home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/__init__.py'...
+[66.218s] Compiling '/home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/_cloud_info.py'...
+[66.218s] Listing '/home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv'...
+[66.218s] Compiling '/home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/__init__.py'...
+[66.218s] Compiling '/home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/_save_map.py'...
+[66.231s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so
+[66.231s] -- Set non-toolchain portion of runtime path of "/home/sirapob/torto_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so" to ""
+[66.231s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake
+[66.238s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake
+[66.240s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake
+[66.241s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake
+[66.242s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake
+[66.243s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+[66.244s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake
+[66.245s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake
+[66.246s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake
+[66.246s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake
+[66.247s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[66.247s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+[66.248s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+[66.249s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake
+[66.249s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake
+[66.250s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake
+[66.250s] -- Installing: /home/sirapob/torto_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake
+[66.256s] Invoked command in '/home/sirapob/torto_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sirapob/torto_ws/build/lio_sam

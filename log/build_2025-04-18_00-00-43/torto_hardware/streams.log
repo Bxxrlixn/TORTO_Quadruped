@@ -1,0 +1,18 @@
+[3.237s] Invoking command in '/home/sirapob/torto_ws/build/torto_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_hardware/build --no-deps symlink_data
+[4.584s] running develop
+[5.117s] running egg_info
+[5.188s] writing torto_hardware.egg-info/PKG-INFO
+[5.190s] writing dependency_links to torto_hardware.egg-info/dependency_links.txt
+[5.204s] writing entry points to torto_hardware.egg-info/entry_points.txt
+[5.204s] writing requirements to torto_hardware.egg-info/requires.txt
+[5.212s] writing top-level names to torto_hardware.egg-info/top_level.txt
+[5.372s] reading manifest file 'torto_hardware.egg-info/SOURCES.txt'
+[5.385s] writing manifest file 'torto_hardware.egg-info/SOURCES.txt'
+[5.474s] running build_ext
+[5.475s] Creating /home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages/torto-hardware.egg-link (link to .)
+[5.477s] Installing arduino_serial_node script to /home/sirapob/torto_ws/install/torto_hardware/lib/torto_hardware
+[5.482s] Installing lidar_scan2cloud_node script to /home/sirapob/torto_ws/install/torto_hardware/lib/torto_hardware
+[5.483s] 
+[5.486s] Installed /home/sirapob/torto_ws/build/torto_hardware
+[5.486s] running symlink_data
+[5.694s] Invoked command in '/home/sirapob/torto_ws/build/torto_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_hardware/build --no-deps symlink_data

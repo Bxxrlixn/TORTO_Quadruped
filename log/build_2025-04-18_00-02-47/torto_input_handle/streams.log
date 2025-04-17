@@ -1,0 +1,17 @@
+[4.201s] Invoking command in '/home/sirapob/torto_ws/build/torto_input_handle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_input_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_input_handle/build --no-deps symlink_data
+[5.110s] running develop
+[5.495s] running egg_info
+[5.516s] writing torto_input_handle.egg-info/PKG-INFO
+[5.518s] writing dependency_links to torto_input_handle.egg-info/dependency_links.txt
+[5.518s] writing entry points to torto_input_handle.egg-info/entry_points.txt
+[5.518s] writing requirements to torto_input_handle.egg-info/requires.txt
+[5.518s] writing top-level names to torto_input_handle.egg-info/top_level.txt
+[5.591s] reading manifest file 'torto_input_handle.egg-info/SOURCES.txt'
+[5.592s] writing manifest file 'torto_input_handle.egg-info/SOURCES.txt'
+[5.628s] running build_ext
+[5.628s] Creating /home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages/torto-input-handle.egg-link (link to .)
+[5.630s] Installing ps5_ctrl_params_node script to /home/sirapob/torto_ws/install/torto_input_handle/lib/torto_input_handle
+[5.630s] 
+[5.630s] Installed /home/sirapob/torto_ws/build/torto_input_handle
+[5.630s] running symlink_data
+[5.756s] Invoked command in '/home/sirapob/torto_ws/build/torto_input_handle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_input_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_input_handle/build --no-deps symlink_data

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "torto_interfaces/msg/detail/torto_ctrl_params__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "torto_interfaces/msg/detail/torto_ctrl_params__type_support.h"
 #include "torto_interfaces/msg/detail/torto_ctrl_params__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "torto_interfaces/msg/detail/torto_ctrl_params__struct.h"
 
 #ifdef __cplusplus
 extern "C"

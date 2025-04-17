@@ -1,0 +1,37 @@
+[3.444s] Invoking command in '/home/sirapob/torto_ws/build/torto_odometry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sirapob/torto_ws/build/torto_odometry/build
+[4.306s] running develop
+[4.806s] Removing /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto-odometry.egg-link (link to .)
+[4.971s] Invoked command in '/home/sirapob/torto_ws/build/torto_odometry' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sirapob/torto_ws/build/torto_odometry/build
+[4.974s] Invoking command in '/home/sirapob/torto_ws/src/torto_odometry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/torto_odometry build --build-base /home/sirapob/torto_ws/build/torto_odometry/build install --record /home/sirapob/torto_ws/build/torto_odometry/install.log --single-version-externally-managed install_data --force
+[5.674s] running egg_info
+[5.754s] writing ../../build/torto_odometry/torto_odometry.egg-info/PKG-INFO
+[5.830s] writing dependency_links to ../../build/torto_odometry/torto_odometry.egg-info/dependency_links.txt
+[5.943s] writing entry points to ../../build/torto_odometry/torto_odometry.egg-info/entry_points.txt
+[5.943s] writing requirements to ../../build/torto_odometry/torto_odometry.egg-info/requires.txt
+[5.943s] writing top-level names to ../../build/torto_odometry/torto_odometry.egg-info/top_level.txt
+[6.047s] reading manifest file '../../build/torto_odometry/torto_odometry.egg-info/SOURCES.txt'
+[6.074s] writing manifest file '../../build/torto_odometry/torto_odometry.egg-info/SOURCES.txt'
+[6.075s] running build
+[6.075s] running build_py
+[6.075s] creating /home/sirapob/torto_ws/build/torto_odometry/build
+[6.075s] creating /home/sirapob/torto_ws/build/torto_odometry/build/lib
+[6.075s] creating /home/sirapob/torto_ws/build/torto_odometry/build/lib/torto_odometry
+[6.075s] copying torto_odometry/__init__.py -> /home/sirapob/torto_ws/build/torto_odometry/build/lib/torto_odometry
+[6.075s] copying torto_odometry/odom_depen_on_imu_node.py -> /home/sirapob/torto_ws/build/torto_odometry/build/lib/torto_odometry
+[6.078s] running install
+[6.111s] running install_lib
+[6.152s] creating /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto_odometry
+[6.153s] copying /home/sirapob/torto_ws/build/torto_odometry/build/lib/torto_odometry/__init__.py -> /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto_odometry
+[6.154s] copying /home/sirapob/torto_ws/build/torto_odometry/build/lib/torto_odometry/odom_depen_on_imu_node.py -> /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto_odometry
+[6.155s] byte-compiling /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto_odometry/__init__.py to __init__.cpython-312.pyc
+[6.155s] byte-compiling /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto_odometry/odom_depen_on_imu_node.py to odom_depen_on_imu_node.cpython-312.pyc
+[6.162s] running install_data
+[6.162s] copying resource/torto_odometry -> /home/sirapob/torto_ws/install/torto_odometry/share/ament_index/resource_index/packages
+[6.162s] copying package.xml -> /home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry
+[6.163s] copying launch/torto_main_tf.launch.py -> /home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/launch
+[6.163s] running install_egg_info
+[6.211s] Copying ../../build/torto_odometry/torto_odometry.egg-info to /home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages/torto_odometry-0.0.0-py3.12.egg-info
+[6.219s] running install_scripts
+[6.551s] Installing odom_depen_on_imu_node script to /home/sirapob/torto_ws/install/torto_odometry/lib/torto_odometry
+[6.553s] writing list of installed files to '/home/sirapob/torto_ws/build/torto_odometry/install.log'
+[6.735s] Invoked command in '/home/sirapob/torto_ws/src/torto_odometry' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/torto_odometry build --build-base /home/sirapob/torto_ws/build/torto_odometry/build install --record /home/sirapob/torto_ws/build/torto_odometry/install.log --single-version-externally-managed install_data --force

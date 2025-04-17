@@ -1,0 +1,465 @@
+[0.151s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.152s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9396d250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9396cfb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9396cfb0>>, mixin_verb=('build',))
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.208s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sirapob/torto_ws'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torto_ctrl' with type 'ros.ament_python' and name 'torto_ctrl'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torto_hardware' with type 'ros.ament_python' and name 'torto_hardware'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torto_input_handle' with type 'ros.ament_python' and name 'torto_input_handle'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torto_interfaces' with type 'ros.ament_cmake' and name 'torto_interfaces'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torto_odometry' with type 'ros.ament_python' and name 'torto_odometry'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.288s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/sirapob/torto_ws/install
+[0.290s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 296 installed packages in /opt/ros/jazzy
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'torto_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/torto_ws/build/torto_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/torto_ws/install/torto_hardware', 'merge_install': False, 'path': '/home/sirapob/torto_ws/src/torto_hardware', 'symlink_install': True, 'test_result_base': None}
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'cmake_clean_cache' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'torto_input_handle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/torto_ws/build/torto_input_handle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/torto_ws/install/torto_input_handle', 'merge_install': False, 'path': '/home/sirapob/torto_ws/src/torto_input_handle', 'symlink_install': True, 'test_result_base': None}
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.355s] DEBUG:colcon.colcon_core.verb:Building package 'torto_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/torto_ws/build/torto_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/torto_ws/install/torto_interfaces', 'merge_install': False, 'path': '/home/sirapob/torto_ws/src/torto_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'cmake_target' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.355s] DEBUG:colcon.colcon_core.verb:Building package 'torto_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/torto_ws/build/torto_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/torto_ws/install/torto_odometry', 'merge_install': False, 'path': '/home/sirapob/torto_ws/src/torto_odometry', 'symlink_install': True, 'test_result_base': None}
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/torto_ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/torto_ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/sirapob/torto_ws/src/ydlidar_ros2_driver', 'symlink_install': True, 'test_result_base': None}
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'torto_ctrl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/torto_ws/build/torto_ctrl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/torto_ws/install/torto_ctrl', 'merge_install': False, 'path': '/home/sirapob/torto_ws/src/torto_ctrl', 'symlink_install': True, 'test_result_base': None}
+[0.356s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.358s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sirapob/torto_ws/src/torto_interfaces' with build type 'ament_cmake'
+[0.358s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sirapob/torto_ws/src/torto_interfaces'
+[0.361s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.367s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sirapob/torto_ws/src/torto_hardware' with build type 'ament_python'
+[0.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_hardware', 'ament_prefix_path')
+[0.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware/hook/ament_prefix_path.ps1'
+[0.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware/hook/ament_prefix_path.dsv'
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware/hook/ament_prefix_path.sh'
+[0.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.380s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.385s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sirapob/torto_ws/src/torto_input_handle' with build type 'ament_python'
+[0.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_input_handle', 'ament_prefix_path')
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_input_handle/share/torto_input_handle/hook/ament_prefix_path.ps1'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/torto_input_handle/share/torto_input_handle/hook/ament_prefix_path.dsv'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_input_handle/share/torto_input_handle/hook/ament_prefix_path.sh'
+[0.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.397s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sirapob/torto_ws/src/torto_odometry' with build type 'ament_python'
+[0.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_odometry', 'ament_prefix_path')
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/hook/ament_prefix_path.ps1'
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/hook/ament_prefix_path.dsv'
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/hook/ament_prefix_path.sh'
+[0.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/torto_ws/build/torto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sirapob/torto_ws/src/torto_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/torto_interfaces
+[0.784s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sirapob/torto_ws/src/torto_hardware'
+[0.785s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.181s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sirapob/torto_ws/src/torto_input_handle'
+[1.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.578s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sirapob/torto_ws/src/torto_odometry'
+[1.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/torto_ws/build/torto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sirapob/torto_ws/src/torto_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/torto_interfaces
+[2.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/torto_ws/build/torto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapob/torto_ws/build/torto_interfaces -- -j4 -l4
+[2.997s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/sirapob/torto_ws/install/torto_hardware/share/ament_index/resource_index/packages/torto_hardware
+[2.998s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware/package.xml
+[2.998s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/sirapob/torto_ws/install/torto_hardware/lib/torto_hardware/arduino_serial_node
+[2.998s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/sirapob/torto_ws/install/torto_hardware/lib/torto_hardware/lidar_scan2cloud_node
+[3.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/torto_ws/build/torto_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_hardware/build --no-deps symlink_data --force
+[3.141s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/sirapob/torto_ws/install/torto_odometry/share/ament_index/resource_index/packages/torto_odometry
+[3.141s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/package.xml
+[3.141s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/launch/torto_main_tf.launch.py
+[3.141s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/sirapob/torto_ws/install/torto_odometry/lib/torto_odometry/odom_depen_on_imu_node
+[3.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/torto_ws/build/torto_odometry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_odometry/build --no-deps symlink_data --force
+[3.221s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/sirapob/torto_ws/install/torto_input_handle/share/ament_index/resource_index/packages/torto_input_handle
+[3.221s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/sirapob/torto_ws/install/torto_input_handle/share/torto_input_handle/package.xml
+[3.222s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/sirapob/torto_ws/install/torto_input_handle/lib/torto_input_handle/ps5_ctrl_params_node
+[3.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/torto_ws/build/torto_input_handle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_input_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_input_handle/build --no-deps symlink_data --force
+[4.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/torto_ws/build/torto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapob/torto_ws/build/torto_interfaces -- -j4 -l4
+[4.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/torto_ws/build/torto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sirapob/torto_ws/build/torto_interfaces
+[4.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_interfaces)
+[4.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/torto_ws/build/torto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sirapob/torto_ws/build/torto_interfaces
+[4.422s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_interfaces' for CMake module files
+[4.425s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_interfaces' for CMake config files
+[4.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_interfaces', 'cmake_prefix_path')
+[4.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/cmake_prefix_path.ps1'
+[4.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/cmake_prefix_path.dsv'
+[4.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/cmake_prefix_path.sh'
+[4.447s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_interfaces/lib'
+[4.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_interfaces', 'ld_library_path_lib')
+[4.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/ld_library_path_lib.ps1'
+[4.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/ld_library_path_lib.dsv'
+[4.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/ld_library_path_lib.sh'
+[4.455s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_interfaces/bin'
+[4.456s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_interfaces/lib/pkgconfig/torto_interfaces.pc'
+[4.456s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages'
+[4.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_interfaces', 'pythonpath')
+[4.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/pythonpath.ps1'
+[4.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/pythonpath.dsv'
+[4.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/pythonpath.sh'
+[4.467s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_interfaces/bin'
+[4.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/package.ps1'
+[4.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/package.dsv'
+[4.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/package.sh'
+[4.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/package.bash'
+[4.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/package.zsh'
+[4.489s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/torto_ws/install/torto_interfaces/share/colcon-core/packages/torto_interfaces)
+[4.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_interfaces)
+[4.494s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_interfaces' for CMake module files
+[4.495s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_interfaces' for CMake config files
+[4.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_interfaces', 'cmake_prefix_path')
+[4.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/cmake_prefix_path.ps1'
+[4.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/cmake_prefix_path.dsv'
+[4.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/cmake_prefix_path.sh'
+[4.508s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_interfaces/lib'
+[4.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_interfaces', 'ld_library_path_lib')
+[4.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/ld_library_path_lib.ps1'
+[4.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/ld_library_path_lib.dsv'
+[4.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/ld_library_path_lib.sh'
+[4.523s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_interfaces/bin'
+[4.523s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_interfaces/lib/pkgconfig/torto_interfaces.pc'
+[4.524s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages'
+[4.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_interfaces', 'pythonpath')
+[4.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/pythonpath.ps1'
+[4.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/pythonpath.dsv'
+[4.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/hook/pythonpath.sh'
+[4.534s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_interfaces/bin'
+[4.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/package.ps1'
+[4.539s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/package.dsv'
+[4.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/package.sh'
+[4.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/package.bash'
+[4.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_interfaces/share/torto_interfaces/package.zsh'
+[4.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/torto_ws/install/torto_interfaces/share/colcon-core/packages/torto_interfaces)
+[4.553s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sirapob/torto_ws/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[4.558s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sirapob/torto_ws/src/ydlidar_ros2_driver'
+[4.558s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.558s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/torto_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sirapob/torto_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/ydlidar_ros2_driver
+[4.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_hardware', 'pythonpath_develop')
+[4.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/build/torto_hardware/share/torto_hardware/hook/pythonpath_develop.ps1'
+[4.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/build/torto_hardware/share/torto_hardware/hook/pythonpath_develop.dsv'
+[4.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/torto_ws/build/torto_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_hardware/build --no-deps symlink_data --force
+[4.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/build/torto_hardware/share/torto_hardware/hook/pythonpath_develop.sh'
+[4.773s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_hardware' for CMake module files
+[4.777s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_hardware' for CMake config files
+[4.779s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_hardware/lib'
+[4.782s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_hardware/bin'
+[4.782s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_hardware/lib/pkgconfig/torto_hardware.pc'
+[4.783s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages'
+[4.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_hardware', 'pythonpath')
+[4.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware/hook/pythonpath.ps1'
+[4.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware/hook/pythonpath.dsv'
+[4.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware/hook/pythonpath.sh'
+[4.798s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_hardware/bin'
+[4.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_hardware)
+[4.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware/package.ps1'
+[4.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware/package.dsv'
+[4.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware/package.sh'
+[4.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware/package.bash'
+[4.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_hardware/share/torto_hardware/package.zsh'
+[4.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/torto_ws/install/torto_hardware/share/colcon-core/packages/torto_hardware)
+[4.828s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sirapob/torto_ws/src/torto_ctrl' with build type 'ament_python'
+[4.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_ctrl', 'ament_prefix_path')
+[4.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_ctrl/share/torto_ctrl/hook/ament_prefix_path.ps1'
+[4.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/torto_ctrl/share/torto_ctrl/hook/ament_prefix_path.dsv'
+[4.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_ctrl/share/torto_ctrl/hook/ament_prefix_path.sh'
+[4.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.852s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.711s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sirapob/torto_ws/src/torto_ctrl'
+[5.712s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.712s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_odometry', 'pythonpath_develop')
+[5.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/torto_ws/build/torto_odometry' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_odometry/build --no-deps symlink_data --force
+[5.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/build/torto_odometry/share/torto_odometry/hook/pythonpath_develop.ps1'
+[5.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/build/torto_odometry/share/torto_odometry/hook/pythonpath_develop.dsv'
+[5.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/build/torto_odometry/share/torto_odometry/hook/pythonpath_develop.sh'
+[5.731s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_odometry' for CMake module files
+[5.732s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_odometry' for CMake config files
+[5.733s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_odometry/lib'
+[5.733s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_odometry/bin'
+[5.734s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_odometry/lib/pkgconfig/torto_odometry.pc'
+[5.734s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages'
+[5.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_odometry', 'pythonpath')
+[5.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/hook/pythonpath.ps1'
+[5.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/hook/pythonpath.dsv'
+[5.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/hook/pythonpath.sh'
+[5.738s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_odometry/bin'
+[5.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_odometry)
+[5.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/package.ps1'
+[5.740s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/package.dsv'
+[5.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/package.sh'
+[5.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/package.bash'
+[5.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_odometry/share/torto_odometry/package.zsh'
+[5.750s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/torto_ws/install/torto_odometry/share/colcon-core/packages/torto_odometry)
+[5.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_input_handle', 'pythonpath_develop')
+[5.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/torto_ws/build/torto_input_handle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_input_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_input_handle/build --no-deps symlink_data --force
+[5.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/build/torto_input_handle/share/torto_input_handle/hook/pythonpath_develop.ps1'
+[5.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/build/torto_input_handle/share/torto_input_handle/hook/pythonpath_develop.dsv'
+[5.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/build/torto_input_handle/share/torto_input_handle/hook/pythonpath_develop.sh'
+[5.759s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_input_handle' for CMake module files
+[5.760s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_input_handle' for CMake config files
+[5.761s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_input_handle/lib'
+[5.761s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_input_handle/bin'
+[5.761s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_input_handle/lib/pkgconfig/torto_input_handle.pc'
+[5.762s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages'
+[5.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_input_handle', 'pythonpath')
+[5.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_input_handle/share/torto_input_handle/hook/pythonpath.ps1'
+[5.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/torto_input_handle/share/torto_input_handle/hook/pythonpath.dsv'
+[5.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_input_handle/share/torto_input_handle/hook/pythonpath.sh'
+[5.771s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_input_handle/bin'
+[5.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_input_handle)
+[5.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_input_handle/share/torto_input_handle/package.ps1'
+[5.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/torto_ws/install/torto_input_handle/share/torto_input_handle/package.dsv'
+[5.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_input_handle/share/torto_input_handle/package.sh'
+[5.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_input_handle/share/torto_input_handle/package.bash'
+[5.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_input_handle/share/torto_input_handle/package.zsh'
+[5.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/torto_ws/install/torto_input_handle/share/colcon-core/packages/torto_input_handle)
+[6.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/torto_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sirapob/torto_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/torto_ws/install/ydlidar_ros2_driver
+[6.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/torto_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapob/torto_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[6.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/torto_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapob/torto_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[6.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/torto_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sirapob/torto_ws/build/ydlidar_ros2_driver
+[6.962s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[6.963s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/ydlidar_ros2_driver' for CMake module files
+[6.964s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/ydlidar_ros2_driver' for CMake config files
+[6.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[6.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[6.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[6.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/torto_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/torto_ws/install/torto_odometry:/home/sirapob/torto_ws/install/torto_ctrl:/home/sirapob/torto_ws/install/torto_input_handle:/home/sirapob/torto_ws/install/torto_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sirapob/torto_ws/build/ydlidar_ros2_driver
+[6.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[6.973s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/lib'
+[6.973s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/bin'
+[6.974s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[6.974s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/lib/python3.12/site-packages'
+[6.974s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/bin'
+[6.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[6.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[6.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[6.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[6.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[6.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[6.980s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[6.981s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/ydlidar_ros2_driver' for CMake module files
+[6.981s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/ydlidar_ros2_driver' for CMake config files
+[6.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[6.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[6.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[6.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[6.990s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/lib'
+[6.991s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/bin'
+[6.991s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[6.991s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/lib/python3.12/site-packages'
+[6.992s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/bin'
+[6.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[6.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[6.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[6.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[6.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[7.001s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/torto_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[7.225s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/sirapob/torto_ws/install/torto_ctrl/share/ament_index/resource_index/packages/torto_ctrl
+[7.225s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/sirapob/torto_ws/install/torto_ctrl/share/torto_ctrl/package.xml
+[7.225s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/sirapob/torto_ws/install/torto_ctrl/lib/torto_ctrl/torto_controller_node
+[7.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/torto_ws/build/torto_ctrl': CMAKE_PREFIX_PATH=/home/sirapob/torto_ws/install/torto_interfaces:/home/sirapob/torto_ws/install/ydlidar_ros2_driver:/home/sirapob/torto_ws/install/lio_sam:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages:/home/sirapob/torto_ws/build/torto_odometry:/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages:/home/sirapob/torto_ws/build/torto_ctrl:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:/home/sirapob/torto_ws/build/torto_input_handle:/home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages:/home/sirapob/torto_ws/build/torto_hardware:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:/home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_ctrl/build --no-deps symlink_data --force
+[8.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_ctrl', 'pythonpath_develop')
+[8.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/build/torto_ctrl/share/torto_ctrl/hook/pythonpath_develop.ps1'
+[8.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/torto_ws/build/torto_ctrl' returned '0': CMAKE_PREFIX_PATH=/home/sirapob/torto_ws/install/torto_interfaces:/home/sirapob/torto_ws/install/ydlidar_ros2_driver:/home/sirapob/torto_ws/install/lio_sam:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sirapob/torto_ws/build/torto_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:/home/sirapob/torto_ws/install/torto_interfaces/lib/python3.12/site-packages:/home/sirapob/torto_ws/build/torto_odometry:/home/sirapob/torto_ws/install/torto_odometry/lib/python3.12/site-packages:/home/sirapob/torto_ws/build/torto_ctrl:/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages:/home/sirapob/torto_ws/build/torto_input_handle:/home/sirapob/torto_ws/install/torto_input_handle/lib/python3.12/site-packages:/home/sirapob/torto_ws/build/torto_hardware:/home/sirapob/torto_ws/install/torto_hardware/lib/python3.12/site-packages:/home/sirapob/torto_ws/install/lio_sam/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/torto_ws/build/torto_ctrl/build --no-deps symlink_data --force
+[8.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/build/torto_ctrl/share/torto_ctrl/hook/pythonpath_develop.dsv'
+[8.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/build/torto_ctrl/share/torto_ctrl/hook/pythonpath_develop.sh'
+[8.515s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_ctrl' for CMake module files
+[8.516s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_ctrl' for CMake config files
+[8.518s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_ctrl/lib'
+[8.518s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_ctrl/bin'
+[8.518s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_ctrl/lib/pkgconfig/torto_ctrl.pc'
+[8.518s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_ctrl/lib/python3.12/site-packages'
+[8.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_ctrl', 'pythonpath')
+[8.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_ctrl/share/torto_ctrl/hook/pythonpath.ps1'
+[8.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/torto_ws/install/torto_ctrl/share/torto_ctrl/hook/pythonpath.dsv'
+[8.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/torto_ws/install/torto_ctrl/share/torto_ctrl/hook/pythonpath.sh'
+[8.523s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/torto_ws/install/torto_ctrl/bin'
+[8.524s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_ctrl)
+[8.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_ctrl/share/torto_ctrl/package.ps1'
+[8.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/torto_ws/install/torto_ctrl/share/torto_ctrl/package.dsv'
+[8.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_ctrl/share/torto_ctrl/package.sh'
+[8.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_ctrl/share/torto_ctrl/package.bash'
+[8.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/torto_ws/install/torto_ctrl/share/torto_ctrl/package.zsh'
+[8.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/torto_ws/install/torto_ctrl/share/colcon-core/packages/torto_ctrl)
+[8.535s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.536s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.536s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.536s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.546s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.546s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.546s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.548s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[8.548s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.549s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sirapob/torto_ws/install/local_setup.ps1'
+[8.551s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sirapob/torto_ws/install/_local_setup_util_ps1.py'
+[8.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sirapob/torto_ws/install/setup.ps1'
+[8.561s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sirapob/torto_ws/install/local_setup.sh'
+[8.563s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sirapob/torto_ws/install/_local_setup_util_sh.py'
+[8.568s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sirapob/torto_ws/install/setup.sh'
+[8.573s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sirapob/torto_ws/install/local_setup.bash'
+[8.574s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sirapob/torto_ws/install/setup.bash'
+[8.577s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sirapob/torto_ws/install/local_setup.zsh'
+[8.579s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sirapob/torto_ws/install/setup.zsh'

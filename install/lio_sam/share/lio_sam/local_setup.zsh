@@ -1,0 +1,1 @@
+/home/sirapob/torto_ws/build/lio_sam/ament_cmake_environment_hooks/local_setup.zsh

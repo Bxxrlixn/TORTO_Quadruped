@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "torto_interfaces/msg/detail/torto_joint_angles__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "torto_interfaces/msg/detail/torto_joint_angles__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "torto_interfaces/msg/detail/torto_joint_angles__type_support.h"
+#include "torto_interfaces/msg/detail/torto_joint_angles__functions.h"
 
 #ifdef __cplusplus
 extern "C"
