@@ -1,0 +1,1 @@
+/home/sirapob/torto_ws/build/torto_bringup/ament_cmake_environment_hooks/local_setup.sh

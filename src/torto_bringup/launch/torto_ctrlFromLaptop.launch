@@ -1,0 +1,11 @@
+<launch>
+    
+    <node pkg="torto_ctrl" exec="torto_controller_node" />   
+    
+    <node pkg="torto_hardware" exec="arduino_serial_node" />
+
+    <node pkg="torto_hardware" exec="lidar_scan2cloud_node" />
+
+    <node pkg="torto_odometry" exec="odom_depen_on_imu_node" />
+
+</launch>
